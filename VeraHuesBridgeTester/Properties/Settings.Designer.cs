@@ -43,7 +43,7 @@ namespace Test.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("10.10.1.26")]
+        [global::System.Configuration.DefaultSettingValueAttribute("192.168.0.176")]
         public string LocalIP {
             get {
                 return ((string)(this["LocalIP"]));

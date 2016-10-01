@@ -62,8 +62,8 @@ namespace VeraHuesBridge
         }
         public bool Start()
         {
-            try
-            {
+            //try
+            //{
                 logger.Info("Starting SSDP Service on IP [{0}], port [{1}]...", MulticastIP, MulticastPort);
                 MulticastClient = new UdpClient(MulticastPort);
                 IPAddress ipSSDP = IPAddress.Parse(MulticastIP);
@@ -78,12 +78,12 @@ namespace VeraHuesBridge
                 logger.Info("Starting Multicast Receiver...");
                 MulticastClient.BeginReceive(new AsyncCallback(MulticastReceiveCallback), udpListener);
                 logger.Info("SSDP Service started.");
-            }
-            catch (Exception ex)
-            {
-                logger.Warn(ex, "Error occured starting SSDP service.");
-                throw ex;
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //    logger.Warn(ex, "Error occured starting SSDP service.");
+            //    throw ex;
+            //}
 
             return true;
         }
@@ -113,16 +113,17 @@ namespace VeraHuesBridge
 
                 if (client != null)
                 {
-                    logger.Info("Received a UDP multicast from IP [{0}], on port [{1}].", endpoint.Address.ToString(), endpoint.Port);
+                    // logger.Info("Received a UDP multicast from IP [{0}], on port [{1}].", endpoint.Address.ToString(), endpoint.Port);
                     Byte[] receiveBytes = client.EndReceive(ar, ref endpoint);
                     string receiveString = Encoding.ASCII.GetString(receiveBytes);
 
-                    logger.Debug(string.Format("Multicast From: {0}\r\nData:\r\n{1}", endpoint.ToString(), receiveString));
-
+                    //todo dw
+                    if (endpoint.Address.ToString() == "192.168.0.193") { logger.Debug(string.Format("Multicast From: {0}\r\nData:\r\n{1}", endpoint.ToString(), receiveString)); }
+        
                     //discovery has occured, send our response
                     if (IsSSDPDiscoveryPacket(receiveString))
                     {
-                        logger.Info("Sending SSDP setup information...");
+                        if (endpoint.Address.ToString() == "192.168.0.193") { logger.Info("Sending SSDP setup information..."); }
 
                         //MulticastClient.Send(byteDiscovery, byteDiscovery.Length, endpoint);
                         Socket WinSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
@@ -131,13 +132,13 @@ namespace VeraHuesBridge
                         WinSocket.Send(byteDiscovery);
                         WinSocket.Shutdown(SocketShutdown.Both);
                         WinSocket.Close();
-                        logger.Debug(string.Format("Sent Response To: {0}\r\nData:\r\n{1}", endpoint.ToString(), DiscoveryResponse));
+                        if (endpoint.Address.ToString() == "192.168.0.193") { logger.Debug(string.Format("Sent Response To: {0}\r\nData:\r\n{1}", endpoint.ToString(), DiscoveryResponse)); }
                     }
 
                 }
                 if (running)
                 {
-                    logger.Info("Restarted Multicast Receiver.");
+                    //logger.Info("Restarted Multicast Receiver.");
                     MulticastClient.BeginReceive(new AsyncCallback(MulticastReceiveCallback), udpListener);
                 }
                     
@@ -159,14 +160,14 @@ namespace VeraHuesBridge
 
         private static bool IsSSDPDiscoveryPacket(string message)
         {
-            logger.Info("Testing if message is SSDP Discovery Packet...");
-            logger.Debug("Examing message [{0}]", message);
+            //logger.Info("Testing if message is SSDP Discovery Packet...");
+            //logger.Info("Examing message [{0}]", message);
             if (message != null && message.StartsWith("M-SEARCH * HTTP/1.1") && message.Contains("MAN: \"ssdp:discover\""))
             {
                 logger.Info("SSDP Discovery Packet detected.");
                 return true;
             }
-            logger.Info("SSDP Discovery Packet not detected.");
+            //logger.Info("SSDP Discovery Packet not detected.");
             return false;
 
         }

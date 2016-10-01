@@ -104,7 +104,7 @@
             this.txtApiURL.Name = "txtApiURL";
             this.txtApiURL.Size = new System.Drawing.Size(286, 20);
             this.txtApiURL.TabIndex = 37;
-            this.txtApiURL.Text = "http://10.10.1.26:8080/api/devices";
+            this.txtApiURL.Text = "http://192.168.0.176:8080/api/devices";
             // 
             // splitContainer1
             // 

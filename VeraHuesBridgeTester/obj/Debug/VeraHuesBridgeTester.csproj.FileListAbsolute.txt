@@ -68,3 +68,38 @@ E:\Projects\Visual Studio .NET\Microsoft.NET 4.5\VeraHuesBridge\VeraHuesBridgeTe
 E:\Projects\Visual Studio .NET\Microsoft.NET 4.5\VeraHuesBridge\VeraHuesBridgeTester\obj\Debug\Test.frmMain.resources
 E:\Projects\Visual Studio .NET\Microsoft.NET 4.5\VeraHuesBridge\VeraHuesBridgeTester\obj\Debug\Test.Properties.Resources.resources
 E:\Projects\Visual Studio .NET\Microsoft.NET 4.5\VeraHuesBridge\VeraHuesBridgeTester\obj\Debug\VeraHuesBridgeTester.csproj.GenerateResource.Cache
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Test.exe.config
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\obj\Debug\Test.exe
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\obj\Debug\Test.pdb
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\NLog.config
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\App.config
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Test.exe
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Test.pdb
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Newtonsoft.Json.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\System.Web.Http.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\System.Web.Http.SelfHost.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\VeraHuesBridge.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\NLog.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Owin.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\System.Web.Cors.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Microsoft.Owin.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\VeraHuesBridge.pdb
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Newtonsoft.Json.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\System.Web.Http.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\System.Web.Http.SelfHost.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\NLog.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\Microsoft.Owin.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\obj\Debug\VeraHuesBridgeTester.csprojResolveAssemblyReference.cache
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\obj\Debug\Test.frmMain.resources
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\obj\Debug\Test.Properties.Resources.resources
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\obj\Debug\VeraHuesBridgeTester.csproj.GenerateResource.Cache

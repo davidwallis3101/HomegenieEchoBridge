@@ -1,0 +1,81 @@
+2016-10-01 10:32:59.1833 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:32:59.2529 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 10:32:59.2715 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-01 10:32:59.2920 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-01 10:32:59.3076 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:32:59.3301 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 10:32:59.3447 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-01 10:33:08.5662 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:08.6585 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:09.0525 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:09.0704 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:09.3526 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:09.3714 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:09.6797 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:09.6973 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:10.1104 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:10.1270 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:10.4354 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:10.4539 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:12.2691 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:12.2926 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:15.2584 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:15.2838 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:15.5628 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:15.5843 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:25.1799 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:25.2719 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:25.6625 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:25.6869 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:25.9650 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:25.9806 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:26.2665 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:26.2851 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:26.5734 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:26.5930 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:26.9008 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:26.9162 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:28.7338 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:28.7543 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:29.0354 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:29.0598 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:30.4814 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:30.5068 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:31.8618 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:31.8803 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:32.1740 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:32.2322 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:32.4729 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:32.4914 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:32.7751 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 10:33:32.7917 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  

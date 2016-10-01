@@ -1,7 +1,7 @@
 angular.module('configurator', [])
     .service('bridgeService', ["$http", function ($http) {
         var self = this;
-        this.state = { base: "http://10.10.1.26:8080/api/devices", devices: [], error: "" };
+        this.state = { base: "http://192.168.0.176:8080/api/devices", devices: [], error: "" };
 
         this.viewDevices = function () {
             this.state.error = "";
@@ -107,7 +107,7 @@ angular.module('configurator', [])
 
         $scope.bridge = bridgeService.state;
         $scope.device = { id: "", name: "", type: "switch", onUrl: "", offUrl: "" };
-        $scope.vera = { base: "10.10.1.91", port: "3480", id: "" };
+        $scope.vera = { base: "192.168.0.161", port: "3480", id: "" };
         bridgeService.device = $scope.device;
 
         $scope.buildUrls = function () {

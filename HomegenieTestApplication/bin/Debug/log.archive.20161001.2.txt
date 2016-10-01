@@ -1,0 +1,1603 @@
+2016-10-01 09:51:48.8425 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:51:48.9043 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:51:48.9287 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 5
+ST: upnp:rootdevice
+MAN: "ssdp:discover"
+User-Agent: UPnP/1.0 DLNADOC/1.50 Kodi
+Connection: close
+Host: 239.255.255.250:1900
+
+] |  
+2016-10-01 09:51:48.9492 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:51:48.9702 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:51:48.9970 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:51:51.3354 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:51:51.3523 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:51:51.3718 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd
+
+] |  
+2016-10-01 09:51:51.3943 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:51:51.4089 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:51:51.4280 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:51:51.4482 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:51:51.4668 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: upnp:rootdevice
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::upnp:rootdevice
+
+] |  
+2016-10-01 09:51:51.4941 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:51:51.5200 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:51:51.5464 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:51:51.5713 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:51:51.5903 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:schemas-upnp-org:device:MediaServer:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:schemas-upnp-org:device:MediaServer:1
+
+] |  
+2016-10-01 09:51:51.6138 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:51:51.6343 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:51:51.6543 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:51:51.6714 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:51:51.6894 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:schemas-upnp-org:service:ContentDirectory:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:schemas-upnp-org:service:ContentDirectory:1
+
+] |  
+2016-10-01 09:51:51.7153 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:51:51.7383 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:51:51.7588 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:51:51.7803 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:51:51.8037 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:schemas-upnp-org:service:ConnectionManager:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:schemas-upnp-org:service:ConnectionManager:1
+
+] |  
+2016-10-01 09:51:51.8325 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:51:51.8579 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:51:51.8774 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:51:51.8974 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:51:51.9231 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+
+] |  
+2016-10-01 09:51:51.9485 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:51:51.9651 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:51:57.3694 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:51:57.3938 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:51:57.4165 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:service:sohoOSabout:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:service:sohoOSabout:1
+
+] |  
+2016-10-01 09:51:57.4400 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:51:57.4546 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:51:57.4702 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:51:57.4927 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:51:57.5144 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::upnp:rootdevice
+CACHE-CONTROL: max-age=1810
+NT: upnp:rootdevice
+
+] |  
+2016-10-01 09:51:57.5359 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:51:57.5525 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:51:57.5769 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:51:57.6016 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:51:57.6270 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:device:sohodevice:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:device:sohodevice:1
+
+] |  
+2016-10-01 09:51:57.6553 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:51:57.6709 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:51:57.8296 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:51:57.8521 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:51:57.8799 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+CACHE-CONTROL: max-age=1810
+NT: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+
+] |  
+2016-10-01 09:51:57.9048 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:51:57.9204 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:04.5574 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:04.5760 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:04.5945 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::upnp:rootdevice
+CACHE-CONTROL: max-age=1810
+NT: upnp:rootdevice
+
+] |  
+2016-10-01 09:52:04.6170 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:04.6346 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:04.8980 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:04.9175 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:04.9361 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+CACHE-CONTROL: max-age=1810
+NT: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+
+] |  
+2016-10-01 09:52:04.9695 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:04.9979 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:05.0677 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:05.0850 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:05.1026 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:service:sohoOSabout:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:service:sohoOSabout:1
+
+] |  
+2016-10-01 09:52:05.1270 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:05.1475 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:05.1475 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:05.1859 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:05.2132 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:device:sohodevice:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:device:sohodevice:1
+
+] |  
+2016-10-01 09:52:05.2405 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:05.2698 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:42.9322 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:42.9615 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:42.9898 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 5
+ST: upnp:rootdevice
+MAN: "ssdp:discover"
+User-Agent: UPnP/1.0 DLNADOC/1.50 Kodi
+Connection: close
+Host: 239.255.255.250:1900
+
+] |  
+2016-10-01 09:52:43.0196 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:52:43.0516 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:52:43.0779 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:43.1004 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:43.1170 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:43.1475 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 5
+ST: upnp:rootdevice
+MAN: "ssdp:discover"
+User-Agent: UPnP/1.0 DLNADOC/1.50 Kodi
+Connection: close
+Host: 239.255.255.250:1900
+
+] |  
+2016-10-01 09:52:43.1690 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:52:43.1836 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:52:43.2100 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:43.2298 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:43.2571 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:43.2855 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+CACHE-CONTROL: max-age=1810
+NT: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+
+] |  
+2016-10-01 09:52:43.3143 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:43.3397 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:43.3655 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:43.3858 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:43.4053 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::upnp:rootdevice
+CACHE-CONTROL: max-age=1810
+NT: upnp:rootdevice
+
+] |  
+2016-10-01 09:52:43.4278 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:43.4473 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:43.4791 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:43.5081 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:43.5433 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:service:sohoOSabout:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:service:sohoOSabout:1
+
+] |  
+2016-10-01 09:52:43.5687 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:43.5845 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:43.7186 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:43.7410 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:43.7703 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:device:sohodevice:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:device:sohodevice:1
+
+] |  
+2016-10-01 09:52:43.7930 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:43.8116 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:50.4273 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:50.4596 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:50.4823 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:service:sohoOSabout:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:service:sohoOSabout:1
+
+] |  
+2016-10-01 09:52:50.5057 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:50.5223 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:50.5772 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:50.5968 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:50.6173 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::upnp:rootdevice
+CACHE-CONTROL: max-age=1810
+NT: upnp:rootdevice
+
+] |  
+2016-10-01 09:52:50.6456 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:50.6693 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:50.9081 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:50.9325 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:50.9618 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+CACHE-CONTROL: max-age=1810
+NT: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+
+] |  
+2016-10-01 09:52:50.9864 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:51.0050 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:51.1273 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:51.1478 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:51.1842 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:device:sohodevice:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:device:sohodevice:1
+
+] |  
+2016-10-01 09:52:51.2106 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:51.2320 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:51.8067 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:51.8312 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:51.8585 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd
+
+] |  
+2016-10-01 09:52:51.8812 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:51.8988 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:51.9134 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:51.9330 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:51.9510 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: upnp:rootdevice
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::upnp:rootdevice
+
+] |  
+2016-10-01 09:52:51.9742 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:51.9947 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:52.0172 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:52.0406 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:52.0682 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:schemas-upnp-org:device:MediaServer:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:schemas-upnp-org:device:MediaServer:1
+
+] |  
+2016-10-01 09:52:52.0907 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:52.1063 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:52.1249 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:52.1424 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:52.1615 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:schemas-upnp-org:service:ContentDirectory:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:schemas-upnp-org:service:ContentDirectory:1
+
+] |  
+2016-10-01 09:52:52.1827 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:52.1983 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:52.2179 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:52.2433 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:52.2652 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:schemas-upnp-org:service:ConnectionManager:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:schemas-upnp-org:service:ConnectionManager:1
+
+] |  
+2016-10-01 09:52:52.2943 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:52.3168 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:52:52.3363 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:52:52.3553 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:52:52.3756 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+
+] |  
+2016-10-01 09:52:52.3981 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:52:52.4127 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:12.7309 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:12.7507 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:12.7712 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: upnp:rootdevice
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::upnp:rootdevice
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:12.7966 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:12.8171 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:12.8362 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:12.8535 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:12.8750 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:12.8994 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:12.9209 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:12.9426 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:12.9787 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:13.0061 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:device:MediaServer:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:device:MediaServer:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:13.0290 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:13.0474 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:13.0659 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:13.0884 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:13.1020 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:service:ConnectionManager:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:service:ConnectionManager:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:13.1274 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:13.1521 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:13.1658 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:13.1951 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:13.2283 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:service:ContentDirectory:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:service:ContentDirectory:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:13.2519 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:13.2676 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:13.2871 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:13.3086 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:13.3276 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:13.3518 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:13.3674 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:13.3860 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:13.4084 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:13.4285 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: upnp:rootdevice
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::upnp:rootdevice
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:13.4614 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:13.4897 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:13.5122 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:13.5317 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:13.5515 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:13.5759 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:13.5906 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:13.6091 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:13.6277 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:13.6514 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:device:MediaServer:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:device:MediaServer:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:13.6748 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:13.6963 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:13.7187 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:13.7454 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:13.7668 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:service:ConnectionManager:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:service:ConnectionManager:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:13.7903 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:13.8049 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:13.8201 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:13.8423 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:13.8608 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:service:ContentDirectory:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:service:ContentDirectory:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:13.8843 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:13.9067 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:13.9277 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:13.9597 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:13.9871 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:14.0134 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:14.0320 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:14.0576 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:14.0771 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:14.0957 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: upnp:rootdevice
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::upnp:rootdevice
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:14.1103 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:14.1279 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:14.1536 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:14.1809 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:14.2082 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:14.2358 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:14.2534 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:14.2739 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:14.2905 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:14.3081 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:device:MediaServer:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:device:MediaServer:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:14.3320 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:14.3552 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:14.3777 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:14.4011 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:14.4290 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:service:ConnectionManager:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:service:ConnectionManager:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:14.4531 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:14.4687 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:14.4844 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:14.5029 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:14.5215 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:service:ContentDirectory:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:service:ContentDirectory:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:14.5442 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:14.5588 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:14.5784 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:14.6008 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:14.6340 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:14.6587 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:14.6733 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:14.6929 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:14.7114 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:14.7295 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: upnp:rootdevice
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::upnp:rootdevice
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:14.7507 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:14.7683 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:14.7878 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:14.8113 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:14.8418 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:14.8711 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:14.8926 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:14.9111 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:14.9292 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:14.9485 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:device:MediaServer:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:device:MediaServer:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:14.9700 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:14.9856 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:15.0051 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:15.0237 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:15.0513 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:service:ConnectionManager:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:service:ConnectionManager:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:15.0757 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:15.1001 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:15.1289 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:15.1492 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:15.1785 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:schemas-upnp-org:service:ContentDirectory:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:schemas-upnp-org:service:ContentDirectory:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:15.2029 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:15.2190 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:15.2402 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:15.2607 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:15.2910 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+Host: 239.255.255.250:1900
+NT: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+NTS: ssdp:alive
+USN: uuid:0E8CAED7-0008-426E-8714-A51DC6E48B78::urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+Location: http://192.168.0.20:9000/plugins/UPnP/MediaServer.xml
+Cache-Control: max-age=1800
+Server: Linux/x86_64-linux UPnP/1.0 DLNADOC/1.50 LogitechMediaServer/7.9.0/1458127503
+
+] |  
+2016-10-01 09:53:15.3154 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:15.3401 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:23.2200 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:23.2388 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:23.2681 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:device:sohodevice:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:device:sohodevice:1
+
+] |  
+2016-10-01 09:53:23.2974 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:23.3208 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:23.3543 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:23.3748 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:23.3924 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::upnp:rootdevice
+CACHE-CONTROL: max-age=1810
+NT: upnp:rootdevice
+
+] |  
+2016-10-01 09:53:23.4158 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:23.4361 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:23.8394 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:23.8589 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:23.8775 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:service:sohoOSabout:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:service:sohoOSabout:1
+
+] |  
+2016-10-01 09:53:23.9000 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:23.9214 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:24.0203 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:24.0420 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:24.0606 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+CACHE-CONTROL: max-age=1810
+NT: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+
+] |  
+2016-10-01 09:53:24.0811 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:24.0997 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:31.0782 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:31.0968 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:31.1253 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:device:sohodevice:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:device:sohodevice:1
+
+] |  
+2016-10-01 09:53:31.1478 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:31.1673 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:31.2291 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:31.2516 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:31.2896 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::upnp:rootdevice
+CACHE-CONTROL: max-age=1810
+NT: upnp:rootdevice
+
+] |  
+2016-10-01 09:53:31.3155 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:31.3395 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:31.4283 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:31.4498 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:31.4830 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+CACHE-CONTROL: max-age=1810
+NT: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+
+] |  
+2016-10-01 09:53:31.5099 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:31.5265 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:31.8883 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:31.9078 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:31.9400 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:service:sohoOSabout:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:service:sohoOSabout:1
+
+] |  
+2016-10-01 09:53:31.9635 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:31.9835 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:37.3468 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:37.3683 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:37.3920 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 5
+ST: upnp:rootdevice
+MAN: "ssdp:discover"
+User-Agent: UPnP/1.0 DLNADOC/1.50 Kodi
+Connection: close
+Host: 239.255.255.250:1900
+
+] |  
+2016-10-01 09:53:37.4144 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:53:37.4144 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:53:37.4506 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:37.4769 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:37.5075 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:37.5358 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 5
+ST: upnp:rootdevice
+MAN: "ssdp:discover"
+User-Agent: UPnP/1.0 DLNADOC/1.50 Kodi
+Connection: close
+Host: 239.255.255.250:1900
+
+] |  
+2016-10-01 09:53:37.5621 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:53:37.5787 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:53:37.6010 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:53.1247 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:53.1482 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:53.1726 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd
+
+] |  
+2016-10-01 09:53:53.1982 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:53.2295 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:53.2510 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:53.2768 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:53.3108 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: upnp:rootdevice
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::upnp:rootdevice
+
+] |  
+2016-10-01 09:53:53.3352 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:53.3645 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:53.3894 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:53.4094 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:53.4304 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:schemas-upnp-org:device:MediaServer:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:schemas-upnp-org:device:MediaServer:1
+
+] |  
+2016-10-01 09:53:53.4563 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:53.4783 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:53.4997 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:53.5305 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:53.5637 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:schemas-upnp-org:service:ContentDirectory:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:schemas-upnp-org:service:ContentDirectory:1
+
+] |  
+2016-10-01 09:53:53.5915 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:53.6086 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:53.6316 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:53.6570 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:53.6843 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:schemas-upnp-org:service:ConnectionManager:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:schemas-upnp-org:service:ConnectionManager:1
+
+] |  
+2016-10-01 09:53:53.7087 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:53.7410 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:53:53.7668 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:53:53.7883 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:53:53.8166 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1810
+LOCATION: http://192.168.0.9:50599/TMSDeviceDescription.xml
+NT: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+NTS: ssdp:alive
+SERVER: Linux/2.x.x, UPnP/1.0, pvConnect UPnP SDK/1.0, Twonky UPnP SDK/1.1
+USN: uuid:55076f6e-6b79-4d65-6401-00d0b81959bd::urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+
+] |  
+2016-10-01 09:53:53.8420 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:53:53.8591 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:04.0711 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:04.0906 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:04.1143 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:device:sohodevice:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:device:sohodevice:1
+
+] |  
+2016-10-01 09:54:04.1377 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:04.1602 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:04.3418 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:04.3633 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:04.3941 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::upnp:rootdevice
+CACHE-CONTROL: max-age=1810
+NT: upnp:rootdevice
+
+] |  
+2016-10-01 09:54:04.4183 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:04.4437 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:04.4910 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:04.5142 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:04.5386 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:service:sohoOSabout:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:service:sohoOSabout:1
+
+] |  
+2016-10-01 09:54:04.5679 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:04.5955 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:05.0106 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:05.0340 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:05.0613 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+CACHE-CONTROL: max-age=1810
+NT: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+
+] |  
+2016-10-01 09:54:05.0862 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:05.1104 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:11.1991 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:11.2274 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:11.2738 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:device:sohodevice:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:device:sohodevice:1
+
+] |  
+2016-10-01 09:54:11.2989 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:11.3263 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:11.5289 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:11.5484 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:11.5748 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+CACHE-CONTROL: max-age=1810
+NT: uuid:lifeline-emcc-Soho-1000-00D0B81959BD
+
+] |  
+2016-10-01 09:54:11.5975 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:11.6209 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:11.6993 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:11.7267 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:11.7550 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::upnp:rootdevice
+CACHE-CONTROL: max-age=1810
+NT: upnp:rootdevice
+
+] |  
+2016-10-01 09:54:11.7838 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:11.8099 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:11.8324 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:11.8548 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:11.8788 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+LOCATION: http://192.168.0.9:60897/
+HOST: 239.255.255.250:1900
+SERVER: POSIX, UPnP/1.0, MicroStack/1.0.3905
+NTS: ssdp:alive
+USN: uuid:lifeline-emcc-Soho-1000-00D0B81959BD::urn:schemas-emc-com:service:sohoOSabout:1
+CACHE-CONTROL: max-age=1810
+NT: urn:schemas-emc-com:service:sohoOSabout:1
+
+] |  
+2016-10-01 09:54:11.9059 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:11.9322 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:18.5070 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:18.5294 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:18.5548 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+] |  
+2016-10-01 09:54:18.5785 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:18.6000 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:18.6225 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:18.6488 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:18.6732 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:18.7008 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+] |  
+2016-10-01 09:54:18.7311 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:18.7545 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:18.7772 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:18.8017 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:18.8241 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:18.8485 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+] |  
+2016-10-01 09:54:18.8700 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:18.8917 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:18.9142 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:18.9455 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:18.9752 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:19.0021 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+] |  
+2016-10-01 09:54:19.0280 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:19.0499 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:19.0717 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:27.8691 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:27.8857 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:27.9033 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:27.9208 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:27.9365 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:27.9553 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:27.9924 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:28.0207 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:28.0590 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:28.0893 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:28.1137 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:28.1406 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:28.1706 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:28.1940 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:28.2321 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+CONTENT-LENGTH: 0
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: upnp:rootdevice
+NTS: ssdp:byebye
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf::upnp:rootdevice
+
+] |  
+2016-10-01 09:54:28.2646 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:28.2998 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:28.3295 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:28.3576 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:28.3977 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+CONTENT-LENGTH: 0
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf
+NTS: ssdp:byebye
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf
+
+] |  
+2016-10-01 09:54:28.4250 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:28.4584 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:28.4868 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:28.5161 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:28.5537 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+CONTENT-LENGTH: 0
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: urn:schemas-upnp-org:device:MediaRenderer:1
+NTS: ssdp:byebye
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf::urn:schemas-upnp-org:device:MediaRenderer:1
+
+] |  
+2016-10-01 09:54:28.5869 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:28.6069 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:28.6313 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:28.6564 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:28.6857 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:28.7141 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:28.7458 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:28.7739 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:28.7934 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:28.8188 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:28.8393 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:28.8669 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:28.8923 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:28.9177 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:28.9411 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:28.9697 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:29.0156 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+CONTENT-LENGTH: 0
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: urn:schemas-upnp-org:service:RenderingControl:1
+NTS: ssdp:byebye
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf::urn:schemas-upnp-org:service:RenderingControl:1
+
+] |  
+2016-10-01 09:54:29.0480 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:29.0666 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:29.0920 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:29.1174 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:29.1374 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+CONTENT-LENGTH: 0
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: urn:schemas-upnp-org:service:ConnectionManager:1
+NTS: ssdp:byebye
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf::urn:schemas-upnp-org:service:ConnectionManager:1
+
+] |  
+2016-10-01 09:54:29.1684 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:29.1967 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:29.2260 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:29.2526 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:29.2741 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+CONTENT-LENGTH: 0
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: urn:schemas-upnp-org:service:AVTransport:1
+NTS: ssdp:byebye
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf::urn:schemas-upnp-org:service:AVTransport:1
+
+] |  
+2016-10-01 09:54:29.3044 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:29.3278 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:29.3535 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:29.3769 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:29.3994 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:29.4296 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:29.4602 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:29.4914 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:29.5139 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:29.5393 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:29.5590 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:29.5844 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:29.6069 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:29.6323 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:29.6657 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:29.6950 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:29.7307 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:29.7539 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:29.7763 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:29.7998 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:29.8305 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:29.8557 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:29.8889 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:29.9201 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:29.9441 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:29.9668 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:29.9912 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:30.0166 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:30.0390 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: upnp:rootdevice
+NTS: ssdp:alive
+SERVER: KnOS/3.2 UPnP/1.0 DMP/3.5
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf::upnp:rootdevice
+
+] |  
+2016-10-01 09:54:30.0710 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:30.1003 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:30.1291 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:30.1572 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:30.1806 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:30.2148 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:30.2417 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:30.2658 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:30.2902 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:30.3166 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:30.3396 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:30.3686 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:30.4008 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:30.4399 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:30.4697 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:30.4985 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:30.5180 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:30.5478 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:30.5871 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:30.6330 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:30.6753 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:30.7104 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:30.7490 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:30.7849 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:30.8269 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:30.8708 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:30.9177 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:30.9543 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:30.9968 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf
+NTS: ssdp:alive
+SERVER: KnOS/3.2 UPnP/1.0 DMP/3.5
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf
+
+] |  
+2016-10-01 09:54:31.0373 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:31.0827 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:31.1311 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:31.1696 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:31.2104 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: urn:schemas-upnp-org:device:MediaRenderer:1
+NTS: ssdp:alive
+SERVER: KnOS/3.2 UPnP/1.0 DMP/3.5
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf::urn:schemas-upnp-org:device:MediaRenderer:1
+
+] |  
+2016-10-01 09:54:31.2495 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:31.2927 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:31.3405 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:31.3818 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:31.4238 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: urn:schemas-upnp-org:service:RenderingControl:1
+NTS: ssdp:alive
+SERVER: KnOS/3.2 UPnP/1.0 DMP/3.5
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf::urn:schemas-upnp-org:service:RenderingControl:1
+
+] |  
+2016-10-01 09:54:31.4643 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:31.5022 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:31.5412 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:31.5864 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:31.6255 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 5
+ST: upnp:rootdevice
+MAN: "ssdp:discover"
+User-Agent: UPnP/1.0 DLNADOC/1.50 Kodi
+Connection: close
+Host: 239.255.255.250:1900
+
+] |  
+2016-10-01 09:54:31.6557 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:31.6853 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:31.7146 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:31.7556 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:31.7881 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:31.8340 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 5
+ST: upnp:rootdevice
+MAN: "ssdp:discover"
+User-Agent: UPnP/1.0 DLNADOC/1.50 Kodi
+Connection: close
+Host: 239.255.255.250:1900
+
+] |  
+2016-10-01 09:54:31.8637 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:31.8938 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:31.9240 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:31.9582 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:31.9917 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:32.0317 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:32.0708 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:32.0993 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:32.1286 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:32.1648 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:32.1933 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:32.2304 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:32.2680 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:32.3030 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:32.3391 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:34.5539 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:34.5889 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:34.6230 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:34.6582 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:34.6926 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:34.7307 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:34.7817 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:34.8149 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:34.8520 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: urn:schemas-upnp-org:service:ConnectionManager:1
+NTS: ssdp:alive
+SERVER: KnOS/3.2 UPnP/1.0 DMP/3.5
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf::urn:schemas-upnp-org:service:ConnectionManager:1
+
+] |  
+2016-10-01 09:54:34.8943 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:34.9402 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:34.9814 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:35.0185 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:35.0596 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:35.0959 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:35.1330 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:35.1743 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:35.2241 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:35.2637 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:35.3074 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: urn:schemas-upnp-org:service:AVTransport:1
+NTS: ssdp:alive
+SERVER: KnOS/3.2 UPnP/1.0 DMP/3.5
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf::urn:schemas-upnp-org:service:AVTransport:1
+
+] |  
+2016-10-01 09:54:35.3494 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:35.3906 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:35.4424 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:35.4853 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:35.5278 | VeraHuesBridge.SSDPService | INFO | Examing message [NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+LOCATION: http://192.168.0.117:8080/MediaRenderer/desc.xml
+NT: upnp:rootdevice
+NTS: ssdp:alive
+SERVER: KnOS/3.2 UPnP/1.0 DMP/3.5
+USN: uuid:5f9ec1b3-ed59-1900-4530-00a0de90eebf::upnp:rootdevice
+
+] |  
+2016-10-01 09:54:35.5747 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet not detected. |  
+2016-10-01 09:54:35.6143 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:35.6558 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:35.6963 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:35.7378 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:35.7783 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:35.8164 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:35.8594 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:35.9097 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:35.9480 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:35.9871 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:36.0256 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:36.0625 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:36.0918 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:44.4844 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:44.5228 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:44.5423 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:44.5687 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:44.5950 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-01 09:54:44.6216 | VeraHuesBridge.SSDPService | INFO | Restarted Multicast Receiver. |  
+2016-10-01 09:54:44.6548 | VeraHuesBridge.SSDPService | INFO | Received a UDP multicast from IP [239.255.255.250], on port [1900]. |  
+2016-10-01 09:54:44.6792 | VeraHuesBridge.SSDPService | INFO | Testing if message is SSDP Discovery Packet... |  
+2016-10-01 09:54:44.7037 | VeraHuesBridge.SSDPService | INFO | Examing message [M-SEARCH * HTTP/1.1
+MX: 10
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+
+] |  
+2016-10-01 09:54:44.7361 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-01 09:54:44.7664 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
