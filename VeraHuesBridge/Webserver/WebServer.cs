@@ -28,8 +28,15 @@ namespace VeraHuesBridge
             Globals.IPAddress=ipAddress;
             Globals.Port = port;
             Globals.BaseAddress = "http://" + Globals.IPAddress + ":" + Globals.Port + "/";
+            //Globals.BaseAddress = "http://*:8080";
             Globals.UUID = uuid;
             Globals.DefaultIntensity = defaultIntensity;
+
+            logger.Debug(ipAddress);
+            logger.Debug(port);
+            logger.Debug(uuid);
+            logger.Debug(defaultIntensity);
+
             Globals.DeviceList=new Devices(deviceConfigFile);
             logger.Info("Webserver created.  DeviceConfig holds [{0}] device(s)", Globals.DeviceList.Count());
 
@@ -38,9 +45,10 @@ namespace VeraHuesBridge
 
         public void Start()
         {
-            logger.Info("Webserver starting up....");
+            logger.Info("Webserver starting up, listening on {0}", Globals.BaseAddress);
             webApplication = WebApp.Start<WebServerStartup>(url: Globals.BaseAddress);
             logger.Info("Webserver started.");
+            //System.Threading.Thread.Sleep(50000);
         }
 
         public void Stop()

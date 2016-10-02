@@ -33,7 +33,7 @@ namespace Test
 
             string deviceConfigFile = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DeviceConfig.txt");
             ws = new VeraHuesBridge.WebServer(LocalIPAddress().ToString(),
-                                             8081,
+                                             8080,
                                             "aef85303-330a-4eab-b28d-038ac90416ab",
                                             200,
                                             deviceConfigFile);

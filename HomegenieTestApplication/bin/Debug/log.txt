@@ -79,3 +79,646 @@ USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
 2016-10-01 10:33:32.4914 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
 2016-10-01 10:33:32.7751 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
 2016-10-01 10:33:32.7917 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:01:12.3403 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-02 10:01:12.4688 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-02 10:01:12.4893 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-02 10:01:12.5254 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-02 10:01:12.5410 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-02 10:01:12.7842 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:01:12.8672 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:01:12.8921 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-02 10:01:13.1545 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:01:13.5310 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:01:13.5476 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:01:13.5701 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-02 10:01:13.6065 | VeraHuesBridge.WebServer | INFO | Webserver starting up.... |  
+2016-10-02 10:01:13.9490 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-02 10:01:14.1536 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-02 10:01:32.5382 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:01:32.5565 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:02:26.6716 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:02:26.7043 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:03:21.0772 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:05:18.5903 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-02 10:05:18.8974 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-02 10:05:19.0131 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-02 10:05:19.0454 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-02 10:05:19.0766 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-02 10:05:19.3422 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:05:19.5751 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:05:19.6113 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-02 10:05:19.7775 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:05:20.7280 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:05:20.7636 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:05:20.8027 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-02 10:05:20.8916 | VeraHuesBridge.WebServer | INFO | Webserver starting up.... |  
+2016-10-02 10:05:21.2609 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-02 10:05:21.4382 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-02 10:05:34.7478 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-02 10:05:34.7901 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-02 10:06:03.4631 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:06:03.5053 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:06:57.7029 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:06:57.7249 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:07:52.1229 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:07:52.1598 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:08:46.5524 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:08:46.5935 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:10:13.0554 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-02 10:10:13.1658 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-02 10:10:13.1877 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-02 10:10:13.2043 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-02 10:10:13.2258 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-02 10:10:13.5247 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:10:13.6711 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:10:13.6877 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-02 10:10:13.8584 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:10:14.1885 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:10:14.2358 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:10:14.2510 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-02 10:10:14.2881 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://*:8080 |  
+2016-10-02 10:10:14.8150 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-02 10:10:15.1621 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-02 10:10:20.0113 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-02 10:10:20.0279 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-02 10:10:31.8375 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-02 10:10:31.8824 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-02 10:10:33.7741 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:10:33.7936 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:11:26.8357 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:11:26.8596 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:11:54.1596 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-02 10:11:54.1732 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:11:54.1938 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:11:54.2152 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:11:54.2609 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-02 10:11:54.2775 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:11:54.3068 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:11:54.3383 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:11:54.3705 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-02 10:11:54.3832 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:11:54.4047 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:11:54.4232 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:11:54.4728 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-02 10:11:54.4845 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:11:54.5041 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:11:54.5231 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:12:03.5188 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:03.7019 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:04.0034 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:04.0241 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:04.3059 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:04.3286 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:04.6079 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:04.6252 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:05.0618 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:05.0793 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:05.3867 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:05.4077 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:07.2195 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:07.2488 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:10.2002 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:10.2234 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:10.5051 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:10.5230 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:20.1129 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:20.2049 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:20.5963 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:20.6141 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:20.8983 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:20.9156 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:21.0623 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:21.0799 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:21.2005 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:21.2230 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:21.5050 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:21.5245 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:21.8329 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:21.8504 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:23.6659 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:23.6983 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:23.9713 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:23.9894 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:26.7948 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:26.8163 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:27.0983 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:27.1276 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:27.3998 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:27.4174 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:27.9606 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:12:27.9801 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:13:07.1517 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-02 10:13:07.2101 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-02 10:13:16.8540 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:13:16.8725 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:14:11.3484 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:14:11.3904 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:15:19.2893 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-02 10:15:19.4128 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-02 10:15:19.4524 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-02 10:15:19.4700 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-02 10:15:19.4973 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-02 10:15:19.7053 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:15:19.8332 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:15:19.8552 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-02 10:15:20.0266 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:15:20.3840 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:15:20.3997 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:15:20.4133 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-02 10:15:20.4556 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://*:8080 |  
+2016-10-02 10:15:20.8916 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-02 10:15:21.1890 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-02 10:15:59.6196 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:15:59.6426 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:14.7259 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-02 10:16:14.7560 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:14.7823 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:16:14.8126 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:16:14.8346 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-02 10:16:14.8346 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:14.8636 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:16:14.8841 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:16:14.9339 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-02 10:16:14.9488 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:14.9947 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:16:15.0182 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:16:15.0380 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-02 10:16:15.0380 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:15.0692 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:16:15.0887 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:16:24.1720 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:24.3552 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:24.6567 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:24.6742 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:24.9592 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:24.9767 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:25.2607 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:25.2831 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:25.5680 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:25.5886 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:25.8920 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:25.9116 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:27.7270 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:27.7463 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:28.0290 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:28.0634 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:30.8567 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:30.9087 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:31.1611 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:31.1806 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:40.8748 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:40.9659 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:41.3570 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:41.3765 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:41.6585 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:41.6761 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:41.9610 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:41.9878 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:42.2654 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:42.2884 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:42.5936 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:42.6170 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:48.0194 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:48.0785 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:48.3219 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:48.3482 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:48.6224 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:48.6400 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:48.9249 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:48.9434 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:49.9273 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:49.9576 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:50.2240 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:50.2415 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:53.6857 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:16:53.7062 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:17:47.8784 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:17:47.8984 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:19:29.0890 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-02 10:19:29.1803 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-02 10:19:29.2184 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-02 10:19:29.2399 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-02 10:19:29.2585 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-02 10:19:29.5202 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:19:29.5353 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-02 10:19:29.5593 | VeraHuesBridge.WebServer | DEBUG | 8081 |  
+2016-10-02 10:19:29.5759 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-02 10:19:29.5910 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-02 10:19:29.7282 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:19:29.7468 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-02 10:19:29.9333 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:19:30.3024 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:19:30.3176 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:19:30.3322 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-02 10:19:30.3923 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://*:8080 |  
+2016-10-02 10:19:30.9411 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-02 10:19:31.2531 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-02 10:19:36.1430 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:19:36.1743 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:20:00.6842 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-02 10:20:00.7990 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-02 10:20:00.8214 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-02 10:20:00.8454 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-02 10:20:00.8615 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-02 10:20:01.0988 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:20:01.1149 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-02 10:20:01.1305 | VeraHuesBridge.WebServer | DEBUG | 8081 |  
+2016-10-02 10:20:01.1447 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-02 10:20:01.1642 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-02 10:20:01.2872 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:20:01.3034 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-02 10:20:01.4699 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:20:01.7956 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:20:01.8107 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:20:01.8253 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-02 10:20:01.8849 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8081/ |  
+2016-10-02 10:20:02.4591 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-02 10:20:02.8175 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-02 10:20:13.1513 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-02 10:20:13.1679 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-02 10:20:30.5663 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:20:30.5934 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:21:24.7944 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:21:24.8196 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:22:19.0147 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:22:19.0521 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:23:13.2136 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:23:13.2448 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:24:07.2728 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:24:07.2994 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:25:01.4699 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:25:01.5041 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:25:53.8192 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:25:53.9542 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:26:48.0151 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:26:48.0454 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:27:42.2232 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:27:42.2682 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:28:04.5033 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-02 10:28:05.0629 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-02 10:28:05.2513 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-02 10:28:05.3187 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-02 10:28:05.5199 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-02 10:28:05.8778 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:28:06.0726 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-02 10:28:06.1361 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-02 10:28:06.1664 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-02 10:28:06.1845 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-02 10:28:06.5253 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:28:06.5614 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-02 10:28:06.9848 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:28:07.5001 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:28:07.5177 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:28:07.5314 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-02 10:28:07.5646 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-02 10:28:08.0045 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-02 10:28:08.2125 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-02 10:28:11.4413 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-02 10:28:11.4618 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-02 10:28:25.7959 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [setup.xm] |  
+2016-10-02 10:28:25.9798 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Family Room Sonos], id [98e9445d-5645-4d41-9edc-a7b3742a483a]. |  
+2016-10-02 10:28:26.0047 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Garage Sonos], id [74c9265a-a7b0-4ae8-bbac-d4fec68ddff7]. |  
+2016-10-02 10:28:26.0269 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sonos ODK], id [4c89a2bf-1dc9-4429-b211-cc0d8141de3b]. |  
+2016-10-02 10:28:26.0484 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Bathroom Sonos], id [6dfe2994-83de-4b22-9580-cb0b625d62fc]. |  
+2016-10-02 10:28:26.0757 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Sonos], id [8510cf26-fef9-44ab-beba-7ac1f173d8bb]. |  
+2016-10-02 10:28:26.1011 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Small Garage Door Lock], id [2e42f7b9-b5c3-4c4b-bd11-1252e23c790b]. |  
+2016-10-02 10:28:26.1463 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Main Garage Door Lock], id [2ea9366f-8885-4b5b-b3e0-46a815979fe8]. |  
+2016-10-02 10:28:26.1785 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Laundry Room Lock], id [67928ce2-e157-4637-b98d-37b030de01e7]. |  
+2016-10-02 10:28:26.1785 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Kitchen Lights], id [b56c8efa-5a1a-4fd4-bf0e-c0ae3d8235a7]. |  
+2016-10-02 10:28:26.2158 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Lights], id [267b1192-981b-4b71-a5bf-898bb7d7a1aa]. |  
+2016-10-02 10:28:26.2354 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Foyer Lights], id [60aa4ff4-e2c0-4342-929f-befa4f0911f0]. |  
+2016-10-02 10:28:26.2598 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[TV], id [0a0e68c6-848a-4270-b1f4-d8113640754b]. |  
+2016-10-02 10:28:26.2793 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Direct TV], id [dd131b88-1236-430a-b57b-11ad3770be30]. |  
+2016-10-02 10:28:26.3008 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Stairway Lights], id [2b44f25e-fbe8-4a36-9d56-3cb52449c853]. |  
+2016-10-02 10:28:26.3274 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Hallway Lights], id [60b2a047-a7f1-4278-a6ee-a2a6ccb742a8]. |  
+2016-10-02 10:28:26.3489 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [15] light(s) |  
+2016-10-02 10:28:36.4403 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:28:36.4686 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:28:50.8564 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-02 10:28:50.8713 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:28:50.8996 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:28:50.9201 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:28:50.9597 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-02 10:28:50.9597 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:28:50.9926 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:28:51.0209 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:28:51.0661 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-02 10:28:51.0925 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:28:51.1257 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:28:51.1413 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:28:51.1669 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-02 10:28:51.1816 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:28:51.2031 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:28:51.2187 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:29:00.3430 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:00.4351 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:00.7371 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:00.7608 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:01.0401 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:01.0769 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:01.3416 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:01.3599 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:01.6441 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:01.6653 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:01.9707 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:01.9922 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:04.0328 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:04.0686 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:06.9378 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:06.9849 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:07.2388 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:07.2603 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:16.8815 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:16.9725 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:17.3641 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:17.3886 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:17.6666 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:17.6852 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:17.9682 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:17.9867 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:18.2736 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:18.3014 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:18.6019 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:18.6222 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:20.4342 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:20.4538 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:20.7367 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:20.7611 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:23.5663 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:23.5898 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:23.8708 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:23.8879 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:24.1723 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:24.1999 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:24.4758 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:24.4958 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:30.6379 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:30.6968 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:29:31.7163 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [setup.xm] |  
+2016-10-02 10:29:31.8955 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Family Room Sonos], id [98e9445d-5645-4d41-9edc-a7b3742a483a]. |  
+2016-10-02 10:29:32.0395 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Garage Sonos], id [74c9265a-a7b0-4ae8-bbac-d4fec68ddff7]. |  
+2016-10-02 10:29:32.1758 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sonos ODK], id [4c89a2bf-1dc9-4429-b211-cc0d8141de3b]. |  
+2016-10-02 10:29:32.2060 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Bathroom Sonos], id [6dfe2994-83de-4b22-9580-cb0b625d62fc]. |  
+2016-10-02 10:29:32.2334 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Sonos], id [8510cf26-fef9-44ab-beba-7ac1f173d8bb]. |  
+2016-10-02 10:29:32.3140 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Small Garage Door Lock], id [2e42f7b9-b5c3-4c4b-bd11-1252e23c790b]. |  
+2016-10-02 10:29:32.3882 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Main Garage Door Lock], id [2ea9366f-8885-4b5b-b3e0-46a815979fe8]. |  
+2016-10-02 10:29:32.4209 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Laundry Room Lock], id [67928ce2-e157-4637-b98d-37b030de01e7]. |  
+2016-10-02 10:29:32.4673 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Kitchen Lights], id [b56c8efa-5a1a-4fd4-bf0e-c0ae3d8235a7]. |  
+2016-10-02 10:29:32.5049 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Lights], id [267b1192-981b-4b71-a5bf-898bb7d7a1aa]. |  
+2016-10-02 10:29:32.5474 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Foyer Lights], id [60aa4ff4-e2c0-4342-929f-befa4f0911f0]. |  
+2016-10-02 10:29:32.5796 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[TV], id [0a0e68c6-848a-4270-b1f4-d8113640754b]. |  
+2016-10-02 10:29:32.6020 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Direct TV], id [dd131b88-1236-430a-b57b-11ad3770be30]. |  
+2016-10-02 10:29:32.6225 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Stairway Lights], id [2b44f25e-fbe8-4a36-9d56-3cb52449c853]. |  
+2016-10-02 10:29:32.6445 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Hallway Lights], id [60b2a047-a7f1-4278-a6ee-a2a6ccb742a8]. |  
+2016-10-02 10:29:32.6665 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [15] light(s) |  
+2016-10-02 10:29:50.0943 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-02 10:29:50.1471 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-02 10:30:08.7024 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [1] |  
+2016-10-02 10:30:08.8284 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Family Room Sonos], id [98e9445d-5645-4d41-9edc-a7b3742a483a]. |  
+2016-10-02 10:30:08.9006 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Garage Sonos], id [74c9265a-a7b0-4ae8-bbac-d4fec68ddff7]. |  
+2016-10-02 10:30:08.9246 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sonos ODK], id [4c89a2bf-1dc9-4429-b211-cc0d8141de3b]. |  
+2016-10-02 10:30:08.9392 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Bathroom Sonos], id [6dfe2994-83de-4b22-9580-cb0b625d62fc]. |  
+2016-10-02 10:30:08.9597 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Sonos], id [8510cf26-fef9-44ab-beba-7ac1f173d8bb]. |  
+2016-10-02 10:30:08.9763 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Small Garage Door Lock], id [2e42f7b9-b5c3-4c4b-bd11-1252e23c790b]. |  
+2016-10-02 10:30:09.0022 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Main Garage Door Lock], id [2ea9366f-8885-4b5b-b3e0-46a815979fe8]. |  
+2016-10-02 10:30:09.0207 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Laundry Room Lock], id [67928ce2-e157-4637-b98d-37b030de01e7]. |  
+2016-10-02 10:30:09.0642 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Kitchen Lights], id [b56c8efa-5a1a-4fd4-bf0e-c0ae3d8235a7]. |  
+2016-10-02 10:30:09.0876 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Lights], id [267b1192-981b-4b71-a5bf-898bb7d7a1aa]. |  
+2016-10-02 10:30:09.1038 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Foyer Lights], id [60aa4ff4-e2c0-4342-929f-befa4f0911f0]. |  
+2016-10-02 10:30:09.1282 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[TV], id [0a0e68c6-848a-4270-b1f4-d8113640754b]. |  
+2016-10-02 10:30:09.1433 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Direct TV], id [dd131b88-1236-430a-b57b-11ad3770be30]. |  
+2016-10-02 10:30:09.1721 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Stairway Lights], id [2b44f25e-fbe8-4a36-9d56-3cb52449c853]. |  
+2016-10-02 10:30:09.1956 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Hallway Lights], id [60b2a047-a7f1-4278-a6ee-a2a6ccb742a8]. |  
+2016-10-02 10:30:09.2205 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [15] light(s) |  
+2016-10-02 10:30:24.7008 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:30:24.7711 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:31:18.9006 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:31:18.9350 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  

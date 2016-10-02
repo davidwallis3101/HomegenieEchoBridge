@@ -62,8 +62,8 @@ namespace VeraHuesBridge
         }
         public bool Start()
         {
-            //try
-            //{
+            try
+            {
                 logger.Info("Starting SSDP Service on IP [{0}], port [{1}]...", MulticastIP, MulticastPort);
                 MulticastClient = new UdpClient(MulticastPort);
                 IPAddress ipSSDP = IPAddress.Parse(MulticastIP);
@@ -78,12 +78,12 @@ namespace VeraHuesBridge
                 logger.Info("Starting Multicast Receiver...");
                 MulticastClient.BeginReceive(new AsyncCallback(MulticastReceiveCallback), udpListener);
                 logger.Info("SSDP Service started.");
-            //}
-            //catch (Exception ex)
-            //{
-            //    logger.Warn(ex, "Error occured starting SSDP service.");
-            //    throw ex;
-            //}
+            }
+            catch (Exception ex)
+            {
+                logger.Warn(ex, "Error occured starting SSDP service.");
+                throw ex;
+            }
 
             return true;
         }
