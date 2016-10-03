@@ -57,6 +57,7 @@ namespace VeraHuesBridge
             WebServerPort =webPort;
             UUID = uuid;
             DiscoveryResponse = string.Format(discoveryTemplate, MulticastLocalIP, WebServerPort, UUID);
+            Console.WriteLine("discovery response \r\n{0}", DiscoveryResponse);
             byteDiscovery = Encoding.ASCII.GetBytes(DiscoveryResponse);
             running = false;
         }
@@ -118,7 +119,7 @@ namespace VeraHuesBridge
                     string receiveString = Encoding.ASCII.GetString(receiveBytes);
 
                     //todo dw
-                    if (endpoint.Address.ToString() == "192.168.0.193") { logger.Debug(string.Format("Multicast From: {0}\r\nData:\r\n{1}", endpoint.ToString(), receiveString)); }
+                    //if (endpoint.Address.ToString() == "192.168.0.193") { logger.Debug("Multicast From: {0}\r\nData:\r\n{1}", endpoint.ToString(), receiveString); }
         
                     //discovery has occured, send our response
                     if (IsSSDPDiscoveryPacket(receiveString))
@@ -127,12 +128,17 @@ namespace VeraHuesBridge
 
                         //MulticastClient.Send(byteDiscovery, byteDiscovery.Length, endpoint);
                         Socket WinSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-                        
+
+
                         WinSocket.Connect(endpoint);
                         WinSocket.Send(byteDiscovery);
                         WinSocket.Shutdown(SocketShutdown.Both);
                         WinSocket.Close();
-                        if (endpoint.Address.ToString() == "192.168.0.193") { logger.Debug(string.Format("Sent Response To: {0}\r\nData:\r\n{1}", endpoint.ToString(), DiscoveryResponse)); }
+                        if (endpoint.ToString() == "192.168.0.193") { logger.Debug(string.Format("Sent Response To: {0}\r\nData:\r\n{1}", endpoint.ToString(), DiscoveryResponse)); }
+                    }
+                    else
+                    {
+                        if (endpoint.ToString() == "192.168.0.193") { logger.Debug("Not SSDP Packet"); }
                     }
 
                 }
@@ -164,7 +170,7 @@ namespace VeraHuesBridge
             //logger.Info("Examing message [{0}]", message);
             if (message != null && message.StartsWith("M-SEARCH * HTTP/1.1") && message.Contains("MAN: \"ssdp:discover\""))
             {
-                logger.Info("SSDP Discovery Packet detected.");
+                // logger.Info("SSDP Discovery Packet detected.");
                 return true;
             }
             //logger.Info("SSDP Discovery Packet not detected.");

@@ -18,7 +18,8 @@ namespace Test
             VeraHuesBridge.WebServer ws;
             bool respondToSSDP = true;
 
-            Console.WriteLine(LocalIPAddress().ToString());
+            var devices = HomegenieTestApplication.HgHelper.GetDevicesFromHG("test.txt", "192.168.0.47");
+
 
             if (respondToSSDP)
             {
@@ -32,11 +33,17 @@ namespace Test
             }
 
             string deviceConfigFile = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DeviceConfig.txt");
+            //ws = new VeraHuesBridge.WebServer(LocalIPAddress().ToString(),
+            //                                 8080,
+            //                                "aef85303-330a-4eab-b28d-038ac90416ab",
+            //                                200,
+            //                                deviceConfigFile);
             ws = new VeraHuesBridge.WebServer(LocalIPAddress().ToString(),
-                                             8080,
-                                            "aef85303-330a-4eab-b28d-038ac90416ab",
-                                            200,
-                                            deviceConfigFile);
+                                 8080,
+                                "aef85303-330a-4eab-b28d-038ac90416ab",
+                                200,
+                                devices);
+
             ws.Start();
 
             Console.WriteLine("Press any key to exit");

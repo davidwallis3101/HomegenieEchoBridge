@@ -833,3 +833,166 @@ Object name: 'System.Net.Sockets.Socket'.
 2016-10-01 10:06:07.0869 | VeraHuesBridge.SSDPService | DEBUG | Ignoring an Error occured in MulticastReceiveCallBack as SSDP service is not running. | Cannot access a disposed object.
 Object name: 'System.Net.Sockets.Socket'. 
 2016-10-01 10:06:07.0869 | VeraHuesBridge.WebServer | INFO | Webserver stopped. |  
+2016-10-02 10:34:36.4503 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-02 10:34:36.5463 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-02 10:34:36.6097 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-02 10:34:36.6381 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-02 10:34:36.7396 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-02 10:34:37.0360 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:34:37.0736 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-02 10:34:37.1288 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-02 10:34:37.1434 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-02 10:34:37.2113 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-02 10:34:37.4594 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:34:37.4750 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-02 10:34:38.0028 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\DeviceConfig.txt]... |  
+2016-10-02 10:34:38.4974 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:34:38.5184 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridgeTester\bin\Debug\DeviceConfig.txt]. |  
+2016-10-02 10:34:38.5365 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-02 10:34:38.5809 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-02 10:34:39.1998 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-02 10:34:39.4772 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-02 10:34:48.1472 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-02 10:34:48.1472 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:48.1721 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:34:48.1914 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:34:48.2509 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-02 10:34:48.2749 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:48.2998 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:34:48.3222 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:34:48.3813 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-02 10:34:48.3940 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:48.4160 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:34:48.4409 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:34:48.6059 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-02 10:34:48.6357 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:48.6513 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-02 10:34:48.6682 | VeraHuesBridge.SSDPService | DEBUG | Sent Response To: 192.168.0.193:50000
+Data:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=86400
+EXT:
+LOCATION: http://192.168.0.176:8080/api/setup.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: aef85303-330a-4eab-b28d-038ac90416ab
+ST: urn:schemas-upnp-org:device:basic:1
+USN: uuid:Socket-1_0-221438K0100073::urn:Belkin:device:**
+
+ |  
+2016-10-02 10:34:55.4673 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:55.4849 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:57.5103 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:57.6023 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:57.9949 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:58.0105 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:58.2964 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:58.3091 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:58.6009 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:58.6341 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:58.9405 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:58.9524 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:59.2676 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:34:59.2823 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:01.0696 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:01.0696 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:01.3721 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:01.3948 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:04.1905 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:04.2127 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:04.4986 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:04.5123 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:14.1796 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:14.2723 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:14.5761 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:14.5956 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:14.8759 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:14.8891 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:15.1788 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:15.1945 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:15.4804 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:15.5004 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:15.8080 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:15.8334 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:17.6401 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:17.6557 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:17.9445 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:17.9445 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:20.7726 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:20.8012 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:21.0790 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:21.0922 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:21.3776 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:21.3913 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:21.6796 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:21.6974 | VeraHuesBridge.SSDPService | INFO | SSDP Discovery Packet detected. |  
+2016-10-02 10:35:23.5661 | VeraHuesBridge.SSDPService | INFO | Stopping SSDP Service... |  
+2016-10-02 10:35:23.5830 | VeraHuesBridge.SSDPService | INFO | SSDP Service stopped. |  
+2016-10-02 10:35:23.7656 | VeraHuesBridge.WebServer | INFO | Webserver stopping... |  
+2016-10-02 10:35:23.7656 | VeraHuesBridge.SSDPService | DEBUG | Ignoring an Error occured in MulticastReceiveCallBack as SSDP service is not running. | Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'. 
+2016-10-02 10:35:23.8017 | VeraHuesBridge.WebServer | INFO | Webserver stopped. |  

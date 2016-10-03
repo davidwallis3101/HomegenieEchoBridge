@@ -22,20 +22,30 @@ namespace VeraHuesBridge
             _devices = new List<Device>();
         }
 
-        public Devices(string fileName)
+        //public Devices(string fileName)
+        //{
+        //    logger.Info("Created Devices from file [{0}]...", fileName);
+        //    //null constructor
+        //    _devices = new List<Device>();
+
+        //    if (!Load(fileName))
+        //    {
+
+        //        string message = string.Format("Failed to load devices from file [{0}].", fileName);
+        //        logger.Warn(message);
+        //        throw new ApplicationException(message);
+        //    };
+        //    logger.Info("Created [{0}] Device(s) from file [{1}].", _devices.Count.ToString(), fileName);
+
+        //}
+
+        public Devices(List<Device> devices)
         {
-            logger.Info("Created Devices from file [{0}]...", fileName);
+            logger.Info("Created Devices from object");
             //null constructor
-            _devices = new List<Device>();
+            _devices = devices;
 
-            if (!Load(fileName))
-            {
-
-                string message = string.Format("Failed to load devices from file [{0}].", fileName);
-                logger.Warn(message);
-                throw new ApplicationException(message);
-            };
-            logger.Info("Created [{0}] Device(s) from file [{1}].", _devices.Count.ToString(), fileName);
+            logger.Info("Created [{0}] Device(s) from object.", _devices.Count.ToString());
 
         }
 

@@ -59,6 +59,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api\ApiHelper.cs" />
+    <Compile Include="Api\Group.cs" />
+    <Compile Include="Api\Module.cs" />
+    <Compile Include="Api\ModuleProperties.cs" />
+    <Compile Include="HgHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
