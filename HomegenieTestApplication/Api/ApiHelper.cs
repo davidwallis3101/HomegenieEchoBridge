@@ -13,9 +13,7 @@ namespace HomegenieTestApplication.Api
         public bool UpdateModule(string host, Module module)
         {
             var url = $"http://{host}/api/HomeAutomation.HomeGenie/Config/Modules.Update";
-
-            var json = JsonConvert.SerializeObject(module);
-            Post(url, json);
+            Post(url, JsonConvert.SerializeObject(module));
             return true;
         }
 
