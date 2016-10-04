@@ -21,44 +21,14 @@ namespace VeraHuesBridge
              logger.Info("New webserver initiated.");
          }
 
-
-        //public WebServer(string ipAddress, int port, string uuid, int defaultIntensity, string deviceConfigFile)
-        //{
-        //    logger.Info("New webserver initiated.  Using deviceConfig file [{0}].", deviceConfigFile);
-        //    Globals.IPAddress=ipAddress;
-        //    Globals.Port = port;
-        //    Globals.BaseAddress = "http://" + Globals.IPAddress + ":" + Globals.Port + "/";
-        //    //Globals.BaseAddress = "http://*:8080";
-        //    Globals.UUID = uuid;
-        //    Globals.DefaultIntensity = defaultIntensity;
-
-        //    logger.Debug(ipAddress);
-        //    logger.Debug(port);
-        //    logger.Debug(uuid);
-        //    logger.Debug(defaultIntensity);
-
-        //    Globals.DeviceList=new Devices(deviceConfigFile);
-        //    logger.Info("Webserver created.  DeviceConfig holds [{0}] device(s)", Globals.DeviceList.Count());
-
-        //}
-
-        //public WebServer(string ipAddress, int port, string uuid, int defaultIntensity, string deviceConfigFile)
         public WebServer(string ipAddress, int port, string uuid, int defaultIntensity, List<Device>deviceObj)
         {
-            //logger.Info("New webserver initiated.  Using deviceConfig file [{0}].", deviceConfigFile);
+            logger.Info("New webserver initiated.");
             Globals.IPAddress = ipAddress;
             Globals.Port = port;
             Globals.BaseAddress = "http://" + Globals.IPAddress + ":" + Globals.Port + "/";
-            //Globals.BaseAddress = "http://*:8080";
             Globals.UUID = uuid;
             Globals.DefaultIntensity = defaultIntensity;
-
-            logger.Debug(ipAddress);
-            logger.Debug(port);
-            logger.Debug(uuid);
-            logger.Debug(defaultIntensity);
-
-//            Globals.DeviceList = new Devices(deviceConfigFile);
 
             Globals.DeviceList = new Devices(deviceObj);
             logger.Info("Webserver created.  DeviceConfig holds [{0}] device(s)", Globals.DeviceList.Count());
@@ -71,7 +41,6 @@ namespace VeraHuesBridge
             logger.Info("Webserver starting up, listening on {0}", Globals.BaseAddress);
             webApplication = WebApp.Start<WebServerStartup>(url: Globals.BaseAddress);
             logger.Info("Webserver started.");
-            //System.Threading.Thread.Sleep(50000);
         }
 
         public void Stop()
