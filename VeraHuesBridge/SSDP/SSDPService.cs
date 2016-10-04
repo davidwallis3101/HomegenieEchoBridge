@@ -57,7 +57,6 @@ namespace VeraHuesBridge
             WebServerPort =webPort;
             UUID = uuid;
             DiscoveryResponse = string.Format(discoveryTemplate, MulticastLocalIP, WebServerPort, UUID);
-            Console.WriteLine("discovery response \r\n{0}", DiscoveryResponse);
             byteDiscovery = Encoding.ASCII.GetBytes(DiscoveryResponse);
             running = false;
         }
