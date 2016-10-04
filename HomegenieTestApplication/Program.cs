@@ -18,7 +18,7 @@ namespace Test
             VeraHuesBridge.WebServer ws;
             bool respondToSSDP = true;
 
-            var devices = HomegenieTestApplication.HgHelper.GetDevicesFromHG("test.txt", "192.168.0.47");
+            var devices = HomegenieTestApplication.HgHelper.GetDevicesFromHG("192.168.0.161");
 
 
             if (respondToSSDP)

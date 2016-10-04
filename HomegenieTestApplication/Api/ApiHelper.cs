@@ -7,21 +7,31 @@ using System.IO;
 
 namespace HomegenieTestApplication.Api
 {
-    class ApiHelper
+    internal class ApiHelper
     {
+
+        public bool UpdateModule(string host, Module module)
+        {
+            var url = $"http://{host}/api/HomeAutomation.HomeGenie/Config/Modules.Update";
+
+            var json = JsonConvert.SerializeObject(module);
+            Post(url, json);
+            return true;
+        }
+
         public List<Module> GetModules(string host)
         {
             var url = $"http://{host}/api/HomeAutomation.HomeGenie/Config/Modules.List";
-            return JsonConvert.DeserializeObject<List<Module>>(this.Get(url));
+            return JsonConvert.DeserializeObject<List<Module>>(Get(url));
         }
 
         public List<Group> GetGroups(string host)
         {
             var url = $"http://{host}/api/HomeAutomation.HomeGenie/Config/Groups.List";
-            return JsonConvert.DeserializeObject<List<Group>>(this.Get(url));
+            return JsonConvert.DeserializeObject<List<Group>>(Get(url));
         }
 
-        private string Get(string url)
+        private static string Get(string url)
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             try
@@ -42,6 +52,29 @@ namespace HomegenieTestApplication.Api
                     String errorText = reader.ReadToEnd();
                 }
                 throw;
+            }
+        }
+
+        private static void Post(string url,string payload)
+        {
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
+            httpWebRequest.ContentType = "application/json";
+            httpWebRequest.Method = "POST";
+
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+
+                streamWriter.Write(payload);
+                streamWriter.Flush();
+                streamWriter.Close();
+            }
+
+            var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+            using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+            {
+                var result = streamReader.ReadToEnd();
+                Console.WriteLine(result);
+
             }
         }
     }
