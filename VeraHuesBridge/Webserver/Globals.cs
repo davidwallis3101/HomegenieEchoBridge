@@ -1,4 +1,4 @@
-﻿namespace VeraHuesBridge.Webserver
+﻿namespace EchoBridge.Webserver
 {
     public static class Globals
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using HomegenieTestApplication.Api;
-using VeraHuesBridge.Devices;
+using EchoBridge.Devices;
 using NLog;
 
 namespace HomegenieTestApplication

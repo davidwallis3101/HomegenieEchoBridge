@@ -4,8 +4,8 @@ using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using NLog;
-using VeraHuesBridge.SSDP;
-using VeraHuesBridge.Webserver;
+using EchoBridge.SSDP;
+using EchoBridge.Webserver;
 
 namespace HomegenieTestApplication
 {

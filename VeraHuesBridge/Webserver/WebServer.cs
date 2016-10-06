@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using EchoBridge.Devices;
 using Microsoft.Owin.Hosting;
 using NLog;
-using VeraHuesBridge.Devices;
 
-namespace VeraHuesBridge.Webserver
+namespace EchoBridge.Webserver
 {
     public  class WebServer
     {

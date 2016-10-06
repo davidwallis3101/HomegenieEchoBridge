@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace VeraHuesBridge.Devices
+namespace EchoBridge.Devices
 {
     public class HueApiResponse
     {

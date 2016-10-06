@@ -3,10 +3,10 @@ using System.Web.Http;
 using System.Net.Http;
 using NLog;
 using System.Web.Http.Cors;
-using VeraHuesBridge.Devices;
-using VeraHuesBridge.Webserver;
+using EchoBridge.Devices;
+using EchoBridge.Webserver;
 
-namespace VeraHuesBridge.Controllers
+namespace EchoBridge.Controllers
 {
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class HueApiController : ApiController

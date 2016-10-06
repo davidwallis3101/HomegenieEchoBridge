@@ -2,7 +2,7 @@
 using NLog;
 using Owin;
 
-namespace VeraHuesBridge.Webserver
+namespace EchoBridge.Webserver
 {
     public class WebServerStartup
     {

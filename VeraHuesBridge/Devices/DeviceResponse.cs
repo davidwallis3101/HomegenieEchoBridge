@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using NLog;
 
-namespace VeraHuesBridge.Devices
+namespace EchoBridge.Devices
 {
     public class DeviceResponse
     {

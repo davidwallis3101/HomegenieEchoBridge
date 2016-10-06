@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VeraHuesBridge.Devices
+namespace EchoBridge.Devices
 {
     public class Device
     {

@@ -5,7 +5,7 @@ using System.Xml.Serialization;
 using NLog;
 using System.Net.Http;
 
-namespace VeraHuesBridge
+namespace EchoBridge
 {
     public static class Utilities
     {

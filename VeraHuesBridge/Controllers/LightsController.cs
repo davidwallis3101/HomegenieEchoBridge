@@ -4,11 +4,11 @@ using System.Net.Http;
 using System.Text;
 using System.Web.Http;
 using System.Web.Http.Cors;
+using EchoBridge.Devices;
+using EchoBridge.Webserver;
 using NLog;
-using VeraHuesBridge.Devices;
-using VeraHuesBridge.Webserver;
 
-namespace VeraHuesBridge.Controllers
+namespace EchoBridge.Controllers
 {
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class LightsController : ApiController

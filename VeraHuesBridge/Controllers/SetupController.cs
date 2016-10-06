@@ -2,10 +2,10 @@
 using System.Text;
 using System.Web.Http;
 using System.Web.Http.Cors;
+using EchoBridge.Webserver;
 using NLog;
-using VeraHuesBridge.Webserver;
 
-namespace VeraHuesBridge.Controllers
+namespace EchoBridge.Controllers
 {
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class SetupController : ApiController
