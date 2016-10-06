@@ -27,3 +27,5 @@ C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\obj\Debu
 C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\obj\Debug\HomegenieTestApplication.pdb
 C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
 C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\HomegenieTestApplication.exe.CodeAnalysisLog.xml
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\HomegenieTestApplication.exe.lastcodeanalysissucceeded

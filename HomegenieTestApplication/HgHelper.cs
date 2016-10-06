@@ -43,8 +43,8 @@ namespace HomegenieTestApplication
                 var device = new VeraHuesBridge.Device
                 {
                     name = module.Name,
-                    offUrl = $"http://{ipAddress}/api/{module.Domain}/{module.Address}/Off",
-                    onUrl = $"http://{ipAddress}/api/{module.Domain}/{module.Address}/On",
+                    offUrl = $"http://{ipAddress}/api/{module.Domain}/{module.Address}/Control.Off",
+                    onUrl = $"http://{ipAddress}/api/{module.Domain}/{module.Address}/Control.On",
                     deviceType = "switch"
                 };
 

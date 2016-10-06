@@ -64,7 +64,7 @@ namespace HomegenieTestApplication.Api
 
                 streamWriter.Write(payload);
                 streamWriter.Flush();
-                streamWriter.Close();
+                //streamWriter.Close(); // should not call dispose more than once
             }
 
             var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();

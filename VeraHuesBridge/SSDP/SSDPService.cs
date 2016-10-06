@@ -82,7 +82,7 @@ namespace VeraHuesBridge
             catch (Exception ex)
             {
                 logger.Warn(ex, "Error occured starting SSDP service.");
-                throw ex;
+                throw;
             }
 
             return true;

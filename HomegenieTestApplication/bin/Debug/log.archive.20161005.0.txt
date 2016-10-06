@@ -1,0 +1,885 @@
+2016-10-03 22:19:39.6405 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-03 22:19:39.7248 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:19:39.7614 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-03 22:19:39.7614 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:19:39.8681 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-03 22:19:39.8776 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:19:39.9694 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-03 22:19:39.9694 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:20:31.8037 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-03 22:20:31.8037 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:20:31.9036 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-03 22:20:31.9036 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:20:32.0034 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-03 22:20:32.0191 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:20:32.1033 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-03 22:20:32.1189 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:21:21.6746 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-03 22:21:21.6834 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:21:21.7828 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:Belkin:device:**
+
+ |  
+2016-10-03 22:21:21.7914 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:21:21.8912 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-03 22:21:21.8912 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:21:21.9911 | VeraHuesBridge.SSDPService | DEBUG | Multicast From: 192.168.0.193:50000
+Data:
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 15
+ST: urn:schemas-upnp-org:device:basic:1
+
+ |  
+2016-10-03 22:21:22.0067 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:22:35.9459 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-03 22:22:36.0103 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-03 22:22:36.0103 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-03 22:22:36.0379 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-03 22:22:36.0526 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-03 22:22:36.2230 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:22:36.2396 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-03 22:22:36.2811 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-03 22:22:36.2938 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-03 22:22:36.2938 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-03 22:22:36.4007 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 22:22:36.4295 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-03 22:22:36.6100 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 22:22:37.0003 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:22:37.0155 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:22:37.0350 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-03 22:22:37.0660 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-03 22:22:37.3321 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-03 22:22:37.4957 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-03 22:22:49.2756 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:24:23.8827 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:24:27.6439 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:24:28.7526 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:28:55.7770 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-03 22:28:55.8512 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-03 22:28:55.8648 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-03 22:28:55.8810 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-03 22:28:55.8946 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-03 22:28:56.0411 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:28:56.0675 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-03 22:28:56.0802 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-03 22:28:56.0909 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-03 22:28:56.0909 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-03 22:28:56.2049 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 22:28:56.2176 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-03 22:28:56.3478 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 22:28:56.7557 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:28:56.7762 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:28:56.7953 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-03 22:28:56.8490 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-03 22:28:57.1337 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-03 22:28:57.2845 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-03 22:29:08.7084 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:29:08.8088 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:29:08.9165 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:29:09.0192 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:31:14.3993 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-03 22:31:14.4720 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-03 22:31:14.4857 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-03 22:31:14.5033 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-03 22:31:14.5194 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-03 22:31:14.6766 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:31:14.6893 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-03 22:31:14.7010 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-03 22:31:14.7010 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-03 22:31:14.7227 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-03 22:31:14.8275 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 22:31:14.8451 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-03 22:31:14.9703 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 22:31:15.2992 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:31:15.3314 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:31:15.3656 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-03 22:31:15.4398 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-03 22:31:15.9005 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-03 22:31:16.0794 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-03 22:38:04.8084 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-03 22:38:04.8831 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-03 22:38:04.8987 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-03 22:38:04.9256 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-03 22:38:04.9387 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-03 22:38:05.0994 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:38:05.1150 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-03 22:38:05.1287 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-03 22:38:05.1414 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-03 22:38:05.1531 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-03 22:38:05.2661 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 22:38:05.2798 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-03 22:38:05.4178 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 22:38:05.7334 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:38:05.7527 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:38:05.7820 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-03 22:38:05.8245 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-03 22:38:06.2163 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-03 22:38:06.5083 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-03 22:38:29.2370 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-03 22:38:29.2614 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-03 22:43:07.7168 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-03 22:43:07.7905 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-03 22:43:07.8046 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-03 22:43:07.8208 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-03 22:43:07.8344 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-03 22:43:07.9873 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:43:08.0009 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-03 22:43:08.0136 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-03 22:43:08.0268 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-03 22:43:08.0268 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-03 22:43:08.1430 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 22:43:08.1572 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-03 22:43:08.3032 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 22:43:08.6362 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:43:08.6577 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 22:43:08.6792 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-03 22:43:08.7207 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-03 22:43:09.0046 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-03 22:43:09.1870 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-03 22:43:29.9171 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:43:30.0189 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:43:30.1246 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:43:30.2255 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-03 22:43:31.5812 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-03 22:43:31.5812 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-03 22:43:31.5812 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-03 22:43:31.5997 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-03 22:43:31.6134 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-03 22:43:31.6351 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-03 22:43:31.9713 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-03 22:43:31.9713 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-03 22:43:31.9713 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-03 22:43:32.3356 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-03 22:43:32.3356 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-03 22:43:32.3356 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-03 22:43:32.4462 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Family Room Sonos], id [98e9445d-5645-4d41-9edc-a7b3742a483a]. |  
+2016-10-03 22:43:32.4462 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Family Room Sonos], id [98e9445d-5645-4d41-9edc-a7b3742a483a]. |  
+2016-10-03 22:43:32.4462 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Family Room Sonos], id [98e9445d-5645-4d41-9edc-a7b3742a483a]. |  
+2016-10-03 22:43:32.4657 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Garage Sonos], id [74c9265a-a7b0-4ae8-bbac-d4fec68ddff7]. |  
+2016-10-03 22:43:32.4657 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Garage Sonos], id [74c9265a-a7b0-4ae8-bbac-d4fec68ddff7]. |  
+2016-10-03 22:43:32.4891 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Garage Sonos], id [74c9265a-a7b0-4ae8-bbac-d4fec68ddff7]. |  
+2016-10-03 22:43:32.5206 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sonos ODK], id [4c89a2bf-1dc9-4429-b211-cc0d8141de3b]. |  
+2016-10-03 22:43:32.5490 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Bathroom Sonos], id [6dfe2994-83de-4b22-9580-cb0b625d62fc]. |  
+2016-10-03 22:43:32.5053 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sonos ODK], id [4c89a2bf-1dc9-4429-b211-cc0d8141de3b]. |  
+2016-10-03 22:43:32.5333 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sonos ODK], id [4c89a2bf-1dc9-4429-b211-cc0d8141de3b]. |  
+2016-10-03 22:43:32.5743 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Sonos], id [8510cf26-fef9-44ab-beba-7ac1f173d8bb]. |  
+2016-10-03 22:43:32.5743 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Bathroom Sonos], id [6dfe2994-83de-4b22-9580-cb0b625d62fc]. |  
+2016-10-03 22:43:32.5958 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Bathroom Sonos], id [6dfe2994-83de-4b22-9580-cb0b625d62fc]. |  
+2016-10-03 22:43:32.6095 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Small Garage Door Lock], id [2e42f7b9-b5c3-4c4b-bd11-1252e23c790b]. |  
+2016-10-03 22:43:32.6215 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Sonos], id [8510cf26-fef9-44ab-beba-7ac1f173d8bb]. |  
+2016-10-03 22:43:32.6215 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Sonos], id [8510cf26-fef9-44ab-beba-7ac1f173d8bb]. |  
+2016-10-03 22:43:32.6410 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Main Garage Door Lock], id [2ea9366f-8885-4b5b-b3e0-46a815979fe8]. |  
+2016-10-03 22:43:32.6517 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Small Garage Door Lock], id [2e42f7b9-b5c3-4c4b-bd11-1252e23c790b]. |  
+2016-10-03 22:43:32.6517 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Small Garage Door Lock], id [2e42f7b9-b5c3-4c4b-bd11-1252e23c790b]. |  
+2016-10-03 22:43:32.6771 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Laundry Room Lock], id [67928ce2-e157-4637-b98d-37b030de01e7]. |  
+2016-10-03 22:43:32.6918 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Main Garage Door Lock], id [2ea9366f-8885-4b5b-b3e0-46a815979fe8]. |  
+2016-10-03 22:43:32.7340 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Laundry Room Lock], id [67928ce2-e157-4637-b98d-37b030de01e7]. |  
+2016-10-03 22:43:32.7113 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Main Garage Door Lock], id [2ea9366f-8885-4b5b-b3e0-46a815979fe8]. |  
+2016-10-03 22:43:32.7262 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Kitchen Lights], id [b56c8efa-5a1a-4fd4-bf0e-c0ae3d8235a7]. |  
+2016-10-03 22:43:32.7584 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Kitchen Lights], id [b56c8efa-5a1a-4fd4-bf0e-c0ae3d8235a7]. |  
+2016-10-03 22:43:32.7799 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Laundry Room Lock], id [67928ce2-e157-4637-b98d-37b030de01e7]. |  
+2016-10-03 22:43:32.7946 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Lights], id [267b1192-981b-4b71-a5bf-898bb7d7a1aa]. |  
+2016-10-03 22:43:32.8151 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Lights], id [267b1192-981b-4b71-a5bf-898bb7d7a1aa]. |  
+2016-10-03 22:43:32.8278 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Kitchen Lights], id [b56c8efa-5a1a-4fd4-bf0e-c0ae3d8235a7]. |  
+2016-10-03 22:43:32.8278 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Foyer Lights], id [60aa4ff4-e2c0-4342-929f-befa4f0911f0]. |  
+2016-10-03 22:43:32.8541 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Foyer Lights], id [60aa4ff4-e2c0-4342-929f-befa4f0911f0]. |  
+2016-10-03 22:43:32.8541 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Lights], id [267b1192-981b-4b71-a5bf-898bb7d7a1aa]. |  
+2016-10-03 22:43:32.8746 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[TV], id [0a0e68c6-848a-4270-b1f4-d8113640754b]. |  
+2016-10-03 22:43:32.8869 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[TV], id [0a0e68c6-848a-4270-b1f4-d8113640754b]. |  
+2016-10-03 22:43:32.8869 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Foyer Lights], id [60aa4ff4-e2c0-4342-929f-befa4f0911f0]. |  
+2016-10-03 22:43:32.9113 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Direct TV], id [dd131b88-1236-430a-b57b-11ad3770be30]. |  
+2016-10-03 22:43:32.9220 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Direct TV], id [dd131b88-1236-430a-b57b-11ad3770be30]. |  
+2016-10-03 22:43:32.9328 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[TV], id [0a0e68c6-848a-4270-b1f4-d8113640754b]. |  
+2016-10-03 22:43:32.9328 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Stairway Lights], id [2b44f25e-fbe8-4a36-9d56-3cb52449c853]. |  
+2016-10-03 22:43:32.9594 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Stairway Lights], id [2b44f25e-fbe8-4a36-9d56-3cb52449c853]. |  
+2016-10-03 22:43:32.9730 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Direct TV], id [dd131b88-1236-430a-b57b-11ad3770be30]. |  
+2016-10-03 22:43:32.9877 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Hallway Lights], id [60b2a047-a7f1-4278-a6ee-a2a6ccb742a8]. |  
+2016-10-03 22:43:33.0014 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Hallway Lights], id [60b2a047-a7f1-4278-a6ee-a2a6ccb742a8]. |  
+2016-10-03 22:43:33.0209 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Stairway Lights], id [2b44f25e-fbe8-4a36-9d56-3cb52449c853]. |  
+2016-10-03 22:43:33.0385 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [15] light(s) |  
+2016-10-03 22:43:33.0475 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [15] light(s) |  
+2016-10-03 22:43:33.0592 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Hallway Lights], id [60b2a047-a7f1-4278-a6ee-a2a6ccb742a8]. |  
+2016-10-03 22:43:33.0905 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [15] light(s) |  
+2016-10-03 22:43:33.4057 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-03 22:43:33.4232 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-03 22:43:33.5849 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-03 22:43:33.7140 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-03 22:43:33.7311 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Family Room Sonos], id [98e9445d-5645-4d41-9edc-a7b3742a483a]. |  
+2016-10-03 22:43:33.7311 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Garage Sonos], id [74c9265a-a7b0-4ae8-bbac-d4fec68ddff7]. |  
+2016-10-03 22:43:33.7553 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sonos ODK], id [4c89a2bf-1dc9-4429-b211-cc0d8141de3b]. |  
+2016-10-03 22:43:33.7680 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Bathroom Sonos], id [6dfe2994-83de-4b22-9580-cb0b625d62fc]. |  
+2016-10-03 22:43:33.7807 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Sonos], id [8510cf26-fef9-44ab-beba-7ac1f173d8bb]. |  
+2016-10-03 22:43:33.8031 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Small Garage Door Lock], id [2e42f7b9-b5c3-4c4b-bd11-1252e23c790b]. |  
+2016-10-03 22:43:33.8148 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Main Garage Door Lock], id [2ea9366f-8885-4b5b-b3e0-46a815979fe8]. |  
+2016-10-03 22:43:33.8285 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Laundry Room Lock], id [67928ce2-e157-4637-b98d-37b030de01e7]. |  
+2016-10-03 22:43:33.8493 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Kitchen Lights], id [b56c8efa-5a1a-4fd4-bf0e-c0ae3d8235a7]. |  
+2016-10-03 22:43:33.8698 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Office Lights], id [267b1192-981b-4b71-a5bf-898bb7d7a1aa]. |  
+2016-10-03 22:43:33.8893 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Foyer Lights], id [60aa4ff4-e2c0-4342-929f-befa4f0911f0]. |  
+2016-10-03 22:43:33.9059 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[TV], id [0a0e68c6-848a-4270-b1f4-d8113640754b]. |  
+2016-10-03 22:43:33.9176 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Direct TV], id [dd131b88-1236-430a-b57b-11ad3770be30]. |  
+2016-10-03 22:43:33.9176 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Stairway Lights], id [2b44f25e-fbe8-4a36-9d56-3cb52449c853]. |  
+2016-10-03 22:43:33.9511 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Hallway Lights], id [60b2a047-a7f1-4278-a6ee-a2a6ccb742a8]. |  
+2016-10-03 22:43:33.9686 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [15] light(s) |  
+2016-10-03 23:50:16.4282 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-03 23:50:16.5041 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-03 23:50:16.5183 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-03 23:50:16.5364 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-03 23:50:16.5510 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-03 23:50:16.7248 | VeraHuesBridge.WebServer | INFO | New webserver initiated.  Using deviceConfig file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 23:50:16.7424 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-03 23:50:16.7580 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-03 23:50:16.7717 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-03 23:50:16.7829 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-03 23:50:16.9040 | VeraHuesBridge.Devices | INFO | Created Devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 23:50:16.9187 | VeraHuesBridge.Devices | INFO | Loading devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt], creating file if it does not exists [True]... |  
+2016-10-03 23:50:17.0261 | VeraHuesBridge.Utilities | INFO | Reading JSON file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]... |  
+2016-10-03 23:50:17.0500 | VeraHuesBridge.Devices | INFO | Loaded devices from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 23:50:17.0710 | VeraHuesBridge.Devices | INFO | Created [15] Device(s) from file [C:\Users\david\Source\Repos\NanoVeraHuesBridge\HomegenieTestApplication\bin\Debug\DeviceConfig.txt]. |  
+2016-10-03 23:50:17.0950 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [15] device(s) |  
+2016-10-03 23:50:17.1389 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-03 23:50:17.8015 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-03 23:50:18.1262 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 00:07:42.3667 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 00:07:42.4675 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 00:07:42.4851 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 00:07:42.5039 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 00:07:42.5166 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 00:07:42.6899 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 00:07:42.7026 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 00:07:42.7153 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 00:07:42.7290 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 00:07:42.8103 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 00:07:42.8347 | VeraHuesBridge.Devices | INFO | Created [4] Device(s) from object. |  
+2016-10-04 00:07:42.8493 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [4] device(s) |  
+2016-10-04 00:07:42.8926 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 00:07:43.1821 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 00:07:43.3437 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 00:08:35.0575 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 00:08:35.1573 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 00:08:35.1700 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 00:08:35.1847 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 00:08:35.1974 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 00:08:35.3976 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 00:08:35.4093 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 00:08:35.4195 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 00:08:35.4318 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 00:08:35.5340 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 00:08:35.5506 | VeraHuesBridge.Devices | INFO | Created [4] Device(s) from object. |  
+2016-10-04 00:08:49.6472 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [4] device(s) |  
+2016-10-04 00:08:49.6831 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 00:08:50.0271 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 00:08:50.2004 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 00:08:57.6214 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 00:08:57.7232 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 00:08:57.8308 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 00:08:57.9326 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 00:08:59.2493 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 00:08:59.2493 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 00:08:59.2649 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 00:08:59.2757 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 00:08:59.6097 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 00:08:59.6097 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 00:08:59.9200 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 00:08:59.9200 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 00:09:00.0286 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [18fc5297-1169-4d72-ab11-bc8100d19809]. |  
+2016-10-04 00:09:00.0286 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [18fc5297-1169-4d72-ab11-bc8100d19809]. |  
+2016-10-04 00:09:00.0501 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [48a0daa4-1a1d-4e01-8728-d38d442b56e1]. |  
+2016-10-04 00:09:00.0628 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [48a0daa4-1a1d-4e01-8728-d38d442b56e1]. |  
+2016-10-04 00:09:00.0828 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [621cc0fc-897a-4e99-857b-059abb879d77]. |  
+2016-10-04 00:09:00.0933 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [621cc0fc-897a-4e99-857b-059abb879d77]. |  
+2016-10-04 00:09:00.1079 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [2cc7b39a-4b1e-47f1-acec-51ebe390163c]. |  
+2016-10-04 00:09:00.1197 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [2cc7b39a-4b1e-47f1-acec-51ebe390163c]. |  
+2016-10-04 00:09:00.1197 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [4] light(s) |  
+2016-10-04 00:09:00.1431 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [4] light(s) |  
+2016-10-04 00:10:37.5679 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 00:10:37.6697 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 00:10:37.7754 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 00:10:37.8762 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 00:10:38.0244 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 00:10:38.0339 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 00:10:38.0456 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 00:10:38.0456 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 00:10:38.0603 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 00:10:38.0456 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 00:10:38.0827 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 00:10:38.1072 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 00:10:38.4302 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 00:10:38.4333 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 00:10:38.4333 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 00:10:38.4333 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 00:10:38.7312 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 00:10:38.7312 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 00:10:38.7312 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 00:10:38.7485 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [18fc5297-1169-4d72-ab11-bc8100d19809]. |  
+2016-10-04 00:10:38.7485 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 00:10:38.7612 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [18fc5297-1169-4d72-ab11-bc8100d19809]. |  
+2016-10-04 00:10:38.7612 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [18fc5297-1169-4d72-ab11-bc8100d19809]. |  
+2016-10-04 00:10:38.7808 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [48a0daa4-1a1d-4e01-8728-d38d442b56e1]. |  
+2016-10-04 00:10:38.7915 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [18fc5297-1169-4d72-ab11-bc8100d19809]. |  
+2016-10-04 00:10:38.7915 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [48a0daa4-1a1d-4e01-8728-d38d442b56e1]. |  
+2016-10-04 00:10:38.8183 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [48a0daa4-1a1d-4e01-8728-d38d442b56e1]. |  
+2016-10-04 00:10:38.8320 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [621cc0fc-897a-4e99-857b-059abb879d77]. |  
+2016-10-04 00:10:38.8435 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [48a0daa4-1a1d-4e01-8728-d38d442b56e1]. |  
+2016-10-04 00:10:38.8572 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [621cc0fc-897a-4e99-857b-059abb879d77]. |  
+2016-10-04 00:10:38.8708 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [621cc0fc-897a-4e99-857b-059abb879d77]. |  
+2016-10-04 00:10:38.8953 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [2cc7b39a-4b1e-47f1-acec-51ebe390163c]. |  
+2016-10-04 00:10:38.8953 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [621cc0fc-897a-4e99-857b-059abb879d77]. |  
+2016-10-04 00:10:38.9138 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [2cc7b39a-4b1e-47f1-acec-51ebe390163c]. |  
+2016-10-04 00:10:38.9270 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [2cc7b39a-4b1e-47f1-acec-51ebe390163c]. |  
+2016-10-04 00:10:38.9385 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [4] light(s) |  
+2016-10-04 00:10:38.9512 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [2cc7b39a-4b1e-47f1-acec-51ebe390163c]. |  
+2016-10-04 00:10:38.9629 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [4] light(s) |  
+2016-10-04 00:10:38.9629 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [4] light(s) |  
+2016-10-04 00:10:38.9990 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [4] light(s) |  
+2016-10-04 00:10:45.3741 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 00:10:45.3907 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 17:39:54.2913 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 17:39:54.3435 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 17:39:54.3591 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 17:39:54.3747 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 17:39:54.3747 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 17:39:54.4472 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 17:39:54.4629 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 17:39:54.4629 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 17:39:54.4629 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 17:39:54.4785 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 17:39:54.4785 | VeraHuesBridge.Devices | INFO | Created [4] Device(s) from object. |  
+2016-10-04 17:39:54.4785 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [4] device(s) |  
+2016-10-04 17:39:54.5437 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 17:39:55.0110 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 17:39:55.2258 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 17:40:41.1023 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 17:40:41.1106 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 18:01:07.0755 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 18:01:07.1844 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 18:01:07.1844 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 18:01:07.1844 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 18:01:07.1985 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 18:01:07.3235 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 18:01:07.3235 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 18:01:07.3235 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 18:01:07.3235 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 18:01:07.3387 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 18:01:07.3387 | VeraHuesBridge.Devices | INFO | Created [5] Device(s) from object. |  
+2016-10-04 18:01:07.3577 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [5] device(s) |  
+2016-10-04 18:01:07.4983 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 18:01:07.9148 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 18:01:08.1321 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 18:07:25.5906 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 18:07:25.7269 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 18:07:25.7312 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 18:07:25.7312 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 18:07:25.7312 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 18:07:25.8694 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 18:07:25.8694 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 18:07:25.8694 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 18:07:25.8851 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 18:07:25.8851 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 18:07:25.8851 | VeraHuesBridge.Devices | INFO | Created [5] Device(s) from object. |  
+2016-10-04 18:07:25.9031 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [5] device(s) |  
+2016-10-04 18:07:26.1409 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 18:07:26.8045 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 18:07:27.1273 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 18:08:40.9758 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 18:08:40.9939 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 18:21:29.9990 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 18:21:30.0725 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 18:21:30.0725 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 18:21:30.0725 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 18:21:30.0725 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 18:21:30.1531 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 18:21:30.1531 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 18:21:30.1672 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 18:21:30.1672 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 18:21:30.1672 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 18:21:30.1834 | VeraHuesBridge.Devices | INFO | Created [5] Device(s) from object. |  
+2016-10-04 18:21:30.1834 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [5] device(s) |  
+2016-10-04 18:21:30.2227 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 18:21:30.4448 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 18:21:30.6162 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 18:23:16.3069 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 18:23:16.4251 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 18:23:16.4251 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 18:23:16.4358 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 18:23:16.4358 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 18:23:16.6106 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 18:23:16.6341 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 18:23:16.6360 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 18:23:16.6360 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 18:23:16.6360 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 18:23:16.6521 | VeraHuesBridge.Devices | INFO | Created [5] Device(s) from object. |  
+2016-10-04 18:23:16.6521 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [5] device(s) |  
+2016-10-04 18:23:16.8631 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 18:23:17.6902 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 18:23:17.9729 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 18:26:12.5942 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 18:26:13.0176 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 18:26:13.0664 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 18:26:13.1562 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 18:26:13.4057 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 18:26:13.7480 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 18:26:13.7700 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 18:26:13.7700 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 18:26:13.7803 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 18:26:13.7910 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 18:26:13.7910 | VeraHuesBridge.Devices | INFO | Created [5] Device(s) from object. |  
+2016-10-04 18:26:13.7910 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [5] device(s) |  
+2016-10-04 18:26:13.9092 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 18:26:15.2905 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 18:26:15.5635 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 18:28:39.9320 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 18:28:39.9964 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 18:28:39.9964 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 18:28:39.9964 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 18:28:40.0174 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 18:28:40.1830 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 18:28:40.1830 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 18:28:40.1830 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 18:28:40.1830 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 18:28:40.1976 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 18:28:40.1976 | VeraHuesBridge.Devices | INFO | Created [6] Device(s) from object. |  
+2016-10-04 18:28:40.1976 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [6] device(s) |  
+2016-10-04 18:28:40.2875 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 18:28:40.5323 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 18:28:40.7008 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 18:56:27.7833 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:56:27.8831 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:56:27.9986 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:56:28.0985 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:57:49.8549 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:57:49.9547 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:57:50.0702 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:57:50.1651 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:58:27.0089 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:58:27.1315 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:58:27.2402 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:58:27.3400 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 18:58:28.6225 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 18:58:28.6225 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 18:58:28.6381 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 18:58:28.6381 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 18:58:28.8909 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 18:58:28.8909 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 18:58:29.1827 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 18:58:29.1827 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 18:58:29.1827 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Test], id [a777cdd6-91f8-43b7-b8ad-d3ca45623275]. |  
+2016-10-04 18:58:29.1827 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Test], id [a777cdd6-91f8-43b7-b8ad-d3ca45623275]. |  
+2016-10-04 18:58:29.2064 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [21d2f510-379e-4431-bbe6-328399b3f66a]. |  
+2016-10-04 18:58:29.2064 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [21d2f510-379e-4431-bbe6-328399b3f66a]. |  
+2016-10-04 18:58:29.2064 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [f2a1b6bc-7a99-453f-b26e-f9a4c66824db]. |  
+2016-10-04 18:58:29.2064 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [f2a1b6bc-7a99-453f-b26e-f9a4c66824db]. |  
+2016-10-04 18:58:29.2220 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [ae9caae2-0132-4e1b-a0fd-48aa2779db59]. |  
+2016-10-04 18:58:29.2220 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [ae9caae2-0132-4e1b-a0fd-48aa2779db59]. |  
+2016-10-04 18:58:29.2220 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [604de7fd-dac7-4d6c-86b6-ae7327c8ba6d]. |  
+2016-10-04 18:58:29.2376 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [604de7fd-dac7-4d6c-86b6-ae7327c8ba6d]. |  
+2016-10-04 18:58:29.2376 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [a7b55509-0f5d-42c9-897c-92faf70dad97]. |  
+2016-10-04 18:58:29.2376 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [a7b55509-0f5d-42c9-897c-92faf70dad97]. |  
+2016-10-04 18:58:29.2376 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [6] light(s) |  
+2016-10-04 18:58:29.2532 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [6] light(s) |  
+2016-10-04 18:59:18.7569 | VeraHuesBridge.LightsController | INFO | LightsController PUT called. Updating light with ida777cdd6-91f8-43b7-b8ad-d3ca45623275]... |  
+2016-10-04 18:59:18.7569 | VeraHuesBridge.Devices | INFO | Finding device with id [a777cdd6-91f8-43b7-b8ad-d3ca45623275]... |  
+2016-10-04 18:59:18.7569 | VeraHuesBridge.Devices | INFO | Found device named [Test] with id [a777cdd6-91f8-43b7-b8ad-d3ca45623275]. |  
+2016-10-04 18:59:18.7825 | VeraHuesBridge.LightsController | INFO | Replacing IntensityValue... |  
+2016-10-04 18:59:18.7825 | VeraHuesBridge.LightsController | INFO | DeviceState was on but brightness value was zero. Setting to default brightness. |  
+2016-10-04 18:59:18.7825 | VeraHuesBridge.LightsController | INFO | Replacing IntensityValue... |  
+2016-10-04 18:59:18.7982 | VeraHuesBridge.LightsController | INFO | DeviceState was on but brightness value was zero. Setting to default brightness. |  
+2016-10-04 18:59:18.7982 | VeraHuesBridge.LightsController | INFO | Empty request. No intensity value to replace. |  
+2016-10-04 18:59:18.8138 | VeraHuesBridge.Utilities | INFO | Performing HTTPRequest URL:[http://192.168.0.47/api/HomeAutomation.Testing/1/On], Method: [], ContentType: [], Body: [] |  
+2016-10-04 18:59:18.8668 | VeraHuesBridge.Utilities | INFO | HTTPRequest returned with StatusCode [OK] and ReasonPhrase [OK], |  
+2016-10-04 18:59:18.8668 | VeraHuesBridge.LightsController | INFO | LightsController PUT: Successfully updated state of device via HTTP request. |  
+2016-10-04 18:59:18.9823 | VeraHuesBridge.LightsController | INFO | LightsController called (// GET  api/{userId}/lights/{id}) Retrieving light with id[a777cdd6-91f8-43b7-b8ad-d3ca45623275]... |  
+2016-10-04 18:59:18.9979 | VeraHuesBridge.Devices | INFO | Finding device with id [a777cdd6-91f8-43b7-b8ad-d3ca45623275]... |  
+2016-10-04 18:59:18.9979 | VeraHuesBridge.Devices | INFO | Found device named [Test] with id [a777cdd6-91f8-43b7-b8ad-d3ca45623275]. |  
+2016-10-04 18:59:18.9979 | VeraHuesBridge.LightsController | INFO | LightsController GET: Returned DeviceResponse for device named[Test], with id [a777cdd6-91f8-43b7-b8ad-d3ca45623275] |  
+2016-10-04 18:59:18.9979 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Test], id [a777cdd6-91f8-43b7-b8ad-d3ca45623275]. |  
+2016-10-04 19:11:34.9719 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 19:11:35.0554 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 19:11:35.1455 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 19:11:35.2680 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 19:11:35.4237 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 19:11:35.4383 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 19:11:35.4383 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 19:11:35.4451 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 19:11:35.4383 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 19:11:35.4771 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 19:11:35.4927 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 19:11:35.5084 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 19:11:35.8712 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 19:11:35.9152 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 19:11:35.9152 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 19:11:35.9152 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 19:11:36.1927 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 19:11:36.2288 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Test], id [a777cdd6-91f8-43b7-b8ad-d3ca45623275]. |  
+2016-10-04 19:11:36.2288 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 19:11:36.2288 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [21d2f510-379e-4431-bbe6-328399b3f66a]. |  
+2016-10-04 19:11:36.2415 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Test], id [a777cdd6-91f8-43b7-b8ad-d3ca45623275]. |  
+2016-10-04 19:11:36.2415 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [f2a1b6bc-7a99-453f-b26e-f9a4c66824db]. |  
+2016-10-04 19:11:36.2557 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [21d2f510-379e-4431-bbe6-328399b3f66a]. |  
+2016-10-04 19:11:36.2557 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [ae9caae2-0132-4e1b-a0fd-48aa2779db59]. |  
+2016-10-04 19:11:36.2557 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 19:11:36.2716 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 19:11:36.2716 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [f2a1b6bc-7a99-453f-b26e-f9a4c66824db]. |  
+2016-10-04 19:11:36.2716 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [604de7fd-dac7-4d6c-86b6-ae7327c8ba6d]. |  
+2016-10-04 19:11:36.2872 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Test], id [a777cdd6-91f8-43b7-b8ad-d3ca45623275]. |  
+2016-10-04 19:11:36.2872 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Test], id [a777cdd6-91f8-43b7-b8ad-d3ca45623275]. |  
+2016-10-04 19:11:36.3028 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [a7b55509-0f5d-42c9-897c-92faf70dad97]. |  
+2016-10-04 19:11:36.2872 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [ae9caae2-0132-4e1b-a0fd-48aa2779db59]. |  
+2016-10-04 19:11:36.3028 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [21d2f510-379e-4431-bbe6-328399b3f66a]. |  
+2016-10-04 19:11:36.3028 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Alarm Panel], id [21d2f510-379e-4431-bbe6-328399b3f66a]. |  
+2016-10-04 19:11:36.3184 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [604de7fd-dac7-4d6c-86b6-ae7327c8ba6d]. |  
+2016-10-04 19:11:36.3184 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [6] light(s) |  
+2016-10-04 19:11:36.3341 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [f2a1b6bc-7a99-453f-b26e-f9a4c66824db]. |  
+2016-10-04 19:11:36.3565 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[David's Phone], id [f2a1b6bc-7a99-453f-b26e-f9a4c66824db]. |  
+2016-10-04 19:11:36.3565 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [ae9caae2-0132-4e1b-a0fd-48aa2779db59]. |  
+2016-10-04 19:11:36.3565 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [a7b55509-0f5d-42c9-897c-92faf70dad97]. |  
+2016-10-04 19:11:36.3714 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Sarah's Phone], id [ae9caae2-0132-4e1b-a0fd-48aa2779db59]. |  
+2016-10-04 19:11:36.3714 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [6] light(s) |  
+2016-10-04 19:11:36.3870 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [604de7fd-dac7-4d6c-86b6-ae7327c8ba6d]. |  
+2016-10-04 19:11:36.3870 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [604de7fd-dac7-4d6c-86b6-ae7327c8ba6d]. |  
+2016-10-04 19:11:36.4862 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [a7b55509-0f5d-42c9-897c-92faf70dad97]. |  
+2016-10-04 19:11:36.4896 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Step Lights], id [a7b55509-0f5d-42c9-897c-92faf70dad97]. |  
+2016-10-04 19:11:36.5140 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [6] light(s) |  
+2016-10-04 19:11:36.5374 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [6] light(s) |  
+2016-10-04 20:13:13.3956 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 20:13:13.4585 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 20:13:13.4585 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 20:13:13.4756 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 20:13:13.4756 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 20:13:13.5533 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 20:13:13.5689 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 20:13:13.5689 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 20:13:13.5689 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 20:13:13.5835 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 20:13:13.5835 | VeraHuesBridge.Devices | INFO | Created [7] Device(s) from object. |  
+2016-10-04 20:13:13.6011 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [7] device(s) |  
+2016-10-04 20:13:13.6333 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 20:13:13.8880 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 20:13:14.0586 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:26:46.3655 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:26:46.4944 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:26:46.4944 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:26:46.5095 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:26:46.5095 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:26:46.6003 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 23:26:46.6003 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 23:26:46.6003 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 23:26:46.6003 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 23:26:46.6159 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:26:46.6438 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:26:46.6560 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:26:46.7063 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:26:47.0740 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:26:47.2883 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:27:28.9428 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:27:29.0114 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:27:29.0114 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:27:29.0114 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:27:29.0232 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:27:29.0837 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 23:27:29.0837 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 23:27:29.0837 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 23:27:29.0837 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 23:27:29.0988 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:27:29.0988 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:27:29.1169 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:27:29.1652 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:27:29.4016 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:27:29.5600 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:28:40.8915 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 23:28:40.9628 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 23:30:29.6306 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:30:29.6894 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:30:29.6943 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:30:29.6943 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:30:29.6943 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:30:29.7720 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 23:30:29.7883 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 23:30:29.7883 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 23:30:29.7883 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 23:30:29.7883 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:30:29.8069 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:30:29.8186 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:30:29.8660 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:30:30.1435 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:30:30.3079 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:32:35.6054 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:32:35.6806 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:32:35.6806 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:32:35.6806 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:32:35.6806 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:32:35.7739 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 23:32:35.7871 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 23:32:35.7871 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 23:32:35.7871 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 23:32:35.7871 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:32:35.8047 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:32:35.8047 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:32:35.8779 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:32:36.2514 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:32:36.4089 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:34:52.7095 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:34:52.8145 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:34:52.8184 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:34:52.8184 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:34:52.8184 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:34:52.9893 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 23:34:52.9893 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 23:34:52.9893 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 23:34:52.9893 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 23:34:53.0050 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:34:53.0050 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:34:53.0050 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:34:53.1046 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:34:53.6056 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:34:53.8619 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:35:22.1157 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:35:22.2251 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:35:22.2251 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:35:22.2251 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:35:22.2393 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:35:22.4278 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 23:35:22.4278 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 23:35:22.4278 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 23:35:22.4278 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 23:35:22.4278 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:35:22.4453 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:35:22.4453 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:35:22.5498 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:35:22.8731 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:35:23.0613 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:36:09.8037 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:36:09.9013 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:36:09.9013 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:36:09.9121 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:36:09.9121 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:36:10.0366 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 23:36:10.0366 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 23:36:10.0366 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 23:36:10.0366 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 23:36:10.0517 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:36:10.0517 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:36:10.0517 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:36:10.1264 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:36:10.5371 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:36:10.8505 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:36:28.3797 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:36:28.4803 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:36:28.4803 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:36:28.4803 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:36:28.4954 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:36:28.6351 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 23:36:28.6351 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 23:36:28.6463 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 23:36:28.6463 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 23:36:28.6463 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:36:28.6463 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:36:28.6463 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:36:28.8387 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:36:29.3553 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:36:29.6473 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:36:59.3640 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:36:59.4231 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:36:59.4270 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:36:59.4270 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:36:59.4270 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:36:59.5105 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 23:36:59.5105 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 23:36:59.5213 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 23:36:59.5213 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 23:36:59.5213 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:36:59.5213 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:36:59.5359 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:36:59.6599 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:37:00.3343 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:37:00.6004 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:38:40.4767 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 23:38:40.4909 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 23:38:49.0598 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 23:38:49.1611 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 23:38:49.2663 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 23:38:49.3662 | VeraHuesBridge.SSDPService | INFO | Sending SSDP setup information... |  
+2016-10-04 23:38:49.5054 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 23:38:49.5054 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 23:38:49.5210 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 23:38:49.5210 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 23:38:49.9052 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 23:38:49.9052 | VeraHuesBridge.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-04 23:38:50.2047 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 23:38:50.2047 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-04 23:38:50.2203 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Boiler Switch], id [eb552128-edf5-4667-9752-8549529b308f]. |  
+2016-10-04 23:38:50.2203 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Boiler Switch], id [eb552128-edf5-4667-9752-8549529b308f]. |  
+2016-10-04 23:38:50.2360 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Big Light], id [0f815d1e-335b-4ed6-87a6-c7a68a996f47]. |  
+2016-10-04 23:38:50.2360 | VeraHuesBridge.DeviceResponse | INFO | Creating a device response object with name[Big Light], id [0f815d1e-335b-4ed6-87a6-c7a68a996f47]. |  
+2016-10-04 23:38:50.2360 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [2] light(s) |  
+2016-10-04 23:38:50.2360 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [2] light(s) |  
+2016-10-04 23:46:43.8345 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:46:43.9199 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:46:43.9199 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:46:43.9282 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:46:43.9282 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:46:43.9927 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 23:46:43.9927 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 23:46:43.9927 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 23:46:44.0059 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 23:46:44.0059 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:46:44.0376 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:46:44.0376 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:46:44.2637 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:46:44.7778 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:46:45.0601 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:46:57.9581 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:46:58.0172 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:46:58.0211 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:46:58.0211 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:46:58.0211 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:46:58.0990 | VeraHuesBridge.WebServer | DEBUG | 192.168.0.176 |  
+2016-10-04 23:46:58.0990 | VeraHuesBridge.WebServer | DEBUG | 8080 |  
+2016-10-04 23:46:58.1146 | VeraHuesBridge.WebServer | DEBUG | aef85303-330a-4eab-b28d-038ac90416ab |  
+2016-10-04 23:46:58.1146 | VeraHuesBridge.WebServer | DEBUG | 200 |  
+2016-10-04 23:46:58.1146 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:46:58.1146 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:46:58.1146 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:46:58.1932 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:46:58.5074 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:46:58.6778 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:50:04.3041 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:50:04.3710 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:50:04.3710 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:50:04.3710 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:50:04.3812 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:50:04.4467 | VeraHuesBridge.WebServer | INFO | New webserver initiated. |  
+2016-10-04 23:50:04.4589 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:50:04.4589 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:50:04.4589 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:50:04.5004 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:50:04.7650 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:50:04.9808 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-04 23:50:40.7797 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-04 23:50:40.7872 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-04 23:51:35.8797 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-04 23:51:35.9822 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-04 23:51:35.9822 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-04 23:51:35.9900 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-04 23:51:35.9900 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-04 23:51:36.2083 | VeraHuesBridge.WebServer | INFO | New webserver initiated. |  
+2016-10-04 23:51:36.2083 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-04 23:51:36.2083 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-04 23:51:36.2083 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-04 23:51:36.3377 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-04 23:51:36.8015 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-04 23:51:37.0359 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-05 17:59:47.8328 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-05 17:59:47.9154 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-05 17:59:47.9154 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-05 17:59:47.9154 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-05 17:59:47.9286 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-05 17:59:48.0672 | VeraHuesBridge.WebServer | INFO | New webserver initiated. |  
+2016-10-05 17:59:48.0838 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-05 17:59:48.0838 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-05 17:59:48.0838 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-05 17:59:48.2953 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-05 17:59:49.0340 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-05 17:59:49.5374 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-05 18:00:44.6756 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-05 18:00:44.6785 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-05 18:01:44.0399 | VeraHuesBridge.LightsController | INFO | LightsController PUT called. Updating light with id0f815d1e-335b-4ed6-87a6-c7a68a996f47]... |  
+2016-10-05 18:01:44.0399 | VeraHuesBridge.Devices | INFO | Finding device with id [0f815d1e-335b-4ed6-87a6-c7a68a996f47]... |  
+2016-10-05 18:01:44.0574 | VeraHuesBridge.Devices | INFO | Found device named [Big Light] with id [0f815d1e-335b-4ed6-87a6-c7a68a996f47]. |  
+2016-10-05 18:01:44.0713 | VeraHuesBridge.LightsController | INFO | Replacing IntensityValue... |  
+2016-10-05 18:01:44.0713 | VeraHuesBridge.LightsController | INFO | DeviceState was on but brightness value was zero. Setting to default brightness. |  
+2016-10-05 18:01:44.0831 | VeraHuesBridge.LightsController | INFO | Replacing IntensityValue... |  
+2016-10-05 18:01:44.0831 | VeraHuesBridge.LightsController | INFO | DeviceState was on but brightness value was zero. Setting to default brightness. |  
+2016-10-05 18:01:44.0831 | VeraHuesBridge.LightsController | INFO | Empty request. No intensity value to replace. |  
+2016-10-05 18:01:44.1163 | VeraHuesBridge.Utilities | INFO | Performing HTTPRequest URL:[http://192.168.0.161/api/Testing/1/On], Method: [], ContentType: [], Body: [] |  
+2016-10-05 18:01:44.1866 | VeraHuesBridge.Utilities | INFO | HTTPRequest returned with StatusCode [OK] and ReasonPhrase [OK], |  
+2016-10-05 18:01:44.1954 | VeraHuesBridge.LightsController | INFO | LightsController PUT: Successfully updated state of device via HTTP request. |  
+2016-10-05 18:01:44.3143 | VeraHuesBridge.LightsController | INFO | LightsController called (// GET  api/{userId}/lights/{id}) Retrieving light with id[0f815d1e-335b-4ed6-87a6-c7a68a996f47]... |  
+2016-10-05 18:01:44.3309 | VeraHuesBridge.Devices | INFO | Finding device with id [0f815d1e-335b-4ed6-87a6-c7a68a996f47]... |  
+2016-10-05 18:01:44.3399 | VeraHuesBridge.Devices | INFO | Found device named [Big Light] with id [0f815d1e-335b-4ed6-87a6-c7a68a996f47]. |  
