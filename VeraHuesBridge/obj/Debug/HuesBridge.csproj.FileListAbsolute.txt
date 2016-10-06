@@ -1,3 +1,6 @@
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\obj\Debug\HuesBridge.csprojResolveAssemblyReference.cache
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\obj\Debug\VeraHuesBridge.dll
+C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\obj\Debug\VeraHuesBridge.pdb
 C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\bin\Debug\NLog.config
 C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\bin\Debug\VeraHuesBridge.dll.config
 C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\bin\Debug\VeraHuesBridge.dll
@@ -22,6 +25,3 @@ C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\bin\Debug\System.N
 C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\bin\Debug\System.Web.Http.xml
 C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\bin\Debug\System.Web.Http.Cors.xml
 C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\bin\Debug\System.Web.Http.Owin.xml
-C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\obj\Debug\VeraHuesBridge.dll
-C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\obj\Debug\VeraHuesBridge.pdb
-C:\Users\david\Source\Repos\NanoVeraHuesBridge\VeraHuesBridge\obj\Debug\VeraHuesBridge.csprojResolveAssemblyReference.cache

@@ -1,30 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace VeraHuesBridge
+namespace VeraHuesBridge.Devices
 {
     public class DeviceState {
-        public bool on {get; set;}
-        public int bri { get; set; } 
-        public int hue { get; set; }
-        public int sat { get; set; }
-        public String effect { get; set; }
-        public int ct { get; set; }
-        public String alert { get; set; }
-        public String colormode { get; set; }
-        public bool reachable { get; set; }
-        public List<Double> xy { get; set; }
+        public bool On {get; set;}
+        public int Bri { get; set; } 
+        public int Hue { get; set; }
+        public int Sat { get; set; }
+        public string Effect { get; set; }
+        public int Ct { get; set; }
+        public string Alert { get; set; }
+        public string Colormode { get; set; }
+        public bool Reachable { get; set; }
+        public List<Double> Xy { get; set; }
 
 
 
-        public override String ToString()
+        public override string ToString()
         {
             return "DeviceState{" +
-                    "on=" + on.ToString() +
-                    ", bri=" + bri.ToString() +
+                    "on=" + On +
+                    ", bri=" + Bri +
                     '}';
         }
     }

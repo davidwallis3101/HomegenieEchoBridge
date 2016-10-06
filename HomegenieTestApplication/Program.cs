@@ -1,64 +1,59 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.NetworkInformation;
 using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
+using NLog;
+using VeraHuesBridge.SSDP;
+using VeraHuesBridge.Webserver;
 
-
-namespace Test
+namespace HomegenieTestApplication
 {
-    class Program
+    internal class Program
     {
+        private static Logger _logger = LogManager.GetCurrentClassLogger();
 
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            VeraHuesBridge.SSDPService svcSSDP = null;
-            VeraHuesBridge.WebServer ws;
-            bool respondToSSDP = true;
 
-            var devices = HomegenieTestApplication.HgHelper.GetDevicesFromHG("192.168.0.161");
+            var apiIpaddress = "192.168.0.161";
+
+            _logger.Info("Connecting to Homegenie API [{0}]to discover valid devices");
+
+            var devices = HgHelper.GetDevicesFromHg(apiIpaddress);
+
+            _logger.Info("Starting SSDP service");
+
+            var svcSsdp = new SsdpService("239.255.255.250",
+                    1900,
+                    LocalIpAddress().ToString(),
+                    8080,
+                    "aef85303-330a-4eab-b28d-038ac90416ab");
+
+                svcSsdp.Start();
 
 
-            if (respondToSSDP)
-            {
-                svcSSDP = new VeraHuesBridge.SSDPService("239.255.255.250",
-                                                        1900,
-                                                        LocalIPAddress().ToString(),
-                                                        8080,
-                                                        "aef85303-330a-4eab-b28d-038ac90416ab");  //init on localIP
-
-                svcSSDP.Start();
-            }
-
-            string deviceConfigFile = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DeviceConfig.txt");
-            //ws = new VeraHuesBridge.WebServer(LocalIPAddress().ToString(),
-            //                                 8080,
-            //                                "aef85303-330a-4eab-b28d-038ac90416ab",
-            //                                200,
-            //                                deviceConfigFile);
-            ws = new VeraHuesBridge.WebServer(LocalIPAddress().ToString(),
-                                 8080,
-                                "aef85303-330a-4eab-b28d-038ac90416ab",
-                                200,
-                                devices);
+            _logger.Info("Starting Web Server");
+            var ws = new WebServer(LocalIpAddress().ToString(),
+                8080,
+                "aef85303-330a-4eab-b28d-038ac90416ab",
+                200,
+                devices);
 
             ws.Start();
 
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
-
         }
 
-        static private IPAddress LocalIPAddress()
+        private static IPAddress LocalIpAddress()
         {
-            if (!System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
+            if (!NetworkInterface.GetIsNetworkAvailable())
             {
                 return null;
             }
 
-            IPHostEntry host = Dns.GetHostEntry(Dns.GetHostName());
+            var host = Dns.GetHostEntry(Dns.GetHostName());
 
             return host
                 .AddressList

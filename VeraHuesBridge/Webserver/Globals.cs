@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace VeraHuesBridge
+﻿namespace VeraHuesBridge.Webserver
 {
     public static class Globals
     {
-        public static string IPAddress;
+        public static string IpAddress;
         public static int Port;
         public static string BaseAddress;
-        public static string UUID;
+        public static string Uuid;
         public static int DefaultIntensity;
 
         public static string DeviceConfigFile;
-        public static VeraHuesBridge.Devices DeviceList;
+        public static Devices.Devices DeviceList;
     }
 }

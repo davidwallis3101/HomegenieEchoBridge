@@ -1,25 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Owin;
-using System.Web.Http;
+﻿using System.Web.Http;
 using NLog;
+using Owin;
 
-namespace VeraHuesBridge
+namespace VeraHuesBridge.Webserver
 {
     public class WebServerStartup
     {
-        private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
         
         // This code configures Web API. The Startup class is specified as a type
         // parameter in the WebApp.Start method.
         public void Configuration(IAppBuilder appBuilder)
         {
             // Configure Web API for self-host. 
-            logger.Info("Webserver configuration initiated...");
-            HttpConfiguration config = new HttpConfiguration();
+            Logger.Info("Webserver configuration initiated...");
+            var config = new HttpConfiguration();
             config.EnableCors();
 
             config.Routes.MapHttpRoute(

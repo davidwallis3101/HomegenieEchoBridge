@@ -1,17 +1,7 @@
-# NanoVeraHuesBridge
-A C# version of a Philips Hues Bridge which allows Amazon Echo to speak to Vera and control lights, doors, stereos and more.
+# HomegenieEchoBridge
+This program connects to the Homegenie API and gets a list of modules and then populates the bridge code with these and the necessary urls to control these via the homegenie api
 
-Based on Armzilla's ecellent JAVA version, located at https://github.com/armzilla/amazon-echo-ha-bridge, this version is written in C# 
-and runs a bit leaner on Windows than the the JAVA heap does.  In our testing, memory usage goes from about 300mb down to 15mb.  
+Based on a fork of nanowebcoders c# port of Armzilla's JAVA version, located at https://github.com/nanowebcoder/NanoVeraHuesBridge and https://github.com/armzilla/amazon-echo-ha-bridge
 
-It also includes an installer, a native Windows service, and a Windows configuration application (while remaining backward compatible with the  web configurator from the original Armzilla project).
-
-It stores its configuration in a plain text file, which makes it easier to maintain and backup.
-
-Finally, it uses nLog for logging, and out of the box will write a rolling set of plain text log files, although nLog will allow practically any log file output needed.
-
-**Getting Started**  
-If you want to jump right in, the folder called Setup contains three files that will you get up and going right away.  The setup.exe will install the necessary files and the PDF entitled, Getting Started with Nano Vera Hues Bridge, will walk you through instllation and configuration.
-
-
+I have stripped back un-needed backwards compatibility and made it purely do what I need for my purposes at the moment.
 

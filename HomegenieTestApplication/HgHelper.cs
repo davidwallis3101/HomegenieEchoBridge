@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using HomegenieTestApplication.Api;
+using VeraHuesBridge.Devices;
+using NLog;
 
 namespace HomegenieTestApplication
 {
 
     static class HgHelper
     {
+        private static Logger _logger = LogManager.GetCurrentClassLogger();
 
-        public static List<VeraHuesBridge.Device> GetDevicesFromHG(string ipAddress)
+        public static List<Device> GetDevicesFromHg(string ipAddress)
         {
-            var api = new Api.ApiHelper();
+            var api = new ApiHelper();
 
             // Get available modules from HG
             var modules = api.GetModules(ipAddress);
@@ -26,26 +27,28 @@ namespace HomegenieTestApplication
 
         }
 
-        private static List<Api.Module> FilterModules(List<Api.Module> modules)
+        private static List<Module> FilterModules(List<Module> modules)
         {
             return modules.Where(module => (module.DeviceType == "Switch") || (module.DeviceType == "Light")).Where(module => module.Name.Length > 0).ToList();
         }
 
-        public static List<VeraHuesBridge.Device> GenerateOutput(List<Api.Module> modules, string ipAddress)
+        public static List<Device> GenerateOutput(List<Module> modules, string ipAddress)
         {
-            List<VeraHuesBridge.Device> deviceList = new List<VeraHuesBridge.Device>();
+            _logger.Info("Dynamically generating objects from Homegenie api");
+
+            var deviceList = new List<Device>();
 
             foreach (var module in modules)
             {
                 // create new module object
-                var newModule = new Api.Module();
+                var newModule = new Module();
 
-                var device = new VeraHuesBridge.Device
+                var device = new Device
                 {
-                    name = module.Name,
-                    offUrl = $"http://{ipAddress}/api/{module.Domain}/{module.Address}/Control.Off",
-                    onUrl = $"http://{ipAddress}/api/{module.Domain}/{module.Address}/Control.On",
-                    deviceType = "switch"
+                    Name = module.Name,
+                    OffUrl = $"http://{ipAddress}/api/{module.Domain}/{module.Address}/Control.Off",
+                    OnUrl = $"http://{ipAddress}/api/{module.Domain}/{module.Address}/Control.On",
+                    DeviceType = "switch"
                 };
 
                 
@@ -63,9 +66,9 @@ namespace HomegenieTestApplication
                     // Check guid is valid
                     if (IsGuidValid(property.Value))
                     {
-                        Console.WriteLine("Valid Guid found for module {0}, property Name: {1}",module.Name, property.Name);
-                        // set the gateway id to that of the module
-                        device.id = property.Value;
+                        _logger.Info("Valid Guid found for module {0}",module.Name);
+                        // set the gateways device id to that of the module
+                        device.Id = property.Value;
                     }
                     else // invalid guid
                     {
@@ -74,12 +77,12 @@ namespace HomegenieTestApplication
                         foreach (var moduleProperty in newModule.Properties.Where(moduleProperty => moduleProperty.Name == "Module.GUID"))
                         {
                             var newGuid = Guid.NewGuid().ToString();
-                            Console.WriteLine("GUID Property found with invalid data, Creating new guid {0} and updating property on module {1}", newGuid, module.Name);
+                            _logger.Warn("GUID Property found with invalid data, Creating new guid {0} and updating property on module {1}", newGuid, module.Name);
                             moduleProperty.Value = newGuid;
                             moduleProperty.NeedsUpdate = true;
                             moduleProperty.UpdateTime = DateTime.UtcNow.ToString();
 
-                            device.id = property.Value;
+                            device.Id = property.Value;
                             updateNeeded = true;
                             
                         }
@@ -89,17 +92,17 @@ namespace HomegenieTestApplication
 
                 if (!found) // didnt find an existing property
                 {
-                    Console.WriteLine(
+                    _logger.Warn(
                         "Existing GUID Property not Found, Creating new guid and adding property to the module {0}",
                         module.Name);
 
                     var newGuid = Guid.NewGuid().ToString();
 
                     // Set the guid for the device
-                    device.id = newGuid;
+                    device.Id = newGuid;
 
                     //new property
-                    var moduleGuidProperty = new Api.ModuleProperties
+                    var moduleGuidProperty = new ModuleProperties
                     {
                         Name = "Module.GUID",
                         Value = newGuid,
@@ -125,11 +128,11 @@ namespace HomegenieTestApplication
                
                     if (apiHelper.UpdateModule(ipAddress, newModule))
                     {
-                        Console.WriteLine("Updated module {0}",module.Name);
+                        _logger.Debug("Updated module {0} via Homegenie API", module.Name);
                     }
                     else
                     {
-                        Console.WriteLine("Failed to update module {0}", module.Name);
+                        _logger.Error("Failed to update module {0} via Homegenie API", module.Name);
                     }
                     
                 }

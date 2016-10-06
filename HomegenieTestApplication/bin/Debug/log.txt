@@ -246,3 +246,157 @@
 2016-10-06 08:06:42.4704 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
 2016-10-06 08:20:46.4046 | VeraHuesBridge.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
 2016-10-06 08:20:46.4246 | VeraHuesBridge.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-06 08:55:57.5660 | VeraHuesBridge.SSDPService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-06 08:55:57.6363 | VeraHuesBridge.SSDPService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-06 08:55:57.6363 | VeraHuesBridge.SSDPService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-06 08:55:57.6461 | VeraHuesBridge.SSDPService | INFO | Starting Multicast Receiver... |  
+2016-10-06 08:55:57.6461 | VeraHuesBridge.SSDPService | INFO | SSDP Service started. |  
+2016-10-06 08:55:57.7264 | VeraHuesBridge.WebServer | INFO | New webserver initiated. |  
+2016-10-06 08:55:57.7381 | VeraHuesBridge.Devices | INFO | Created Devices from object |  
+2016-10-06 08:55:57.7381 | VeraHuesBridge.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-06 08:55:57.7381 | VeraHuesBridge.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-06 08:55:57.7816 | VeraHuesBridge.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-06 08:55:58.0746 | VeraHuesBridge.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-06 08:55:58.2630 | VeraHuesBridge.WebServer | INFO | Webserver started. |  
+2016-10-06 09:17:03.6611 | VeraHuesBridge.SSDP.SsdpService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:17:03.7529 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-06 09:17:03.7529 | VeraHuesBridge.SSDP.SsdpService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-06 09:17:03.7529 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting Multicast Receiver... |  
+2016-10-06 09:17:03.7695 | VeraHuesBridge.SSDP.SsdpService | INFO | SSDP Service started. |  
+2016-10-06 09:17:03.8378 | VeraHuesBridge.Webserver.WebServer | INFO | New webserver initiated. |  
+2016-10-06 09:17:03.8491 | VeraHuesBridge.Devices.Devices | INFO | Created Devices from object |  
+2016-10-06 09:17:03.8491 | VeraHuesBridge.Devices.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-06 09:17:03.8491 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-06 09:17:03.8852 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-06 09:17:04.1762 | VeraHuesBridge.Webserver.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-06 09:17:04.3818 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver started. |  
+2016-10-06 09:18:18.3001 | VeraHuesBridge.SSDP.SsdpService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:18:18.4036 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-06 09:18:18.4036 | VeraHuesBridge.SSDP.SsdpService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-06 09:18:18.4119 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting Multicast Receiver... |  
+2016-10-06 09:18:18.4119 | VeraHuesBridge.SSDP.SsdpService | INFO | SSDP Service started. |  
+2016-10-06 09:18:18.5033 | VeraHuesBridge.Webserver.WebServer | INFO | New webserver initiated. |  
+2016-10-06 09:18:18.5033 | VeraHuesBridge.Devices.Devices | INFO | Created Devices from object |  
+2016-10-06 09:18:18.5033 | VeraHuesBridge.Devices.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-06 09:18:18.5208 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-06 09:18:18.5785 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-06 09:18:18.8641 | VeraHuesBridge.Webserver.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-06 09:18:19.1219 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver started. |  
+2016-10-06 09:18:44.2268 | VeraHuesBridge.Controllers.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-06 09:18:44.2483 | VeraHuesBridge.Controllers.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-06 09:21:54.7693 | VeraHuesBridge.SSDP.SsdpService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:21:54.8601 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900]... |  
+2016-10-06 09:21:54.8635 | VeraHuesBridge.SSDP.SsdpService | INFO | Joining multicast group on IP [192.168.0.176]... |  
+2016-10-06 09:21:54.8635 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting Multicast Receiver... |  
+2016-10-06 09:21:54.8635 | VeraHuesBridge.SSDP.SsdpService | INFO | SSDP Service started. |  
+2016-10-06 09:21:54.9338 | VeraHuesBridge.Webserver.WebServer | INFO | New webserver initiated. |  
+2016-10-06 09:21:54.9431 | VeraHuesBridge.Devices.Devices | INFO | Created Devices from object |  
+2016-10-06 09:21:54.9431 | VeraHuesBridge.Devices.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-06 09:21:54.9431 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver created.  DeviceConfig holds [2] device(s) |  
+2016-10-06 09:21:55.0031 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-06 09:21:55.3340 | VeraHuesBridge.Webserver.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-06 09:21:55.6037 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver started. |  
+2016-10-06 09:31:45.1192 | HomegenieTestApplication.HgHelper | INFO | Dynamically generating objects from Homegenie api |  
+2016-10-06 09:31:45.1837 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Boiler Switch, property Name: Module.GUID |  
+2016-10-06 09:31:45.1920 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Big Light, property Name: Module.GUID |  
+2016-10-06 09:31:45.2755 | VeraHuesBridge.SSDP.SsdpService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:31:45.2857 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:31:45.2857 | VeraHuesBridge.SSDP.SsdpService | INFO | Joining multicast group on IP [192.168.0.176] |  
+2016-10-06 09:31:45.2857 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting Multicast Receiver |  
+2016-10-06 09:31:45.2857 | VeraHuesBridge.SSDP.SsdpService | INFO | SSDP Service started. |  
+2016-10-06 09:31:45.3653 | VeraHuesBridge.Devices.Devices | INFO | Created Devices from object |  
+2016-10-06 09:31:45.3653 | VeraHuesBridge.Devices.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-06 09:31:45.3805 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver created. Config holds [2] device(s) |  
+2016-10-06 09:31:45.4347 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-06 09:31:45.8114 | VeraHuesBridge.Webserver.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-06 09:31:45.9791 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver started |  
+2016-10-06 09:31:55.5897 | VeraHuesBridge.SSDP.SsdpService | INFO | Sending SSDP setup information... |  
+2016-10-06 09:31:55.6906 | VeraHuesBridge.SSDP.SsdpService | INFO | Sending SSDP setup information... |  
+2016-10-06 09:31:55.7973 | VeraHuesBridge.SSDP.SsdpService | INFO | Sending SSDP setup information... |  
+2016-10-06 09:31:55.8991 | VeraHuesBridge.SSDP.SsdpService | INFO | Sending SSDP setup information... |  
+2016-10-06 09:31:57.2682 | VeraHuesBridge.Controllers.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-06 09:31:57.2682 | VeraHuesBridge.Controllers.SetupController | INFO | SetupController GET called (// GET api/setup.xml) |  
+2016-10-06 09:31:57.2711 | VeraHuesBridge.Controllers.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-06 09:31:57.2711 | VeraHuesBridge.Controllers.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-06 09:31:57.4926 | VeraHuesBridge.Controllers.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-06 09:31:57.4926 | VeraHuesBridge.Controllers.LightsController | INFO | LightsController called. (// GET api/{userId}/lights)... |  
+2016-10-06 09:31:57.7118 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-06 09:31:57.7118 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) called with userid [yvtm39JT4agNur3VeJVTNBFhHQ9V6hXaaOcYGrW8] |  
+2016-10-06 09:31:57.7216 | VeraHuesBridge.Devices.DeviceResponse | INFO | Creating a device response object with name[Boiler Switch], id [eb552128-edf5-4667-9752-8549529b308f]. |  
+2016-10-06 09:31:57.7216 | VeraHuesBridge.Devices.DeviceResponse | INFO | Creating a device response object with name[Boiler Switch], id [eb552128-edf5-4667-9752-8549529b308f]. |  
+2016-10-06 09:31:57.7216 | VeraHuesBridge.Devices.DeviceResponse | INFO | Creating a device response object with name[Big Light], id [0f815d1e-335b-4ed6-87a6-c7a68a996f47]. |  
+2016-10-06 09:31:57.7431 | VeraHuesBridge.Devices.DeviceResponse | INFO | Creating a device response object with name[Big Light], id [0f815d1e-335b-4ed6-87a6-c7a68a996f47]. |  
+2016-10-06 09:31:57.7431 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [2] light(s) |  
+2016-10-06 09:31:57.7431 | VeraHuesBridge.Controllers.HueApiController | INFO | ApiController GET (api/userId) returned HueApi device with [2] light(s) |  
+2016-10-06 09:36:23.2477 | HomegenieTestApplication.HgHelper | INFO | Dynamically generating objects from Homegenie api |  
+2016-10-06 09:36:23.3717 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Boiler Switch, property Name: Module.GUID |  
+2016-10-06 09:36:23.3717 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Big Light, property Name: Module.GUID |  
+2016-10-06 09:36:23.5812 | VeraHuesBridge.SSDP.SsdpService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:36:23.5812 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:36:23.5982 | VeraHuesBridge.SSDP.SsdpService | INFO | Joining multicast group on IP [192.168.0.176] |  
+2016-10-06 09:36:23.5982 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting Multicast Receiver |  
+2016-10-06 09:36:23.5982 | VeraHuesBridge.SSDP.SsdpService | INFO | SSDP Service started. |  
+2016-10-06 09:36:23.7223 | VeraHuesBridge.Devices.Devices | INFO | Created Devices from object |  
+2016-10-06 09:36:23.7223 | VeraHuesBridge.Devices.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-06 09:36:23.7223 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver created. Config holds [2] device(s) |  
+2016-10-06 09:36:23.7897 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-06 09:36:24.0643 | VeraHuesBridge.Webserver.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-06 09:36:24.3321 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver started |  
+2016-10-06 09:37:21.7001 | HomegenieTestApplication.HgHelper | INFO | Dynamically generating objects from Homegenie api |  
+2016-10-06 09:37:21.7919 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Boiler Switch, property Name: Module.GUID |  
+2016-10-06 09:37:21.7919 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Big Light, property Name: Module.GUID |  
+2016-10-06 09:37:21.8944 | VeraHuesBridge.SSDP.SsdpService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:37:21.8944 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:37:21.9106 | VeraHuesBridge.SSDP.SsdpService | INFO | Joining multicast group on IP [192.168.0.176] |  
+2016-10-06 09:37:21.9106 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting Multicast Receiver |  
+2016-10-06 09:37:21.9106 | VeraHuesBridge.SSDP.SsdpService | INFO | SSDP Service started. |  
+2016-10-06 09:37:22.0033 | VeraHuesBridge.Devices.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-06 09:37:22.0033 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver created. Config holds [2] device(s) |  
+2016-10-06 09:37:22.0419 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-06 09:37:22.6007 | VeraHuesBridge.Webserver.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-06 09:37:22.8227 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver started |  
+2016-10-06 09:38:32.3743 | HomegenieTestApplication.HgHelper | INFO | Dynamically generating objects from Homegenie api |  
+2016-10-06 09:38:32.4666 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Boiler Switch |  
+2016-10-06 09:38:32.4666 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Big Light |  
+2016-10-06 09:38:32.6595 | VeraHuesBridge.SSDP.SsdpService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:38:32.6795 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:38:32.6795 | VeraHuesBridge.SSDP.SsdpService | INFO | Joining multicast group on IP [192.168.0.176] |  
+2016-10-06 09:38:32.6795 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting Multicast Receiver |  
+2016-10-06 09:38:32.6795 | VeraHuesBridge.SSDP.SsdpService | INFO | SSDP Service started. |  
+2016-10-06 09:38:32.8015 | VeraHuesBridge.Devices.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-06 09:38:32.8167 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver created. Config holds [2] device(s) |  
+2016-10-06 09:38:32.8704 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-06 09:38:33.1868 | VeraHuesBridge.Webserver.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-06 09:38:33.3660 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver started |  
+2016-10-06 09:38:44.2867 | VeraHuesBridge.Controllers.SetupController | INFO | SetupController (GET api/setup.xml) |  
+2016-10-06 09:38:44.2867 | VeraHuesBridge.Controllers.SetupController | INFO | SetupController GET returned hue template. |  
+2016-10-06 09:42:10.6914 | HomegenieTestApplication.Program | INFO | Connecting to Homegenie API [{0}]to discover valid devices |  
+2016-10-06 09:42:11.6574 | HomegenieTestApplication.HgHelper | INFO | Dynamically generating objects from Homegenie api |  
+2016-10-06 09:42:11.6775 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Boiler Switch |  
+2016-10-06 09:42:11.6775 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Big Light |  
+2016-10-06 09:42:11.7741 | VeraHuesBridge.SSDP.SsdpService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:42:11.7927 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:42:11.7927 | VeraHuesBridge.SSDP.SsdpService | INFO | Joining multicast group on IP [192.168.0.176] |  
+2016-10-06 09:42:11.7927 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting Multicast Receiver |  
+2016-10-06 09:42:11.8025 | VeraHuesBridge.SSDP.SsdpService | INFO | SSDP Service started. |  
+2016-10-06 09:42:11.8655 | VeraHuesBridge.Devices.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-06 09:42:11.8821 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver created. Config holds [2] device(s) |  
+2016-10-06 09:42:11.9079 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-06 09:42:12.2615 | VeraHuesBridge.Webserver.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-06 09:42:12.5383 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver started |  
+2016-10-06 09:43:09.8819 | HomegenieTestApplication.Program | INFO | Connecting to Homegenie API [{0}]to discover valid devices |  
+2016-10-06 09:43:10.5965 | HomegenieTestApplication.HgHelper | INFO | Dynamically generating objects from Homegenie api |  
+2016-10-06 09:43:10.6097 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Boiler Switch |  
+2016-10-06 09:43:10.6097 | HomegenieTestApplication.HgHelper | INFO | Valid Guid found for module Big Light |  
+2016-10-06 09:43:10.6145 | HomegenieTestApplication.Program | INFO | Starting SSDP service |  
+2016-10-06 09:43:10.7151 | VeraHuesBridge.SSDP.SsdpService | INFO | New SSDP Service initiated on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:43:10.7254 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting SSDP Service on IP [239.255.255.250], port [1900] |  
+2016-10-06 09:43:10.7254 | VeraHuesBridge.SSDP.SsdpService | INFO | Joining multicast group on IP [192.168.0.176] |  
+2016-10-06 09:43:10.7254 | VeraHuesBridge.SSDP.SsdpService | INFO | Starting Multicast Receiver |  
+2016-10-06 09:43:10.7254 | VeraHuesBridge.SSDP.SsdpService | INFO | SSDP Service started. |  
+2016-10-06 09:43:10.7254 | HomegenieTestApplication.Program | INFO | Starting Web Server |  
+2016-10-06 09:43:10.8001 | VeraHuesBridge.Devices.Devices | INFO | Created [2] Device(s) from object. |  
+2016-10-06 09:43:10.8001 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver created. Config holds [2] device(s) |  
+2016-10-06 09:43:10.8387 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver starting up, listening on http://192.168.0.176:8080/ |  
+2016-10-06 09:43:11.1678 | VeraHuesBridge.Webserver.WebServerStartup | INFO | Webserver configuration initiated... |  
+2016-10-06 09:43:11.5223 | VeraHuesBridge.Webserver.WebServer | INFO | Webserver started |  

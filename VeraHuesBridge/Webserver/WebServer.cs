@@ -1,53 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Owin.Hosting;
-using System.Net.Http;
-using Owin;
-using System.Web.Http;
 using NLog;
-namespace VeraHuesBridge
+using VeraHuesBridge.Devices;
+
+namespace VeraHuesBridge.Webserver
 {
-   public  class WebServer
+    public  class WebServer
     {
 
-       private static Logger logger = LogManager.GetCurrentClassLogger();
+       private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
         
-        private IDisposable webApplication;
+        private IDisposable _webApplication;
 
          public WebServer(){
-             logger.Info("New webserver initiated.");
+             Logger.Info("New webserver initiated");
          }
 
         public WebServer(string ipAddress, int port, string uuid, int defaultIntensity, List<Device>deviceObj)
         {
-            logger.Info("New webserver initiated.");
-            Globals.IPAddress = ipAddress;
+            Globals.IpAddress = ipAddress;
             Globals.Port = port;
-            Globals.BaseAddress = "http://" + Globals.IPAddress + ":" + Globals.Port + "/";
-            Globals.UUID = uuid;
+            Globals.BaseAddress = "http://" + Globals.IpAddress + ":" + Globals.Port + "/";
+            Globals.Uuid = uuid;
             Globals.DefaultIntensity = defaultIntensity;
 
-            Globals.DeviceList = new Devices(deviceObj);
-            logger.Info("Webserver created.  DeviceConfig holds [{0}] device(s)", Globals.DeviceList.Count());
+            Globals.DeviceList = new Devices.Devices(deviceObj);
+            Logger.Info("Webserver created. Config holds [{0}] device(s)", Globals.DeviceList.Count());
 
         }
 
 
         public void Start()
         {
-            logger.Info("Webserver starting up, listening on {0}", Globals.BaseAddress);
-            webApplication = WebApp.Start<WebServerStartup>(url: Globals.BaseAddress);
-            logger.Info("Webserver started.");
+            Logger.Info("Webserver starting up, listening on {0}", Globals.BaseAddress);
+            _webApplication = WebApp.Start<WebServerStartup>(url: Globals.BaseAddress);
+            Logger.Info("Webserver started");
         }
 
         public void Stop()
         {
-            logger.Info("Webserver stopping...");
-            webApplication.Dispose();
-            logger.Info("Webserver stopped.");
+            Logger.Info("Webserver stopping");
+            _webApplication.Dispose();
+            Logger.Info("Webserver stopped");
         }
   }
 }

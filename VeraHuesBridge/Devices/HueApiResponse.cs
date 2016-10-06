@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace VeraHuesBridge
+namespace VeraHuesBridge.Devices
 {
     public class HueApiResponse
     {
-            public Dictionary<string, DeviceResponse> lights {get; set;}
+            public Dictionary<string, DeviceResponse> Lights {get; set;}
     }
 }

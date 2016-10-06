@@ -1,48 +1,44 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace VeraHuesBridge
+namespace VeraHuesBridge.Devices
 {
     public class DeviceContainer
     {
-        public List<Device> content { get; set; }
-        public List<string> facets { get; set; }
-        public int totalElements { get; set; }
-        public int totalPages { get; set; }
-        public int size { get; set; }
-        public int number { get; set; }
-        public bool last { get; set; }
-        public int numberOfElements { get; set; }
-        public string sort { get; set; }
-        public bool first { get; set; }
+        public List<Device> Content { get; set; }
+        public List<string> Facets { get; set; }
+        public int TotalElements { get; set; }
+        public int TotalPages { get; set; }
+        public int Size { get; set; }
+        public int Number { get; set; }
+        public bool Last { get; set; }
+        public int NumberOfElements { get; set; }
+        public string Sort { get; set; }
+        public bool First { get; set; }
 
         public DeviceContainer()
         {
-            totalPages = 1;
-            last = true;
-            first = true;
-            number = 0;
-            totalElements = 0;
-            size = 0;
-            numberOfElements = 0;
-            facets = new List<string>();
+            TotalPages = 1;
+            Last = true;
+            First = true;
+            Number = 0;
+            TotalElements = 0;
+            Size = 0;
+            NumberOfElements = 0;
+            Facets = new List<string>();
         }
 
         public DeviceContainer(List<Device> devices)
         {
-            content = devices;
-            totalElements = devices.Count;
-            size = devices.Count;
-            numberOfElements = devices.Count;
+            Content = devices;
+            TotalElements = devices.Count;
+            Size = devices.Count;
+            NumberOfElements = devices.Count;
 
-            totalPages = 1;
-            last = true;
-            first = true;
-            number = 0;
-            facets = new List<string>();
+            TotalPages = 1;
+            Last = true;
+            First = true;
+            Number = 0;
+            Facets = new List<string>();
         }
 
     }

@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace VeraHuesBridge
+namespace VeraHuesBridge.Devices
 {
     public class Device
     {
@@ -16,7 +12,7 @@ namespace VeraHuesBridge
 
         private Guid _id; 
         
-        public string id
+        public string Id
         {
             get
             {
@@ -24,7 +20,7 @@ namespace VeraHuesBridge
             }
             set
             {
-                if (String.IsNullOrEmpty(value))
+                if (string.IsNullOrEmpty(value))
                 {
                     _id = Guid.NewGuid();
                 }
@@ -33,13 +29,13 @@ namespace VeraHuesBridge
                 }
             }
         }
-        public String name {get; set;}
-        public String deviceType {get; set;}
-        public String offUrl {get; set;}
-        public String onUrl {get; set;}
-        public String httpVerb {get; set;}
-        public String contentType{get; set;}
-        public String contentBody {get; set;}
+        public string Name {get; set;}
+        public string DeviceType {get; set;}
+        public string OffUrl {get; set;}
+        public string OnUrl {get; set;}
+        public string HttpVerb {get; set;}
+        public string ContentType {get; set;}
+        public string ContentBody {get; set;}
 
     
     

@@ -1,40 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.Net.NetworkInformation;
-using System.Net.Sockets;
-﻿using System.IO;
+using System.IO;
 using System.Xml.Serialization;
 using NLog;
-using System.Web.Http;
 using System.Net.Http;
-using System.Net;
 
 namespace VeraHuesBridge
 {
     public static class Utilities
     {
-        private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
         
-        public static string getRandomUUIDString()
+        public static string GetRandomUuidString()
         {
-            logger.Info("RandomUUIDString generated.");
+            Logger.Info("RandomUUIDString generated.");
             return Guid.NewGuid().ToString();
             //return "88f6698f-2c83-4393-bd03-cd54a9f8595"; // https://xkcd.com/221/
         }
 
 
-        public static bool MakeHttpRequest(String url, String httpVerb, String contentType, String body)
+        public static bool MakeHttpRequest(string url, string httpVerb, string contentType, string body)
         {
-            logger.Info("Performing HTTPRequest URL:[{0}], Method: [{1}], ContentType: [{2}], Body: [{3}]", url, httpVerb, contentType, body);
+            Logger.Info("Performing HTTPRequest URL:[{0}], Method: [{1}], ContentType: [{2}], Body: [{3}]", url, httpVerb, contentType, body);
 
             HttpResponseMessage response = null;
-            StringContent content = new StringContent(body, Encoding.UTF8, contentType);
-            if (String.IsNullOrEmpty(httpVerb)) httpVerb = "GET";
+            var content = new StringContent(body, Encoding.UTF8, contentType);
+            if (string.IsNullOrEmpty(httpVerb)) httpVerb = "GET";
 
-            using (HttpClient client = new HttpClient())
+            using (var client = new HttpClient())
             {
                 switch (httpVerb.ToUpper())
                 {
@@ -62,12 +55,12 @@ namespace VeraHuesBridge
                         }
                         break;
                     default:
-                        logger.Warn("Unsupported HTTPverb: " + httpVerb);
+                        Logger.Warn("Unsupported HTTPverb: " + httpVerb);
                         throw new ApplicationException("Unsupported HTTPverb: " + httpVerb);
                 }
 
             }
-            logger.Info("HTTPRequest returned with StatusCode [{0}] and ReasonPhrase [{1}],", response.StatusCode, response.ReasonPhrase);
+            Logger.Info("HTTPRequest returned with StatusCode [{0}] and ReasonPhrase [{1}],", response.StatusCode, response.ReasonPhrase);
             return response.IsSuccessStatusCode;
 
 
@@ -79,7 +72,7 @@ namespace VeraHuesBridge
 
         public static void WriteToXmlFile<T>(string filePath, T objectToWrite, bool append = false) where T : new()
         {
-            logger.Info("Writing XML file [{0}]...", filePath);
+            Logger.Info("Writing XML file [{0}]...", filePath);
             TextWriter writer = null;
             try
             {
@@ -107,7 +100,7 @@ namespace VeraHuesBridge
         //      XmlSerialization.WriteToXmlFile<List<People>>("C:\people.txt", people);
         public static T ReadFromXmlFile<T>(string filePath) where T : new()
         {
-            logger.Info("Reading XML file [{0}]...", filePath);
+            Logger.Info("Reading XML file [{0}]...", filePath);
             TextReader reader = null;
             try
             {
@@ -125,7 +118,7 @@ namespace VeraHuesBridge
 
         public static void WriteToJsonFile<T>(string filePath, T objectToWrite, bool append = false) where T : new()
         {
-            logger.Info("Writing JSON file [{0}]...", filePath);
+            Logger.Info("Writing JSON file [{0}]...", filePath);
             TextWriter writer = null;
             try
             {
@@ -149,7 +142,7 @@ namespace VeraHuesBridge
         /// <returns>Returns a new instance of the object read from the Json file.</returns>
         public static T ReadFromJsonFile<T>(string filePath) where T : new()
         {
-            logger.Info("Reading JSON file [{0}]...", filePath);
+            Logger.Info("Reading JSON file [{0}]...", filePath);
             TextReader reader = null;
             try
             {

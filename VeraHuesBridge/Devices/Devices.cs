@@ -1,24 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Serialization;
 using NLog;
 
-namespace VeraHuesBridge
+namespace VeraHuesBridge.Devices
 {
-    
+
     public class Devices
     {
-        private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
         private List<Device> _devices;
-        private string loadedFromFileName;
+        //private string _loadedFromFileName;
         public Devices()
         {
             //null constructor
-            logger.Info("New Devices created.");
+            Logger.Info("New Devices created.");
             _devices = new List<Device>();
         }
 
@@ -41,84 +37,80 @@ namespace VeraHuesBridge
 
         public Devices(List<Device> devices)
         {
-            logger.Info("Created Devices from object");
-            //null constructor
             _devices = devices;
-
-            logger.Info("Created [{0}] Device(s) from object.", _devices.Count.ToString());
-
+            Logger.Info("Created [{0}] Device(s) from object.", _devices.Count);
         }
 
         public Device FindById(string id)
         {
-            logger.Info("Finding device with id [{0}]...", id);
-            Device d = _devices.Find(x => x.id == id);
+            Logger.Info("Finding device with id [{0}]...", id);
+            var d = _devices.Find(x => x.Id == id);
             if (d==null)
             {
-                logger.Info("Could not find device with id [{0}].", id);
+                Logger.Info("Could not find device with id [{0}].", id);
             }
             else
             {
-                logger.Info("Found device named [{0}] with id [{1}].", d.name, d.id);
+                Logger.Info("Found device named [{0}] with id [{1}].", d.Name, d.Id);
             }
 
             return d;
         }
 
-        public bool RemoveById(string id)
-        {
-            logger.Info("Removing (by id) device with id [{0}]...", id);
-            Device d = _devices.Find(x => x.id == id);
-            if (d == null)
-            {
-                logger.Info("Could not remove (by id) Device with id [{0}]. Device not found.", id);
-                return false;
-            }
+        //public bool RemoveById(string id)
+        //{
+        //    Logger.Info("Removing (by id) device with id [{0}]...", id);
+        //    var d = _devices.Find(x => x.Id == id);
+        //    if (d == null)
+        //    {
+        //        Logger.Info("Could not remove (by id) Device with id [{0}]. Device not found.", id);
+        //        return false;
+        //    }
 
-            _devices.Remove(d);
-            Save();
-            logger.Info("Removed (by id) device with id [{0}].", id);
-            return true;
-        }
+        //    _devices.Remove(d);
+        //    Save();
+        //    Logger.Info("Removed (by id) device with id [{0}].", id);
+        //    return true;
+        //}
 
-        public bool Update(Device device)
-        {
-            logger.Info("Updating device with id [{0}]...", device.id);
-            Device d = FindById(device.id);
-            if (d == null)
-            {
-                logger.Info("Could not update Device with id []. Device not found.", device.id);
-                return false;
-            }
-            d.name = device.name;
-            d.offUrl = device.offUrl;
-            d.onUrl = device.onUrl;
-            d.httpVerb = device.httpVerb;
-            d.deviceType = device.deviceType;
-            d.contentBody = d.contentBody;
-            d.contentType = d.contentType;
+        //public bool Update(Device device)
+        //{
+        //    Logger.Info("Updating device with id [{0}]...", device.Id);
+        //    var d = FindById(device.Id);
+        //    if (d == null)
+        //    {
+        //        Logger.Info("Could not update Device with id [{0}]. Device not found.", device.Id);
+        //        return false;
+        //    }
+        //    d.Name = device.Name;
+        //    d.OffUrl = device.OffUrl;
+        //    d.OnUrl = device.OnUrl;
+        //    d.HttpVerb = device.HttpVerb;
+        //    d.DeviceType = device.DeviceType;
+        //    d.ContentBody = d.ContentBody;
+        //    d.ContentType = d.ContentType;
 
-            Save();
-            logger.Info("Updated device with id [{0}].", device.id);
-            return true;
+        //    Save();
+        //    Logger.Info("Updated device with id [{0}].", device.Id);
+        //    return true;
 
 
-        }
+        //}
         public void Add(Device device)
         {
-            logger.Info("Adding new device with id [{0}]...", device.id);
+            Logger.Info("Adding new device with id [{0}]...", device.Id);
             _devices.Add(device);
-             Save();
-             logger.Info("Added new device with id [{0}].", device.id);
+            //Save();
+            //Logger.Info("Added new device with id [{0}].", device.Id);
         }
 
-        public void Remove(Device device)
-        {
-            logger.Info("Removing device with id [{0}]...", device.id);
-            _devices.Remove(device);
-            Save();
-            logger.Info("Removed device with id [{0}].", device.id);
-        }
+        //public void Remove(Device device)
+        //{
+        //    Logger.Info("Removing device with id [{0}]...", device.Id);
+        //    _devices.Remove(device);
+        //    Save();
+        //    Logger.Info("Removed device with id [{0}].", device.Id);
+        //}
 
         public List<Device> List()
         {
@@ -127,55 +119,53 @@ namespace VeraHuesBridge
 
         public int Count()
         {
-            if (_devices == null) return 0;
-            return _devices.Count;
-
-        }
-       
-
-        public bool Load(string fileName, bool CreateIfNotExists=true)
-        {
-            logger.Info("Loading devices from file [{0}], creating file if it does not exists [{1}]...", fileName, CreateIfNotExists);
-            _devices= new List<Device>();
-
-            if (!System.IO.File.Exists(fileName)) //if it doesnt exist, lets create it
-            {
-                logger.Info("Creating file...");
-                Utilities.WriteToJsonFile<List<Device>>(fileName, _devices);
-            }
-
-            loadedFromFileName=fileName;
-
-
-
-            _devices = Utilities.ReadFromJsonFile<List<Device>>(fileName);
-            logger.Info("Loaded devices from file [{0}].", fileName);
-            return true;
+            return _devices == null ? 0 : _devices.Count;
         }
 
-        public bool Save(string fileName=null)
-        {
-            logger.Info("Saving devices to file [{0}]...", fileName);
-            string file;
-            if (String.IsNullOrEmpty(fileName))
-            {
-                file = loadedFromFileName;
-            }
-            else
-            {
-                file = fileName;
-            }
 
-            if (String.IsNullOrEmpty(file))
-            {
-                logger.Warn("Cannot save device configuration without providing filename first.");
-                throw new ApplicationException("Cannot save device configuration without providing filename first.");
-            }
+        //public bool Load(string fileName, bool createIfNotExists=true)
+        //{
+        //    Logger.Info("Loading devices from file [{0}], creating file if it does not exists [{1}]...", fileName, createIfNotExists);
+        //    _devices= new List<Device>();
 
-            Utilities.WriteToJsonFile<List<Device>>(file, _devices);
-            logger.Info("Saved devices to file [{0}].", fileName);
-            return true;
-        }
+        //    if (!System.IO.File.Exists(fileName)) //if it doesnt exist, lets create it
+        //    {
+        //        Logger.Info("Creating file...");
+        //        Utilities.WriteToJsonFile(fileName, _devices);
+        //    }
+
+        //    _loadedFromFileName=fileName;
+
+
+
+        //    _devices = Utilities.ReadFromJsonFile<List<Device>>(fileName);
+        //    Logger.Info("Loaded devices from file [{0}].", fileName);
+        //    return true;
+        //}
+
+        //public bool Save(string fileName=null)
+        //{
+        //    Logger.Info("Saving devices to file [{0}]...", fileName);
+        //    string file;
+        //    if (string.IsNullOrEmpty(fileName))
+        //    {
+        //        file = _loadedFromFileName;
+        //    }
+        //    else
+        //    {
+        //        file = fileName;
+        //    }
+
+        //    if (string.IsNullOrEmpty(file))
+        //    {
+        //        Logger.Warn("Cannot save device configuration without providing filename first.");
+        //        throw new ApplicationException("Cannot save device configuration without providing filename first.");
+        //    }
+
+        //    Utilities.WriteToJsonFile<List<Device>>(file, _devices);
+        //    Logger.Info("Saved devices to file [{0}].", fileName);
+        //    return true;
+        //}
 
         public bool Contains(Device device)
         {

@@ -1,40 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Net.Http;
 using System.Text;
-using System.Threading.Tasks;
 using System.Web.Http;
-using System.Net.Http;
-using NLog;
 using System.Web.Http.Cors;
+using NLog;
+using VeraHuesBridge.Webserver;
 
-namespace VeraHuesBridge
+namespace VeraHuesBridge.Controllers
 {
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class SetupController : ApiController
     {
         // GET api/setup
-        private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
         public HttpResponseMessage Get()
         {
-            logger.Info("SetupController GET called (// GET api/setup.xml)");
+            Logger.Info("SetupController (GET api/setup.xml)");
 
-            string hueTemplate = "<?xml version=\"1.0\"?>\n" +
+            var hueTemplate = "<?xml version=\"1.0\"?>\n" +
               "<root xmlns=\"urn:schemas-upnp-org:device-1-0\">\n" +
               "<specVersion>\n" +
               "<major>1</major>\n" +
               "<minor>0</minor>\n" +
               "</specVersion>\n" +
-              "<URLBase>http://{0}:{1}/</URLBase>\n" + //hostname string
+              "<URLBase>http://{0}:{1}/</URLBase>\n" +
               "<device>\n" +
               "<deviceType>urn:schemas-upnp-org:device:Basic:1</deviceType>\n" +
-              "<friendlyName>Nano VeraHue Bridge</friendlyName>\n" +
+              "<friendlyName>Hue Bridge</friendlyName>\n" +
               "<manufacturer>Royal Philips Electronics</manufacturer>\n" +
               "<manufacturerURL>http://www.nanoweb.com</manufacturerURL>\n" +
-              "<modelDescription>Hue to Vera Bridge for Amazon Echo</modelDescription>\n" +
+              "<modelDescription>Hue Bridge for Amazon Echo</modelDescription>\n" +
               "<modelName>Philips hue bridge 2012</modelName>\n" +
               "<modelNumber>929000226503</modelNumber>\n" +
-              "<modelURL>http://www.nanoweb.com/HueVeraBridge</modelURL>\n" +
+              "<modelURL>https://github.com/davidwallis3101/</modelURL>\n" +
               "<serialNumber>01189998819991197253</serialNumber>\n" +
               "<UDN>uuid:{2}</UDN>\n" +
               "<serviceList>\n" +
@@ -67,9 +64,9 @@ namespace VeraHuesBridge
               "</root>\n";
             
 
-            hueTemplate = String.Format(hueTemplate, Globals.IPAddress, Globals.Port, Globals.UUID);
+            hueTemplate = string.Format(hueTemplate, Globals.IpAddress, Globals.Port, Globals.Uuid);
 
-            logger.Info("SetupController GET returned hue template.");
+            Logger.Info("SetupController GET returned hue template.");
             return new HttpResponseMessage()
             {
                 Content = new StringContent(hueTemplate, Encoding.UTF8, "application/xml")

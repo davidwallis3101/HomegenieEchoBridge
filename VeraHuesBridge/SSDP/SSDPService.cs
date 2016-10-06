@@ -1,43 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
-using System.Net.NetworkInformation;
+using System.Text;
 using NLog;
 
-namespace VeraHuesBridge
+namespace VeraHuesBridge.SSDP
 {
     public class UdpStateInfo
     {
         public UdpStateInfo(UdpClient c, IPEndPoint ep )
         {
-            client = c;
-            endpoint = ep;
+            Client = c;
+            Endpoint = ep;
         }
-        public UdpClient client;
-        public IPEndPoint endpoint;
+        public UdpClient Client;
+        public IPEndPoint Endpoint;
     }
     
-    public class SSDPService
+    public class SsdpService
     {
-        private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
-        private static bool running;
-        private static string MulticastIP;
-        private static string MulticastLocalIP;
-        private static int MulticastPort;
-        public static string UUID;
+        private static bool _running;
+        private static string _multicastIp;
+        private static string _multicastLocalIp;
+        private static int _multicastPort;
+        public static string Uuid;
         public static int WebServerPort;
         
-        private static UdpClient MulticastClient;
+        private static UdpClient _multicastClient;
 
-        private static byte[] byteDiscovery;
+        private static byte[] _byteDiscovery;
         public static string DiscoveryResponse;
         //{0}=IPAddress {1}=Port {2}=RandomUUID
-        private static string discoveryTemplate = "HTTP/1.1 200 OK\r\n" +
+        private static readonly string DiscoveryTemplate = "HTTP/1.1 200 OK\r\n" +
             "CACHE-CONTROL: max-age=86400\r\n" +
             "EXT:\r\n" +
             "LOCATION: http://{0}:{1}/api/setup.xml\r\n" +
@@ -48,40 +44,40 @@ namespace VeraHuesBridge
 
 
         //239.255.255.250   port 1900  10.10.26
-        public SSDPService(string multicastIP, int multicastPort, string LocalIP, int webPort, string uuid)
+        public SsdpService(string multicastIp, int multicastPort, string localIp, int webPort, string uuid)
         {
-            logger.Info("New SSDP Service initiated on IP [{0}], port [{1}]", multicastIP, multicastPort);
-            MulticastIP = multicastIP;
-            MulticastPort = multicastPort;
-            MulticastLocalIP = LocalIP;
+            Logger.Info("New SSDP Service initiated on IP [{0}], port [{1}]", multicastIp, multicastPort);
+            _multicastIp = multicastIp;
+            _multicastPort = multicastPort;
+            _multicastLocalIp = localIp;
             WebServerPort =webPort;
-            UUID = uuid;
-            DiscoveryResponse = string.Format(discoveryTemplate, MulticastLocalIP, WebServerPort, UUID);
-            byteDiscovery = Encoding.ASCII.GetBytes(DiscoveryResponse);
-            running = false;
+            Uuid = uuid;
+            DiscoveryResponse = string.Format(DiscoveryTemplate, _multicastLocalIp, WebServerPort, Uuid);
+            _byteDiscovery = Encoding.ASCII.GetBytes(DiscoveryResponse);
+            _running = false;
         }
         public bool Start()
         {
             try
             {
-                logger.Info("Starting SSDP Service on IP [{0}], port [{1}]...", MulticastIP, MulticastPort);
-                MulticastClient = new UdpClient(MulticastPort);
-                IPAddress ipSSDP = IPAddress.Parse(MulticastIP);
+                Logger.Info("Starting SSDP Service on IP [{0}], port [{1}]", _multicastIp, _multicastPort);
+                _multicastClient = new UdpClient(_multicastPort);
+                var ipSsdp = IPAddress.Parse(_multicastIp);
 
-                logger.Info("Joining multicast group on IP [{0}]...", MulticastLocalIP);
-                MulticastClient.JoinMulticastGroup(ipSSDP, IPAddress.Parse(MulticastLocalIP));
+                Logger.Info("Joining multicast group on IP [{0}]", _multicastLocalIp);
+                _multicastClient.JoinMulticastGroup(ipSsdp, IPAddress.Parse(_multicastLocalIp));
 
-                running = true;
+                _running = true;
 
-                UdpStateInfo udpListener = new UdpStateInfo(MulticastClient, new IPEndPoint(ipSSDP, MulticastPort));
+                var udpListener = new UdpStateInfo(_multicastClient, new IPEndPoint(ipSsdp, _multicastPort));
 
-                logger.Info("Starting Multicast Receiver...");
-                MulticastClient.BeginReceive(new AsyncCallback(MulticastReceiveCallback), udpListener);
-                logger.Info("SSDP Service started.");
+                Logger.Info("Starting Multicast Receiver");
+                _multicastClient.BeginReceive(new AsyncCallback(MulticastReceiveCallback), udpListener);
+                Logger.Info("SSDP Service started.");
             }
             catch (Exception ex)
             {
-                logger.Warn(ex, "Error occured starting SSDP service.");
+                Logger.Warn(ex, "Error occured starting SSDP service.");
                 throw;
             }
 
@@ -90,16 +86,16 @@ namespace VeraHuesBridge
 
         public bool IsRunning()
         {
-            return running;
+            return _running;
         }
 
         public void Stop()
         {
-            logger.Info("Stopping SSDP Service...");
-            running = false;
-            MulticastClient.Client.Shutdown(SocketShutdown.Both);
-            MulticastClient.Close();
-            logger.Info("SSDP Service stopped.");
+            Logger.Info("Stopping SSDP Service...");
+            _running = false;
+            _multicastClient.Client.Shutdown(SocketShutdown.Both);
+            _multicastClient.Close();
+            Logger.Info("SSDP Service stopped.");
             
         }
         public static void MulticastReceiveCallback(IAsyncResult ar)
@@ -107,63 +103,63 @@ namespace VeraHuesBridge
             try
             {
                 
-                UdpStateInfo udpListener = (UdpStateInfo)(ar.AsyncState);
-                UdpClient client = udpListener.client;
-                IPEndPoint endpoint = udpListener.endpoint;
+                var udpListener = (UdpStateInfo)(ar.AsyncState);
+                var client = udpListener.Client;
+                var endpoint = udpListener.Endpoint;
 
                 if (client != null)
                 {
                     // logger.Info("Received a UDP multicast from IP [{0}], on port [{1}].", endpoint.Address.ToString(), endpoint.Port);
-                    Byte[] receiveBytes = client.EndReceive(ar, ref endpoint);
-                    string receiveString = Encoding.ASCII.GetString(receiveBytes);
+                    var receiveBytes = client.EndReceive(ar, ref endpoint);
+                    var receiveString = Encoding.ASCII.GetString(receiveBytes);
 
                     //todo dw
                     //if (endpoint.Address.ToString() == "192.168.0.193") { logger.Debug("Multicast From: {0}\r\nData:\r\n{1}", endpoint.ToString(), receiveString); }
         
                     //discovery has occured, send our response
-                    if (IsSSDPDiscoveryPacket(receiveString))
+                    if (IsSsdpDiscoveryPacket(receiveString))
                     {
-                        if (endpoint.Address.ToString() == "192.168.0.193") { logger.Info("Sending SSDP setup information..."); }
+                        if (endpoint.Address.ToString() == "192.168.0.193") { Logger.Info("Sending SSDP setup information..."); }
 
                         //MulticastClient.Send(byteDiscovery, byteDiscovery.Length, endpoint);
-                        Socket WinSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+                        var winSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
 
 
-                        WinSocket.Connect(endpoint);
-                        WinSocket.Send(byteDiscovery);
-                        WinSocket.Shutdown(SocketShutdown.Both);
-                        WinSocket.Close();
-                        if (endpoint.ToString() == "192.168.0.193") { logger.Debug(string.Format("Sent Response To: {0}\r\nData:\r\n{1}", endpoint.ToString(), DiscoveryResponse)); }
+                        winSocket.Connect(endpoint);
+                        winSocket.Send(_byteDiscovery);
+                        winSocket.Shutdown(SocketShutdown.Both);
+                        winSocket.Close();
+                        if (endpoint.ToString() == "192.168.0.193") { Logger.Debug(string.Format("Sent Response To: {0}\r\nData:\r\n{1}", endpoint, DiscoveryResponse)); }
                     }
                     else
                     {
-                        if (endpoint.ToString() == "192.168.0.193") { logger.Debug("Not SSDP Packet"); }
+                        if (endpoint.ToString() == "192.168.0.193") { Logger.Debug("Not SSDP Packet"); }
                     }
 
                 }
-                if (running)
+                if (_running)
                 {
                     //logger.Info("Restarted Multicast Receiver.");
-                    MulticastClient.BeginReceive(new AsyncCallback(MulticastReceiveCallback), udpListener);
+                    _multicastClient.BeginReceive(new AsyncCallback(MulticastReceiveCallback), udpListener);
                 }
                     
             }
             catch (Exception ex)
             {
                 
-                if (running)
+                if (_running)
                 {
-                    logger.Warn(ex, "Error occured in MulticastReceiveCallBack.");
+                    Logger.Warn(ex, "Error occured in MulticastReceiveCallBack.");
                 }
                 else
                 {
-                    logger.Debug(ex, "Ignoring an Error occured in MulticastReceiveCallBack as SSDP service is not running.");
+                    Logger.Debug(ex, "Ignoring an Error occured in MulticastReceiveCallBack as SSDP service is not running.");
                 }
                     
             }
         }
 
-        private static bool IsSSDPDiscoveryPacket(string message)
+        private static bool IsSsdpDiscoveryPacket(string message)
         {
             //logger.Info("Testing if message is SSDP Discovery Packet...");
             //logger.Info("Examing message [{0}]", message);
