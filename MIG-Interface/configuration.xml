@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Interface Domain="HomeAutomation.EchoBridge" AssemblyName="MIG-EchoBridge" SupportedPlatform="All">
+  <Options>
+    <Option Name="IPAddress" Value="" />
+  </Options>
+  <Description>Interface for the Amazon Echo</Description>
+</Interface>

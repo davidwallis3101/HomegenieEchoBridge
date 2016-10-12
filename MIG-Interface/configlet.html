@@ -1,0 +1,69 @@
+<!-- HomeGenie interface settings configlet -->
+<div data-configlet-id="HomeAutomation.EchoBridge">
+    <div class="ui-grid-a">
+        <div class="ui-block-a">
+            <div class="ui-grid-b">
+                <div class="ui-block-a">
+                    <label>IPAddress</label>
+                    <input data-ui-field="ip" type="text" data-locale-ipaddress="configure_interfaces_optipaddress" value="NotUsed" />
+                </div>
+            </div>
+        </div>
+        <div class="ui-block-b">
+            <span style="float:right">
+                <select data-ui-field="isenabled" data-role="slider">
+                    <option value="0" data-locale-id="configure_interfaces_optdisable">Disable</option>
+                    <option value="1" data-locale-id="configure_interfaces_optenable">Enable</option>
+                </select>
+            </span>
+        </div>
+    </div>
+    
+</div>
+
+<script type="text/javascript" language="javascript">
+    HG.WebApp.SystemSettings.Interfaces['HomeAutomation.EchoBridge'] = {
+
+        Id: 'HomeAutomation.EchoBridge',
+    Initialize: function(){
+        var _this = this;
+        var configlet = this.Configlet = $('#'+HG.WebApp.SystemSettings.PageId).find('[data-configlet-id="'+this.Id+'"]');
+        var enabledFlip = configlet.find('[data-ui-field=isenabled]');
+        var ipaddress = configlet.find('[data-ui-field=ipaddress]');
+        
+        // get enabled status
+        HG.Configure.MIG.InterfaceCommand(_this.Id, 'IsEnabled.Get', '', '', function (data) {
+            enabledFlip.val(data.ResponseValue).slider('refresh');
+        });
+
+        // get current configuration
+        HG.Configure.MIG.InterfaceCommand(this.Id, 'Options.Get', 'IPAddress', '', function (data) {
+            ipaddress.val(data.ResponseValue);
+        });
+
+        // bind to enabled flip changes
+        enabledFlip.on('slidestop', function (event) {
+            HG.Configure.MIG.InterfaceCommand(_this.Id, 'IsEnabled.Set', enabledFlip.val(), '', function (data) { });
+        });
+
+        // bind to address text inputs
+        ipaddress.on('change', function () {
+            HG.Configure.MIG.InterfaceCommand(_this.Id, 'Option.Set', 'IPAddress', encodeURIComponent(addressInput.val()), function (data) { });
+        });
+       
+    },
+    
+    Localize: function() {
+        var configlet = this.Configlet = $('#'+HG.WebApp.SystemSettings.PageId).find('[data-configlet-id="'+this.Id+'"]');
+        var userLang = HG.WebApp.Locales.GetUserLanguage();
+        // English is the default locale
+        var defaultLocale = {
+            "title": 
+                "Amazon Echo Interface"
+        };
+        HG.WebApp.Locales.LocalizeElement(this.Configlet, defaultLocale);
+        this.Locale = defaultLocale;
+    }
+        
+};
+</script>

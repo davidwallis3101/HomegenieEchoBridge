@@ -31,23 +31,23 @@ namespace HomegenieTestApplication.Api
 
         private static string Get(string url)
         {
-            var request = (HttpWebRequest)WebRequest.Create(url);
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             try
             {
-                var response = request.GetResponse();
-                using (var responseStream = response.GetResponseStream())
+                WebResponse response = request.GetResponse();
+                using (Stream responseStream = response.GetResponseStream())
                 {
-                    var reader = new StreamReader(responseStream, Encoding.UTF8);
+                    StreamReader reader = new StreamReader(responseStream, Encoding.UTF8);
                     return reader.ReadToEnd();
                 }
             }
             catch (WebException ex)
             {
-                var errorResponse = ex.Response;
-                using (var responseStream = errorResponse.GetResponseStream())
+                WebResponse errorResponse = ex.Response;
+                using (Stream responseStream = errorResponse.GetResponseStream())
                 {
-                    var reader = new StreamReader(responseStream, Encoding.GetEncoding("utf-8"));
-                    var errorText = reader.ReadToEnd();
+                    StreamReader reader = new StreamReader(responseStream, Encoding.GetEncoding("utf-8"));
+                    String errorText = reader.ReadToEnd();
                 }
                 throw;
             }
@@ -71,7 +71,6 @@ namespace HomegenieTestApplication.Api
             using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
             {
                 var result = streamReader.ReadToEnd();
-                Console.WriteLine(result);
 
             }
         }

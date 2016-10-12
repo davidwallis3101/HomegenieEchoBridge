@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ProgramBlock xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConditionType>OnTrue</ConditionType>
+  <Conditions />
+  <Commands />
+  <ScriptCondition>// David Wallis 13/12/15
+// Version 1.0
+
+var moduleDomain = "Testing";
+var numModules = 3; // Number of remote controlled devices to add.
+  
+Program.Setup(()=&gt;
+{
+  Program.AddVirtualModules(moduleDomain, "Switch", "homegenie/generic/switch", 1, numModules);
+  Program.AddFeature("", "Switch,Light", "Module.GUID", "Module Guid","text");
+});
+
+return true;</ScriptCondition>
+  <ScriptSource>var moduleDomain = "Testing";
+
+// implement Control.On, Control.Off, Control.Toggle
+
+When.WebServiceCallReceived(moduleDomain, (args) =&gt; 
+{
+  string errorMessage = "";
+  try
+  {
+  	string[] reqs = ((string)args).Split('/');
+  
+    string number = reqs[1];
+    string command = reqs[2];
+    Program.Notify("Number",number);
+    Program.Notify("command",command);
+    
+  var module = Modules.InDomain(moduleDomain).WithAddress(number).Get();
+  switch(command)
+  {
+    // eg. http://hg_address/api/HomeAutomation.433/1/Control.On
+    case "Control.On":
+    	Program.RaiseEvent(module, "Status.Level", "1", "module.Name");
+    	//module.On();
+    	break;
+    case "Control.Off":
+      	Program.RaiseEvent(module, "Status.Level", "0", "module.Name");
+        //module.Off();
+    	break;
+    case "Control.Toggle":
+ 	  if (module.Parameter("Status.Level").DecimalValue == 0)
+      {
+        Program.RaiseEvent(module, "Status.Level", "1", "module.Name");
+        //module.On();
+        break;
+      }
+      else
+      {
+        Program.RaiseEvent(module, "Status.Level", "0", "module.Name");
+        //module.Off();
+        break;
+      }
+  }
+    return "{ 'ResponseValue' : 'OK' }";  
+  } 
+  catch (Exception ex) 
+  { 
+    errorMessage = ex.Message + " " + ex.StackTrace;
+    Program.Notify(moduleDomain,"Error: " + errorMessage);
+  }
+  // unable to process request
+  return "{ 'ResponseValue' : 'ERROR " + errorMessage + "' }";
+});
+
+Program.GoBackground();</ScriptSource>
+  <ScriptErrors>[]</ScriptErrors>
+  <Domain>HomeAutomation.HomeGenie.Automation</Domain>
+  <Address>1000</Address>
+  <Name>AmazonEcho</Name>
+  <Description />
+  <Group>Testing</Group>
+  <Features>
+    <ProgramFeature>
+      <FieldType>text</FieldType>
+      <ForDomains />
+      <ForTypes>Switch,Light</ForTypes>
+      <Property>Module.GUID</Property>
+      <Description>Module Guid</Description>
+    </ProgramFeature>
+  </Features>
+  <ActivationTime xsi:nil="true" />
+  <TriggerTime>2016-10-07T23:10:33.45448Z</TriggerTime>
+  <Type>CSharp</Type>
+  <IsEnabled>true</IsEnabled>
+</ProgramBlock>

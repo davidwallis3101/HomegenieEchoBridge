@@ -1,59 +1,76 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Net.NetworkInformation;
 using System.Net.Sockets;
+using System.Text;
+using System.Threading.Tasks;
 using NLog;
-using EchoBridge.SSDP;
-using EchoBridge.Webserver;
 
-namespace HomegenieTestApplication
+namespace Test
 {
-    internal class Program
+    class Program
     {
-        private static Logger _logger = LogManager.GetCurrentClassLogger();
-
-        private static void Main(string[] args)
+        private static Logger Log = LogManager.GetCurrentClassLogger();
+        static void Main(string[] args)
         {
+            HGEchoBridge.SSDPService svcSSDP = null;
+            HGEchoBridge.WebServer ws;
 
             var apiIpaddress = "192.168.0.161";
+            Log.Info("Connecting to Homegenie API [{0}] to discover valid devices", apiIpaddress);
+            var devices = HomegenieTestApplication.HgHelper.GetDevicesFromHG(apiIpaddress);
 
-            _logger.Info("Connecting to Homegenie API [{0}]to discover valid devices");
-
-            var devices = HgHelper.GetDevicesFromHg(apiIpaddress);
-
-            _logger.Info("Starting SSDP service");
-
-            var svcSsdp = new SsdpService("239.255.255.250",
+            Log.Info("Starting SSDP service");
+            try
+            {
+                svcSSDP = new HGEchoBridge.SSDPService("239.255.255.250",
                     1900,
-                    LocalIpAddress().ToString(),
+                    LocalIPAddress().ToString(),
                     8080,
                     "aef85303-330a-4eab-b28d-038ac90416ab");
+            }
+            catch (Exception)
+            {
+                Log.Error("Unable to start ssdp server, is UPNP interface or SSDP Service already running?");
+                throw;
+            }
+            
 
-                svcSsdp.Start();
+            svcSSDP.Start();
 
+            
+            Log.Info("Starting Web Server");
+            try
+            {
+                ws = new HGEchoBridge.WebServer(LocalIPAddress().ToString(),
+                    8080,
+                    "aef85303-330a-4eab-b28d-038ac90416ab",
+                    200,
+                    devices);
 
-            _logger.Info("Starting Web Server");
-            var ws = new WebServer(LocalIpAddress().ToString(),
-                8080,
-                "aef85303-330a-4eab-b28d-038ac90416ab",
-                200,
-                devices);
+                ws.Start();
+            }
+            catch (Exception)
+            {
+                Log.Error("Unable to start web server, Check permissions or whether port in use.");  
+                throw;
+            }
 
-            ws.Start();
 
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
+
         }
 
-        private static IPAddress LocalIpAddress()
+        private static IPAddress LocalIPAddress()
         {
-            if (!NetworkInterface.GetIsNetworkAvailable())
+            if (!System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
             {
                 return null;
             }
 
-            var host = Dns.GetHostEntry(Dns.GetHostName());
+            IPHostEntry host = Dns.GetHostEntry(Dns.GetHostName());
 
             return host
                 .AddressList
