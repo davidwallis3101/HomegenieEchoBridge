@@ -5,3 +5,5 @@ Based on a fork of nanowebcoders c# port of Armzilla's JAVA version, located at 
 
 I have stripped back un-needed backwards compatibility and made it purely do what I need for my purposes at the moment.
 
+Download the interface Zip file from here: https://github.com/davidwallis3101/HomegenieEchoBridge/tree/master/MIG-Interface/Output
+
