@@ -64,12 +64,12 @@ namespace MIG.Interfaces.HomeAutomation
                 var ipAddress = LocalIpAddress().ToString();
                 
                 //todo allow non standard port
-                var hgIpAddress = "192.168.0.161";
+                //var hgIpAddress = "192.168.0.161";
                 //var hgIpAddress = ipAddress;
 
-                MigService.Log.Info("Mig: Connecting to Homegenie API [{0}] to discover valid devices", hgIpAddress);
-                Log.Info("Log: Connecting to Homegenie API [{0}] to discover valid devices", hgIpAddress);
-                List<Device> devices = HgHelper.GetDevicesFromHg(hgIpAddress);
+                MigService.Log.Info("Mig: Connecting to Homegenie API [{0}] to discover valid devices", ipAddress);
+                Log.Info("Log: Connecting to Homegenie API [{0}] to discover valid devices", ipAddress);
+                List<Device> devices = HgHelper.GetDevicesFromHg(ipAddress);
                               
                 MigService.Log.Info("Starting SSDP service");
                 var svcSsdp = new SSDPService("239.255.255.250",
@@ -116,36 +116,36 @@ namespace MIG.Interfaces.HomeAutomation
         {
             var response = new ResponseText("OK"); //default success value
 
-            Commands command;
-            Enum.TryParse<Commands>(request.Command.Replace(".", "_"), out command);
+            //Commands command;
+            //Enum.TryParse<Commands>(request.Command.Replace(".", "_"), out command);
 
-            var module = interfaceModules.Find (m => m.Address.Equals (request.Address));
+            //var module = interfaceModules.Find (m => m.Address.Equals (request.Address));
 
-            if (module != null) {
-                switch (command) {
-                case Commands.Control_On:
-                // TODO: ...
-                    OnInterfacePropertyChanged (this.GetDomain (), request.Address, "Test Interface", "Status.Level", 1);
-                    break;
-                case Commands.Control_Off:
-                    OnInterfacePropertyChanged (this.GetDomain (), request.Address, "Test Interface", "Status.Level", 0);
-                // TODO: ...
-                    break;
-                case Commands.Temperature_Get:
-                    OnInterfacePropertyChanged (this.GetDomain (), request.Address, "Test Interface", "Sensor.Temperature", 19.75);
-                // TODO: ...
-                    break;
-                case Commands.Greet_Hello:
-                // TODO: ...
-                    OnInterfacePropertyChanged (this.GetDomain (), request.Address, "Test Interface", "Sensor.Message", string.Format ("Hello {0}", request.GetOption (0)));
-                    response = new ResponseText ("Hello World!");
-                    break;
-                }
-            }
-            else 
-            {
-                response = new ResponseText ("ERROR: invalid module address");
-            }
+            //if (module != null) {
+            //    switch (command) {
+            //    case Commands.Control_On:
+            //    // TODO: ...
+            //        OnInterfacePropertyChanged (this.GetDomain (), request.Address, "Test Interface", "Status.Level", 1);
+            //        break;
+            //    case Commands.Control_Off:
+            //        OnInterfacePropertyChanged (this.GetDomain (), request.Address, "Test Interface", "Status.Level", 0);
+            //    // TODO: ...
+            //        break;
+            //    case Commands.Temperature_Get:
+            //        OnInterfacePropertyChanged (this.GetDomain (), request.Address, "Test Interface", "Sensor.Temperature", 19.75);
+            //    // TODO: ...
+            //        break;
+            //    case Commands.Greet_Hello:
+            //    // TODO: ...
+            //        OnInterfacePropertyChanged (this.GetDomain (), request.Address, "Test Interface", "Sensor.Message", string.Format ("Hello {0}", request.GetOption (0)));
+            //        response = new ResponseText ("Hello World!");
+            //        break;
+            //    }
+            //}
+            //else 
+            //{
+            //    response = new ResponseText ("ERROR: invalid module address");
+            //}
 
             return response;
         }

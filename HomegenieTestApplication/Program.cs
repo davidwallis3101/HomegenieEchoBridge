@@ -16,8 +16,10 @@ namespace Test
         {
             HGEchoBridge.SSDPService svcSSDP = null;
             HGEchoBridge.WebServer ws;
-
-            var apiIpaddress = "192.168.0.161";
+            Console.WriteLine("You may need to disable the SSDP service and your local firewall if you have issues accepting connections\r\n");
+            Console.WriteLine("Enter the ip address of your homegenie instance IE: 192.168.0.1");
+            string apiIpaddress = Console.ReadLine();
+            //var apiIpaddress = "192.168.0.161";
             Log.Info("Connecting to Homegenie API [{0}] to discover valid devices", apiIpaddress);
             var devices = HomegenieTestApplication.HgHelper.GetDevicesFromHG(apiIpaddress);
 
