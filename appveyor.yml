@@ -1,6 +1,8 @@
 version: 1.0.{build}
+before_build:
+  - nuget restore
 build:
-  verbosity: minimal
+  verbosity: normal
 deploy:
 - provider: GitHub
   tag: myproduct-v$(appveyor_build_version)
