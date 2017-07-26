@@ -40,7 +40,10 @@ if (Test-Net45 -eq $false) {Write-Error ".Net 4.5 is required to create the arch
 Add-Type -assembly "system.io.compression.filesystem" -ErrorAction stop
 
 $source = "$($TargetDir)"
-$destination = "$($ProjectDir)Output\$($ProjectName).zip"
+#$destination = "$($ProjectDir)Output\$($ProjectName).zip"
+
+$destination = ("{0}\$($ProjectName).zip" -f (split-path $ProjectDir -Parent))
+
 
 # Determine Assembly version to version the interface
 $file = "$($TargetDir)\MIG-EchoBridge.dll"
