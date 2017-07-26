@@ -7,3 +7,6 @@ I have stripped back un-needed backwards compatibility and made it purely do wha
 
 Download the interface Zip file from here: https://github.com/davidwallis3101/HomegenieEchoBridge/tree/master/MIG-Interface/Output
 
+[![Build status](https://ci.appveyor.com/api/projects/status/a47g0b2vperlrrty?svg=true)](https://ci.appveyor.com/project/davidwallis3101/homegenieechobridge)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/a47g0b2vperlrrty/branch/master?svg=true)](https://ci.appveyor.com/project/davidwallis3101/homegenieechobridge/branch/master)

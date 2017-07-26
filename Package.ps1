@@ -1,14 +1,14 @@
 [CmdLetBinding()]
 param
 (   
-	[Parameter(Mandatory = $true, Position = 0)]
-	[string]$TargetDir,
+    [Parameter(Mandatory = $true, Position = 0)]
+    [string]$TargetDir,
 
-	[Parameter(Mandatory = $true, Position = 1)]
-	[string]$ProjectName,
-	
-	[Parameter(Mandatory = $true, Position = 2)]
-	[string]$ProjectDir
+    [Parameter(Mandatory = $true, Position = 1)]
+    [string]$ProjectName,
+    
+    [Parameter(Mandatory = $true, Position = 2)]
+    [string]$ProjectDir
 
 )
 
@@ -17,19 +17,19 @@ $ProjectDir = $ProjectDir.Trim()
 
 function Test-Net45
 {
-    if (Test-Path ‘HKLM:SOFTWAREMicrosoftNET Framework SetupNDPv4Full’)
+    if (Test-Path "HKLM:SOFTWAREMicrosoftNET Framework SetupNDPv4Full")
     {
-		if (Get-ItemProperty ‘HKLM:SOFTWAREMicrosoftNET Framework SetupNDPv4Full’ -Name Release -ErrorAction SilentlyContinue)
-		{
-			return $True
-		}
-		return $False
+        if (Get-ItemProperty "HKLM:SOFTWAREMicrosoftNET Framework SetupNDPv4Full" -Name Release -ErrorAction SilentlyContinue)
+        {
+            return $True
+        }
+        return $False
     }
 }
 
 function replace-file-content([String] $path, [String] $replace, [String] $replaceWith)
 {
-	(Get-Content $path) | Foreach-Object {$_ -replace $replace,$replaceWith} | Out-File $path
+    (Get-Content $path) | Foreach-Object {$_ -replace $replace,$replaceWith} | Out-File $path
 }
 
 Write-Host "Target Dir $($TargetDir)"
@@ -58,8 +58,8 @@ write-host "DLL Version is: $version"
 
 
 If(Test-path $destination) {
-	Write-Host "Removing existing interface archive"
-	Remove-item $destination -Force
+    Write-Host "Removing existing interface archive"
+    Remove-item $destination -Force
 }
 
 
