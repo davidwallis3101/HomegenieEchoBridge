@@ -19,9 +19,10 @@ namespace Test
 
 
             Console.WriteLine("You may need to disable the SSDP service and your local firewall if you have issues accepting connections\r\n");
-            Console.WriteLine("Enter the ip address of your homegenie instance IE: 192.168.0.1 - This app assumes you havent changed the port that HG runs on from the default of 80.");
-            //string apiIpaddress = Console.ReadLine();
-            string apiIpaddress = "192.168.0.161";
+            Console.WriteLine("This app assumes you havent changed the port that HG runs on from the default of 80.");
+            Console.Write("Enter the ip address of your homegenie instance IE: 192.168.0.1: ");
+            string apiIpaddress = Console.ReadLine();
+            
             Log.Info("Connecting to Homegenie API [{0}] to discover valid devices", apiIpaddress);
             var devices = HomegenieTestApplication.HgHelper.GetDevicesFromHG(apiIpaddress);
 

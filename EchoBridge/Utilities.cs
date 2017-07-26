@@ -25,7 +25,6 @@ namespace HGEchoBridge
             //return "88f6698f-2c83-4393-bd03-cd54a9f8595"; // https://xkcd.com/221/
         }
 
-
         public static bool MakeHttpRequest(String url, String httpVerb, String contentType, String body)
         {
             logger.Info("Performing HTTPRequest URL:[{0}], Method: [{1}], ContentType: [{2}], Body: [{3}]", url, httpVerb, contentType, body);
@@ -72,10 +71,6 @@ namespace HGEchoBridge
 
 
         }
-
-
-
-
 
         public static void WriteToXmlFile<T>(string filePath, T objectToWrite, bool append = false) where T : new()
         {

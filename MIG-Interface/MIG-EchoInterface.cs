@@ -163,16 +163,7 @@ namespace MIG.Interfaces.HomeAutomation
             var args = new InterfacePropertyChangedEventArgs(domain, source, description, propertyPath, propertyValue);
             InterfacePropertyChanged(this, args);
         }
-
-        public enum Commands
-        {
-            NotSet,
-            Control_On,
-            Control_Off,
-            Temperature_Get,
-            Greet_Hello
-        }
-
+   
         private static IPAddress LocalIpAddress()
         {
             if (!NetworkInterface.GetIsNetworkAvailable())
@@ -184,7 +175,7 @@ namespace MIG.Interfaces.HomeAutomation
 
             return host
                 .AddressList
-                .FirstOrDefault(ip => ip.AddressFamily == AddressFamily.InterNetwork);
+                .FirstOrDefault(ip => (ip.AddressFamily == AddressFamily.InterNetwork) && ip.ToString().StartsWith("169.254") == false);
         }
 
 

@@ -165,10 +165,10 @@ namespace HGEchoBridge
             if (message != null && message.StartsWith("M-SEARCH * HTTP/1.1") && message.Contains("MAN: \"ssdp:discover\""))
             {
                 logger.Info("SSDP Discovery Packet detected.");
-                logger.Debug(message);
+                //logger.Debug(message);
                 return true;
             }
-            logger.Info("SSDP Discovery Packet not detected.");
+            //logger.Info("SSDP Discovery Packet not detected.");
             return false;
 
         }
