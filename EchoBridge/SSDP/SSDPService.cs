@@ -113,7 +113,7 @@ namespace HGEchoBridge
 
                 if (client != null)
                 {
-                    // logger.Info("Received a UDP multicast from IP [{0}], on port [{1}].", endpoint.Address.ToString(), endpoint.Port);
+                    //logger.Info("Received a UDP multicast from IP [{0}], on port [{1}].", endpoint.Address.ToString(), endpoint.Port);
                     Byte[] receiveBytes = client.EndReceive(ar, ref endpoint);
                     string receiveString = Encoding.ASCII.GetString(receiveBytes);
 
@@ -164,10 +164,11 @@ namespace HGEchoBridge
             //logger.Info("Examing message [{0}]", message);
             if (message != null && message.StartsWith("M-SEARCH * HTTP/1.1") && message.Contains("MAN: \"ssdp:discover\""))
             {
-                // logger.Info("SSDP Discovery Packet detected.");
+                logger.Info("SSDP Discovery Packet detected.");
+                logger.Debug(message);
                 return true;
             }
-            //logger.Info("SSDP Discovery Packet not detected.");
+            logger.Info("SSDP Discovery Packet not detected.");
             return false;
 
         }
