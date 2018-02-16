@@ -42,6 +42,9 @@
       <HintPath>..\packages\Microsoft.Owin.Host.HttpListener.3.0.1\lib\net45\Microsoft.Owin.Host.HttpListener.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MIG, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MIG.1.0.0-beta\lib\MIG.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
@@ -60,9 +63,6 @@
     </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>..\packages\WebSocketSharp.1.0.3-rc9\lib\websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="MIG">
-      <HintPath>..\..\TexecomInterface\packages\MIG.1.0.0-beta\lib\MIG.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
