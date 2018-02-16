@@ -16,11 +16,10 @@ before_build:
 build:
   verbosity: normal
 
-after_build:
- - dir
+# after_build:
 
 artifacts:
-- path: '\MIG-Interface\Output\MIG-EchoBridge.zip'
+- path: '\MIG-EchoBridge.zip'
 
 deploy:
 - provider: GitHub
