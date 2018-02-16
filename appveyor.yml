@@ -27,4 +27,4 @@ deploy:
   release: product release of HomegenieEchoBridge v$(appveyor_build_version)
   description: Published from AppVeyor
   auth_token:
-    secure: nNJ0tuvMX88/5GPQFV4mtqQe3pRgsJlOd8pvbi0+WeCOsyeNY3L///lRC8pF29wo6J+5b6TPLDDKdKGXveZo9FICP+6k95LkQCvlFzaXb4I=
+    secure: 6xpJrNRZ7YlU22YNrDRs9dAmvp2LIJ4O7t+a5443/NERIk9Aspip7glMn9O4sqU6
