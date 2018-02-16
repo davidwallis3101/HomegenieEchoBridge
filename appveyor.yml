@@ -15,7 +15,10 @@ before_build:
 
 build:
   verbosity: normal
- 
+
+after_build:
+ - dir
+
 artifacts:
 - path: '\MIG-Interface\Output\MIG-EchoBridge.zip'
 
