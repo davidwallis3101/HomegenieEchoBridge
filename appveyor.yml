@@ -1,13 +1,28 @@
 version: 1.0.{build}
+
+skip_tags: true
+pull_requests:
+  do_not_increment_build_number: true
+
+assembly_info:
+  patch: true
+  file: '**\AssemblyInfo.*'
+  assembly_version: '{version}'
+  assembly_file_version: '{version}'
+
 before_build:
   - nuget restore
+
 build:
   verbosity: normal
+ 
+artifacts:
+- path: '\MIG-Interface\Output\MIG-EchoBridge.zip'
+
 deploy:
 - provider: GitHub
-  tag: myproduct-v$(appveyor_build_version)
-  release: product release of v$(appveyor_build_version)
+  tag: HomegenieEchoBridge-v$(appveyor_build_version)
+  release: product release of HomegenieEchoBridge v$(appveyor_build_version)
   description: Published from AppVeyor
   auth_token:
     secure: nNJ0tuvMX88/5GPQFV4mtqQe3pRgsJlOd8pvbi0+WeCOsyeNY3L///lRC8pF29wo6J+5b6TPLDDKdKGXveZo9FICP+6k95LkQCvlFzaXb4I=
-  artifact: release.zip
