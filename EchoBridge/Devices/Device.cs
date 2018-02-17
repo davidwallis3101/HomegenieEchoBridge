@@ -8,7 +8,6 @@ namespace HGEchoBridge
 {
     public class Device
     {
-
         public Device()
         {
             _id = Guid.NewGuid();
@@ -33,6 +32,7 @@ namespace HGEchoBridge
                 }
             }
         }
+
         public String name {get; set;}
         public String deviceType {get; set;}
         public String offUrl {get; set;}
@@ -40,9 +40,5 @@ namespace HGEchoBridge
         public String httpVerb {get; set;}
         public String contentType{get; set;}
         public String contentBody {get; set;}
-
-    
-    
-
     }
 }

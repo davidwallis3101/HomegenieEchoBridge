@@ -3,7 +3,6 @@
  *     Version 1.0 - 19/04/2016 
  */
 
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -13,16 +12,15 @@ using System.Reflection;
 using HGEchoBridge;
 using MIG.Config;
 using NLog;
-using NLog.Fluent;
 
 namespace MIG.Interfaces.HomeAutomation
 {
-
     public class EchoBridge : MigInterface
     {
+        private const string AlexaUuid = "aef85303-330a-4eab-b28d-038ac90416ab";
 
-        List<InterfaceModule> interfaceModules;
-        public static Logger Log = LogManager.GetCurrentClassLogger();
+        private List<InterfaceModule> _interfaceModules;
+        private static Logger Log = LogManager.GetCurrentClassLogger();
         public bool IsEnabled { get; set; }
         public bool IsConnected { get; private set; }
         public List<Option> Options { get; set; }
@@ -43,7 +41,7 @@ namespace MIG.Interfaces.HomeAutomation
 
         public List<InterfaceModule> GetModules()
         {
-            return interfaceModules;
+            return _interfaceModules;
         }
       
         public bool IsDevicePresent()
@@ -55,47 +53,58 @@ namespace MIG.Interfaces.HomeAutomation
         {
             if (!IsConnected)
             {
-                
                 Log.Info("Starting HGEchoBrige Version {0}", Assembly.GetExecutingAssembly().GetName().Version.ToString());
 
                 // create a list to hold the modules 
-                interfaceModules = new List<InterfaceModule>();
+                _interfaceModules = new List<InterfaceModule>();
 
                 var ipAddress = LocalIpAddress().ToString();
-                
-                //todo allow non standard port
-                //var hgIpAddress = "192.168.0.161";
-                //var hgIpAddress = ipAddress;
+                var port = this.GetOption("Port").Value;
+                var hgEndpoint = $"{ipAddress}:{port}";
 
-                MigService.Log.Info("Mig: Connecting to Homegenie API [{0}] to discover valid devices", ipAddress);
-                Log.Info("Log: Connecting to Homegenie API [{0}] to discover valid devices", ipAddress);
-                List<Device> devices = HgHelper.GetDevicesFromHg(ipAddress);
-                              
+                MigService.Log.Info("Mig: Connecting to Homegenie API [{0}] to discover valid devices", hgEndpoint);
+                Log.Info("Log: Connecting to Homegenie API [{0}] to discover valid devices", hgEndpoint);
+                var devices = HgHelper.GetDevicesFromHg(hgEndpoint);
+                foreach (var device in devices)
+                {
+                    MigService.Log.Info("Device [{0}] of type {1}", device.name, device.deviceType);
+                    Log.Info("Device [{0}] of type {1}", device.name, device.deviceType);
+                }
+
+                var webServerPort = GetNextAvailablePort(8080);
+
                 MigService.Log.Info("Starting SSDP service");
-                var svcSsdp = new SSDPService("239.255.255.250",
+                var ssdpService = new SSDPService("239.255.255.250",
+                    1900,
+                    ipAddress,
+                    webServerPort,
+                    AlexaUuid);
+                ssdpService.Start();
 
-                        1900,
-                        ipAddress,
-                        8080,
-                        "aef85303-330a-4eab-b28d-038ac90416ab");
-
-                svcSsdp.Start();
-
-                MigService.Log.Info("Starting Web Server");
-                var ws = new WebServer(ipAddress,
-                    8080,
-                    "aef85303-330a-4eab-b28d-038ac90416ab",
+                MigService.Log.Info($"Starting Web Server at port {webServerPort}");
+                var webServer = new WebServer(ipAddress,
+                    webServerPort,
+                    AlexaUuid,
                     200,
                     devices);
+                webServer.Start();
 
-                ws.Start();
-             
                 IsConnected = true;
             }
             OnInterfaceModulesChanged(this.GetDomain());
             return true;
         }
 
+        private int GetNextAvailablePort(int port)
+        {
+            var endPoints = IPGlobalProperties.GetIPGlobalProperties().GetActiveTcpListeners();
+            do
+            {
+                port++;
+            } while (endPoints.Any(x => x.Port == port));
+
+            return port;
+        }
 
         public void Disconnect()
         {
@@ -163,7 +172,7 @@ namespace MIG.Interfaces.HomeAutomation
             var args = new InterfacePropertyChangedEventArgs(domain, source, description, propertyPath, propertyValue);
             InterfacePropertyChanged(this, args);
         }
-   
+
         private static IPAddress LocalIpAddress()
         {
             if (!NetworkInterface.GetIsNetworkAvailable())
@@ -175,12 +184,9 @@ namespace MIG.Interfaces.HomeAutomation
 
             return host
                 .AddressList
-                .FirstOrDefault(ip => (ip.AddressFamily == AddressFamily.InterNetwork) && ip.ToString().StartsWith("169.254") == false);
+                .FirstOrDefault(ip => ip.AddressFamily == AddressFamily.InterNetwork &&
+                                      !ip.ToString().StartsWith("169.254"));
         }
-
-
     }
-
-
 }
 

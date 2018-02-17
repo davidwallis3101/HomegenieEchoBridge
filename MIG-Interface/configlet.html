@@ -5,7 +5,13 @@
             <div class="ui-grid-b">
                 <div class="ui-block-a">
                     <label>IPAddress</label>
-                    <input data-ui-field="ip" type="text" data-locale-ipaddress="configure_interfaces_optipaddress" value="NotUsed" />
+                    <input data-ui-field="ipaddress" type="text"
+                           data-locale-ipaddress="configure_interfaces_optipaddress" value="NotUsed" />
+                </div>
+                <div class="ui-block-a">
+                    <label>Port</label>
+                    <input data-ui-field="port" type="text"
+                           data-locale-ipaddress="configure_interfaces_optport" value="80" />
                 </div>
             </div>
         </div>
@@ -25,45 +31,53 @@
     HG.WebApp.SystemSettings.Interfaces['HomeAutomation.EchoBridge'] = {
 
         Id: 'HomeAutomation.EchoBridge',
-    Initialize: function(){
-        var _this = this;
-        var configlet = this.Configlet = $('#'+HG.WebApp.SystemSettings.PageId).find('[data-configlet-id="'+this.Id+'"]');
-        var enabledFlip = configlet.find('[data-ui-field=isenabled]');
-        var ipaddress = configlet.find('[data-ui-field=ipaddress]');
-        
-        // get enabled status
-        HG.Configure.MIG.InterfaceCommand(_this.Id, 'IsEnabled.Get', '', '', function (data) {
-            enabledFlip.val(data.ResponseValue).slider('refresh');
-        });
+        Initialize: function () {
+            var _this = this;
+            var configlet = this.Configlet = $('#' + HG.WebApp.SystemSettings.PageId).find('[data-configlet-id="' + this.Id + '"]');
+            var enabledFlip = configlet.find('[data-ui-field=isenabled]');
+            var ipaddress = configlet.find('[data-ui-field=ipaddress]');
+            var port = configlet.find('[data-ui-field=port]');
 
-        // get current configuration
-        HG.Configure.MIG.InterfaceCommand(this.Id, 'Options.Get', 'IPAddress', '', function (data) {
-            ipaddress.val(data.ResponseValue);
-        });
+            // get enabled status
+            HG.Configure.MIG.InterfaceCommand(_this.Id, 'IsEnabled.Get', '', '', function (data) {
+                enabledFlip.val(data.ResponseValue).slider('refresh');
+            });
 
-        // bind to enabled flip changes
-        enabledFlip.on('slidestop', function (event) {
-            HG.Configure.MIG.InterfaceCommand(_this.Id, 'IsEnabled.Set', enabledFlip.val(), '', function (data) { });
-        });
+            // get current configuration
+            HG.Configure.MIG.InterfaceCommand(this.Id, 'Options.Get', 'IPAddress', '', function (data) {
+                ipaddress.val(data.ResponseValue);
+            });
+            HG.Configure.MIG.InterfaceCommand(this.Id, 'Options.Get', 'Port', '', function (data) {
+                port.val(data.ResponseValue);
+            });
 
-        // bind to address text inputs
-        ipaddress.on('change', function () {
-            HG.Configure.MIG.InterfaceCommand(_this.Id, 'Option.Set', 'IPAddress', encodeURIComponent(addressInput.val()), function (data) { });
-        });
-       
-    },
-    
-    Localize: function() {
-        var configlet = this.Configlet = $('#'+HG.WebApp.SystemSettings.PageId).find('[data-configlet-id="'+this.Id+'"]');
-        var userLang = HG.WebApp.Locales.GetUserLanguage();
-        // English is the default locale
-        var defaultLocale = {
-            "title": 
-                "Amazon Echo Interface"
-        };
-        HG.WebApp.Locales.LocalizeElement(this.Configlet, defaultLocale);
-        this.Locale = defaultLocale;
-    }
-        
-};
+            // bind to enabled flip changes
+            enabledFlip.on('slidestop', function (event) {
+                HG.Configure.MIG.InterfaceCommand(_this.Id, 'IsEnabled.Set', enabledFlip.val(), '');
+            });
+
+            // bind to address text inputs
+            ipaddress.on('change', function () {
+                var addressValue = ipaddress.val();
+                HG.Configure.MIG.InterfaceCommand(_this.Id, 'Options.Set', 'IPAddress',
+                    encodeURIComponent(addressValue));
+            });
+            port.on('change', function () {
+                var portValue = port.val();
+                HG.Configure.MIG.InterfaceCommand(_this.Id, 'Options.Set', 'Port', encodeURIComponent(portValue));
+            });
+        },
+
+        Localize: function () {
+            var configlet = this.Configlet = $('#' + HG.WebApp.SystemSettings.PageId).find('[data-configlet-id="' + this.Id + '"]');
+            var userLang = HG.WebApp.Locales.GetUserLanguage();
+            // English is the default locale
+            var defaultLocale = {
+                "title":
+                    "Amazon Echo Interface"
+            };
+            HG.WebApp.Locales.LocalizeElement(this.Configlet, defaultLocale);
+            this.Locale = defaultLocale;
+        }
+    };
 </script>
