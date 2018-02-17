@@ -1,31 +1,39 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Net;
 using System.IO;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace MIG.Interfaces.HomeAutomation.Api
 {
-    class ApiHelper
+    class HgApiHelper
     {
+        private readonly string _hgApiEndpoint;
+        private static readonly HttpClient HttpClient = new HttpClient();
 
-        public bool UpdateModule(string host, Module module)
+        public HgApiHelper(string apiEndpoint)
         {
-            var url = $"http://{host}/api/HomeAutomation.HomeGenie/Config/Modules.Update";
+            _hgApiEndpoint = apiEndpoint;
+        }
+
+        public bool UpdateModule(Module module)
+        {
+            var url = $"http://{_hgApiEndpoint}/api/HomeAutomation.HomeGenie/Config/Modules.Update";
             Post(url, JsonConvert.SerializeObject(module));
             return true;
         }
 
-        public List<Module> GetModules(string host)
+        public List<Module> GetModules()
         {
-            var url = $"http://{host}/api/HomeAutomation.HomeGenie/Config/Modules.List";
+            var url = $"http://{_hgApiEndpoint}/api/HomeAutomation.HomeGenie/Config/Modules.List";
             return JsonConvert.DeserializeObject<List<Module>>(Get(url));
         }
 
-        public List<Group> GetGroups(string host)
+        public List<Group> GetGroups()
         {
-            var url = $"http://{host}/api/HomeAutomation.HomeGenie/Config/Groups.List";
+            var url = $"http://{_hgApiEndpoint}/api/HomeAutomation.HomeGenie/Config/Groups.List";
             return JsonConvert.DeserializeObject<List<Group>>(Get(url));
         }
 
@@ -55,25 +63,8 @@ namespace MIG.Interfaces.HomeAutomation.Api
 
         private static void Post(string url,string payload)
         {
-            var httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
-            httpWebRequest.ContentType = "application/json";
-            httpWebRequest.Method = "POST";
-
-            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
-            {
-
-                streamWriter.Write(payload);
-                streamWriter.Flush();
-                streamWriter.Close();
-            }
-
-            //var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-            //using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
-            //{
-            //    var result = streamReader.ReadToEnd();
-            //    Console.WriteLine(result);
-
-            //}
+            Task.Run(() => HttpClient.PostAsync(url, new StringContent(payload, Encoding.UTF8, "application/json")))
+                .Wait();
         }
     }
 }

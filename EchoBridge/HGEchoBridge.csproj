@@ -96,6 +96,7 @@
     <Compile Include="Devices\DeviceState.cs" />
     <Compile Include="Devices\HueApiResponse.cs" />
     <Compile Include="SSDP\SSDPService.cs" />
+    <Compile Include="SSDP\UdpStateInfo.cs" />
     <Compile Include="Webserver\Globals.cs" />
     <Compile Include="Controllers\LightsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
