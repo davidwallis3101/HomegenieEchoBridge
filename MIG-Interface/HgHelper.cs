@@ -16,11 +16,7 @@ namespace MIG.Interfaces.HomeAutomation
             try
             {
                 var api = new HgApiHelper(hgEndpoint);
-
-                // Get available modules from HG
                 var modules = api.GetModules();
-
-                // Filter modules to ones we are interested in
                 var filteredModules = FilterModules(modules); // TODO: Add filter here with enum..
 
                 return GenerateDevicesFromModules(filteredModules, hgEndpoint);
@@ -51,7 +47,6 @@ namespace MIG.Interfaces.HomeAutomation
                 var device = CreateDevice(module, hgEndpoint);
                 deviceList.Add(device);
             }
-
             return deviceList;
         }
 
@@ -62,6 +57,9 @@ namespace MIG.Interfaces.HomeAutomation
                 name = module.Name,
                 offUrl = $"http://{hgEndpoint}/api/{module.Domain}/{module.Address}/Control.Off",
                 onUrl = $"http://{hgEndpoint}/api/{module.Domain}/{module.Address}/Control.On",
+                DimUrl = module.DeviceType == "Dimmer"
+                    ? $"http://{hgEndpoint}/api/{module.Domain}/{module.Address}/Control.Level/{Device.INTENSITY_PERCENT}"
+                    : null,
                 deviceType = "switch"
             };
 
@@ -136,6 +134,5 @@ namespace MIG.Interfaces.HomeAutomation
             var isValid = Guid.TryParse(myGuid, out guidOutput);
             return isValid;
         }
-
     }
 }
