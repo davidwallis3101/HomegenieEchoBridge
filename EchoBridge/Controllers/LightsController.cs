@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Text;
 using System.Web.Http;
 using System.Net.Http;
@@ -17,11 +17,11 @@ namespace HGEchoBridge
         public HttpResponseMessage Get()
         {
             logger.Info("LightsController called. (// GET api/{userId}/lights)...");
-            string output = "{" ;
+            var output = "{" ;
 
-            foreach (Device d in Globals.DeviceList.List())
+            foreach (var d in Globals.DeviceList.List())
             {
-                output += "\"" + d.id.ToString() + "\": \"" + d.name + "\",";
+                output += "\"" + d.id + "\": \"" + d.name + "\",";
             }
             //remove trailing comma
             if (output.Length > 1) output = output.Substring(0, output.Length - 1);
@@ -29,33 +29,31 @@ namespace HGEchoBridge
             output += "}";
 
             
-            return new HttpResponseMessage()
+            return new HttpResponseMessage
             {
                 Content = new StringContent(output, Encoding.UTF8, "application/json")
             };
-
         }
 
         // GET  api/{userId}/lights/5 
         public HttpResponseMessage Get(string id)
         {
             logger.Info("LightsController called (// GET  api/{userId}/lights/{id}) Retrieving light with id[" + id + "]...");
-            Device device = Globals.DeviceList.FindById(id);
+            var device = Globals.DeviceList.FindById(id);
             if (device == null)
             {
                 logger.Warn("LightsController GET: Could not locate a light with id [" + id + "].");
-                return new HttpResponseMessage()
+                return new HttpResponseMessage
                 {
-                    StatusCode = System.Net.HttpStatusCode.NotFound,
+                    StatusCode = HttpStatusCode.NotFound,
                     ReasonPhrase = "Could locate a device with that id."
                 };
             }
 
             logger.Info("LightsController GET: Returned DeviceResponse for device named[{0}], with id [{1}]", device.name, device.id);
-            DeviceResponse response = DeviceResponse.createResponse(device.name, device.id);
-            return Request.CreateResponse(System.Net.HttpStatusCode.OK, response);
+            var response = DeviceResponse.createResponse(device.name, device.id);
+            return Request.CreateResponse(HttpStatusCode.OK, response);
         }
-
 
         // PUT api/{userId}/lights/5/ 
         public HttpResponseMessage Put(string id)
@@ -90,7 +88,6 @@ namespace HGEchoBridge
          
             if (Utilities.MakeHttpRequest(url, device.httpVerb, device.contentType, body))
             {
-
                 logger.Info("LightsController PUT: Successfully updated state of device via HTTP request.");
                 var responseString = "[{\"success\":{\"/lights/" + device.id + "/state/on\":" + deviceState.on.ToString().ToLower() + "}}]";
                 return new HttpResponseMessage
@@ -98,7 +95,6 @@ namespace HGEchoBridge
                     Content = new StringContent(responseString, Encoding.UTF8, "application/json"),
                     StatusCode = HttpStatusCode.OK
                 };
-
             }
             else
             {
@@ -144,9 +140,5 @@ namespace HGEchoBridge
             }
             return request;
         }
-
-
-    
-
     }
 }
