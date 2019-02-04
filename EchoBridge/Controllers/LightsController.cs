@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Text;
 using System.Web.Http;
 using System.Net.Http;
@@ -79,11 +79,11 @@ namespace HGEchoBridge
             logger.Info($"Alexa request: {jsonContent}");
             var deviceState=Newtonsoft.Json.JsonConvert.DeserializeObject<DeviceState>(jsonContent);
 
-            var url = string.IsNullOrEmpty(device.DimUrl)
-                ? deviceState.on
+            var url = deviceState.bri.HasValue && !string.IsNullOrEmpty(device.DimUrl)
+                ? device.DimUrl
+                : deviceState.on
                     ? device.onUrl
-                    : device.offUrl
-                : device.DimUrl;
+                    : device.offUrl;
 
             url = ReplaceIntensityValue(url, deviceState);
             var body = ReplaceIntensityValue(device.contentBody, deviceState);
@@ -119,7 +119,7 @@ namespace HGEchoBridge
                         intensity.byte : 0-255 brightness.  this is raw from the echo
                         intensity.percent : 0-100, adjusted for the vera
             */
-            var intensity = deviceState.bri;
+            var intensity = deviceState.bri ?? 0;
             if (deviceState.on && intensity == 0)
             {
                 logger.Info("DeviceState was on but brightness value was zero. Setting to default brightness.");
