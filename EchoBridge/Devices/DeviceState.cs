@@ -1,30 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace HGEchoBridge
 {
     public class DeviceState {
         public bool on {get; set;}
-        public int bri { get; set; } 
+        public int? bri { get; set; }
         public int hue { get; set; }
         public int sat { get; set; }
-        public String effect { get; set; }
+        public string effect { get; set; }
         public int ct { get; set; }
-        public String alert { get; set; }
-        public String colormode { get; set; }
+        public string alert { get; set; }
+        public string colormode { get; set; }
         public bool reachable { get; set; }
-        public List<Double> xy { get; set; }
+        public List<double> xy { get; set; }
 
 
 
-        public override String ToString()
+        public override string ToString()
         {
             return "DeviceState{" +
-                    "on=" + on.ToString() +
-                    ", bri=" + bri.ToString() +
+                    "on=" + on +
+                    ", bri=" + bri +
                     '}';
         }
     }
